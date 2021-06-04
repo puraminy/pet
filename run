@@ -1,0 +1,16 @@
+DATA_DIR="${HOME}"/pet/data/atomic
+OUTPUT_DIR="${HOME}"/pet/output
+TASK=atomic
+MODEL_NAME_OR_PATH="roberta-large"
+MODEL_TYPE=roberta
+python3 cli.py \
+--method pet \
+--pattern_ids 0 \
+--data_dir $DATA_DIR \
+--model_type $MODEL_TYPE \
+--model_name_or_path $MODEL_NAME_OR_PATH \
+--task_name $TASK \
+--output_dir $OUTPUT_DIR \
+--do_train \
+--do_eval
+
