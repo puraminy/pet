@@ -776,8 +776,7 @@ class AtomicProcessor(DataProcessor):
         return self._create_examples(os.path.join(data_dir, "atomic_test.tsv"), "test")
 
     def get_unlabeled_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "unlabeled.jsonl"), "unlabeled")
-
+        return self._create_examples(os.path.join(data_dir, "atomic_unlabled_test.tsv"), "unlabeled")
     def get_labels(self):
         return ["xWant", "oWant", "xAttr", "xNeed", "xIntent", "xEffect", "xReact", "oReact", "oEffect"]
 
