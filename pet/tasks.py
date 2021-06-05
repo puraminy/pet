@@ -825,6 +825,7 @@ TASK_HELPERS = {
     "multirc": task_helpers.MultiRcTaskHelper,
     "copa": task_helpers.CopaTaskHelper,
     "record": task_helpers.RecordTaskHelper,
+    "atomic": task_helpers.AtomicTaskHelper,
 }
 
 METRICS = {
