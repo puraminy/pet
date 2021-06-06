@@ -1,3 +1,5 @@
+#!/usr/bin/sh
+
 DATA_DIR="${HOME}"/pet/data/atomic
 OUTPUT_DIR="${HOME}"/pet/output
 TASK=atomic
@@ -12,5 +14,43 @@ python3 cli.py \
 --task_name $TASK \
 --output_dir $OUTPUT_DIR \
 --do_train \
---do_eval
+--do_eval \
+--pet_per_gpu_eval_batch_size=1 \
+--train_examples=10000 \
+--pet_max_seq_length=60 
 
+#usage: cli.py [-h] --method {pet,ipet,sequence_classifier} --data_dir DATA_DIR
+#              --model_type {bert,roberta,xlm-roberta,xlnet,albert,gpt2}
+#              --model_name_or_path MODEL_NAME_OR_PATH --task_name
+#              {atomic,mnli,mnli-mm,agnews,yahoo,yelp-polarity,yelp-full,xstance-de,xstance-# fr,xstance,wic,rte,cb,wsc,boolq,copa,multirc,record,ax-g,ax-b}
+#              --output_dir OUTPUT_DIR
+#              [--wrapper_type {sequence_classifier,mlm,plm}]
+#              [--pattern_ids PATTERN_IDS [PATTERN_IDS ...]] [--lm_training]
+#              [--alpha ALPHA] [--temperature TEMPERATURE]
+#              [--verbalizer_file VERBALIZER_FILE] [--reduction {wmean,mean}]
+#              [--decoding_strategy {default,ltr,parallel}] [--no_distillation]
+#              [--pet_repetitions PET_REPETITIONS]
+#              [--pet_max_seq_length PET_MAX_SEQ_LENGTH]
+#              [--pet_per_gpu_train_batch_size PET_PER_GPU_TRAIN_BATCH_SIZE]
+#              [--pet_per_gpu_eval_batch_size PET_PER_GPU_EVAL_BATCH_SIZE]
+#              [--pet_per_gpu_unlabeled_batch_size PET_PER_GPU_UNLABELED_BATCH_SIZE]
+#
+#	       [--sc_gradient_accumulation_steps SC_GRADIENT_ACCUMULATION_STEPS]
+#              [--sc_num_train_epochs SC_NUM_TRAIN_EPOCHS]
+#              [--sc_max_steps SC_MAX_STEPS]
+#              [--ipet_generations IPET_GENERATIONS]
+#              [--ipet_logits_percentage IPET_LOGITS_PERCENTAGE]
+#              [--ipet_scale_factor IPET_SCALE_FACTOR]
+#              [--ipet_n_most_likely IPET_N_MOST_LIKELY]
+#              [--train_examples TRAIN_EXAMPLES]
+#              [--test_examples TEST_EXAMPLES]
+#              [--unlabeled_examples UNLABELED_EXAMPLES]
+#              [--split_examples_evenly] [--cache_dir CACHE_DIR]
+#              [--learning_rate LEARNING_RATE] [--weight_decay WEIGHT_DECAY]
+#              [--adam_epsilon ADAM_EPSILON] [--max_grad_norm MAX_GRAD_NORM]
+#              [--warmup_steps WARMUP_STEPS] [--logging_steps LOGGING_STEPS]
+#              [--no_cuda] [--overwrite_output_dir] [--seed SEED] [--do_train]
+#              [--do_eval] [--priming] [--eval_set {dev,test}]
+#
+#
+#
