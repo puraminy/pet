@@ -22,7 +22,9 @@ def __setup_custom_logger(name: str) -> logging.Logger:
     root_logger = logging.getLogger()
     root_logger.handlers.clear()
 
-    formatter = logging.Formatter(fmt='%(asctime)s - %(levelname)s - %(module)s - %(message)s')
+    formatter = logging.Formatter(
+        fmt="%(asctime)s - %(levelname)s - %(module)s - %(message)s"
+    )
 
     names.add(name)
 
