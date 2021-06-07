@@ -1,0 +1,182 @@
+usage: cli.py [-h] --method {pet,ipet,sequence_classifier} --data_dir DATA_DIR
+              --model_type {bert,roberta,xlm-roberta,xlnet,albert,gpt2}
+              --model_name_or_path MODEL_NAME_OR_PATH --task_name
+              {atomic,mnli,mnli-mm,agnews,yahoo,yelp-polarity,yelp-full,xstance-de,xstance-fr,xstance,wic,rte,cb,wsc,boolq,copa,multirc,record,ax-g,ax-b}
+              --output_dir OUTPUT_DIR
+              [--wrapper_type {sequence_classifier,mlm,plm}]
+              [--pattern_ids PATTERN_IDS [PATTERN_IDS ...]] [--lm_training]
+              [--alpha ALPHA] [--temperature TEMPERATURE]
+              [--verbalizer_file VERBALIZER_FILE] [--reduction {wmean,mean}]
+              [--decoding_strategy {default,ltr,parallel}] [--no_distillation]
+              [--pet_repetitions PET_REPETITIONS]
+              [--pet_max_seq_length PET_MAX_SEQ_LENGTH]
+              [--pet_per_gpu_train_batch_size PET_PER_GPU_TRAIN_BATCH_SIZE]
+              [--pet_per_gpu_eval_batch_size PET_PER_GPU_EVAL_BATCH_SIZE]
+              [--pet_per_gpu_unlabeled_batch_size PET_PER_GPU_UNLABELED_BATCH_SIZE]
+              [--pet_gradient_accumulation_steps PET_GRADIENT_ACCUMULATION_STEPS]
+              [--pet_num_train_epochs PET_NUM_TRAIN_EPOCHS]
+              [--pet_max_steps PET_MAX_STEPS]
+              [--sc_repetitions SC_REPETITIONS]
+              [--sc_max_seq_length SC_MAX_SEQ_LENGTH]
+              [--sc_per_gpu_train_batch_size SC_PER_GPU_TRAIN_BATCH_SIZE]
+              [--sc_per_gpu_eval_batch_size SC_PER_GPU_EVAL_BATCH_SIZE]
+              [--sc_per_gpu_unlabeled_batch_size SC_PER_GPU_UNLABELED_BATCH_SIZE]
+              [--sc_gradient_accumulation_steps SC_GRADIENT_ACCUMULATION_STEPS]
+              [--sc_num_train_epochs SC_NUM_TRAIN_EPOCHS]
+              [--sc_max_steps SC_MAX_STEPS]
+              [--ipet_generations IPET_GENERATIONS]
+              [--ipet_logits_percentage IPET_LOGITS_PERCENTAGE]
+              [--ipet_scale_factor IPET_SCALE_FACTOR]
+              [--ipet_n_most_likely IPET_N_MOST_LIKELY]
+              [--train_examples TRAIN_EXAMPLES]
+              [--test_examples TEST_EXAMPLES]
+              [--unlabeled_examples UNLABELED_EXAMPLES]
+              [--split_examples_evenly] [--cache_dir CACHE_DIR]
+              [--learning_rate LEARNING_RATE] [--weight_decay WEIGHT_DECAY]
+              [--adam_epsilon ADAM_EPSILON] [--max_grad_norm MAX_GRAD_NORM]
+              [--warmup_steps WARMUP_STEPS] [--logging_steps LOGGING_STEPS]
+              [--no_cuda] [--overwrite_output_dir] [--seed SEED] [--do_train]
+              [--do_eval] [--priming] [--eval_set {dev,test}]
+
+Command line interface for PET/iPET
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --method {pet,ipet,sequence_classifier}
+                        The training method to use. Either regular sequence
+                        classification, PET or iPET.
+  --data_dir DATA_DIR   The input data dir. Should contain the data files for
+                        the task.
+  --model_type {bert,roberta,xlm-roberta,xlnet,albert,gpt2}
+                        The type of the pretrained language model to use
+  --model_name_or_path MODEL_NAME_OR_PATH
+                        Path to the pre-trained model or shortcut name
+  --task_name {atomic,mnli,mnli-mm,agnews,yahoo,yelp-polarity,yelp-full,xstance-de,xstance-fr,xstance,wic,rte,cb,wsc,boolq,copa,multirc,record,ax-g,ax-b}
+                        The name of the task to train/evaluate on
+  --output_dir OUTPUT_DIR
+                        The output directory where the model predictions and
+                        checkpoints will be written
+  --wrapper_type {sequence_classifier,mlm,plm}
+                        The wrapper type. Set this to 'mlm' for a masked
+                        language model like BERT or to 'plm' for a permuted
+                        language model like XLNet (only for PET)
+  --pattern_ids PATTERN_IDS [PATTERN_IDS ...]
+                        The ids of the PVPs to be used (only for PET)
+  --lm_training         Whether to use language modeling as auxiliary task
+                        (only for PET)
+  --alpha ALPHA         Weighting term for the auxiliary language modeling
+                        task (only for PET)
+  --temperature TEMPERATURE
+                        Temperature used for combining PVPs (only for PET)
+  --verbalizer_file VERBALIZER_FILE
+                        The path to a file to override default verbalizers
+                        (only for PET)
+  --reduction {wmean,mean}
+                        Reduction strategy for merging predictions from
+                        multiple PET models. Select either uniform weighting
+                        (mean) or weighting based on train set accuracy
+                        (wmean)
+  --decoding_strategy {default,ltr,parallel}
+                        The decoding strategy for PET with multiple masks
+                        (only for PET)
+  --no_distillation     If set to true, no distillation is performed (only for
+                        PET)
+  --pet_repetitions PET_REPETITIONS
+                        The number of times to repeat PET training and testing
+                        with different seeds.
+  --pet_max_seq_length PET_MAX_SEQ_LENGTH
+                        The maximum total input sequence length after
+                        tokenization for PET. Sequences longer than this will
+                        be truncated, sequences shorter will be padded.
+  --pet_per_gpu_train_batch_size PET_PER_GPU_TRAIN_BATCH_SIZE
+                        Batch size per GPU/CPU for PET training.
+  --pet_per_gpu_eval_batch_size PET_PER_GPU_EVAL_BATCH_SIZE
+                        Batch size per GPU/CPU for PET evaluation.
+  --pet_per_gpu_unlabeled_batch_size PET_PER_GPU_UNLABELED_BATCH_SIZE
+                        Batch size per GPU/CPU for auxiliary language modeling
+                        examples in PET.
+  --pet_gradient_accumulation_steps PET_GRADIENT_ACCUMULATION_STEPS
+                        Number of updates steps to accumulate before
+                        performing a backward/update pass in PET.
+  --pet_num_train_epochs PET_NUM_TRAIN_EPOCHS
+                        Total number of training epochs to perform in PET.
+  --pet_max_steps PET_MAX_STEPS
+                        If > 0: set total number of training steps to perform
+                        in PET. Override num_train_epochs.
+  --sc_repetitions SC_REPETITIONS
+                        The number of times to repeat seq. classifier training
+                        and testing with different seeds.
+  --sc_max_seq_length SC_MAX_SEQ_LENGTH
+                        The maximum total input sequence length after
+                        tokenization for sequence classification. Sequences
+                        longer than this will be truncated, sequences shorter
+                        will be padded.
+  --sc_per_gpu_train_batch_size SC_PER_GPU_TRAIN_BATCH_SIZE
+                        Batch size per GPU/CPU for sequence classifier
+                        training.
+  --sc_per_gpu_eval_batch_size SC_PER_GPU_EVAL_BATCH_SIZE
+                        Batch size per GPU/CPU for sequence classifier
+                        evaluation.
+  --sc_per_gpu_unlabeled_batch_size SC_PER_GPU_UNLABELED_BATCH_SIZE
+                        Batch size per GPU/CPU for unlabeled examples used for
+                        distillation.
+  --sc_gradient_accumulation_steps SC_GRADIENT_ACCUMULATION_STEPS
+                        Number of updates steps to accumulate before
+                        performing a backward/update pass for sequence
+                        classifier training.
+  --sc_num_train_epochs SC_NUM_TRAIN_EPOCHS
+                        Total number of training epochs to perform for
+                        sequence classifier training.
+  --sc_max_steps SC_MAX_STEPS
+                        If > 0: set total number of training steps to perform
+                        for sequence classifier training. Override
+                        num_train_epochs.
+  --ipet_generations IPET_GENERATIONS
+                        The number of generations to train (only for iPET)
+  --ipet_logits_percentage IPET_LOGITS_PERCENTAGE
+                        The percentage of models to choose for annotating new
+                        training sets (only for iPET)
+  --ipet_scale_factor IPET_SCALE_FACTOR
+                        The factor by which to increase the training set size
+                        per generation (only for iPET)
+  --ipet_n_most_likely IPET_N_MOST_LIKELY
+                        If >0, in the first generation the n_most_likely
+                        examples per label are chosen even if their predicted
+                        label is different (only for iPET)
+  --train_examples TRAIN_EXAMPLES
+                        The total number of train examples to use, where -1
+                        equals all examples.
+  --test_examples TEST_EXAMPLES
+                        The total number of test examples to use, where -1
+                        equals all examples.
+  --unlabeled_examples UNLABELED_EXAMPLES
+                        The total number of unlabeled examples to use, where
+                        -1 equals all examples
+  --split_examples_evenly
+                        If true, train examples are not chosen randomly, but
+                        split evenly across all labels.
+  --cache_dir CACHE_DIR
+                        Where to store the pre-trained models downloaded from
+                        S3.
+  --learning_rate LEARNING_RATE
+                        The initial learning rate for Adam.
+  --weight_decay WEIGHT_DECAY
+                        Weight decay if we apply some.
+  --adam_epsilon ADAM_EPSILON
+                        Epsilon for Adam optimizer.
+  --max_grad_norm MAX_GRAD_NORM
+                        Max gradient norm.
+  --warmup_steps WARMUP_STEPS
+                        Linear warmup over warmup_steps.
+  --logging_steps LOGGING_STEPS
+                        Log every X updates steps.
+  --no_cuda             Avoid using CUDA when available
+  --overwrite_output_dir
+                        Overwrite the content of the output directory
+  --seed SEED           random seed for initialization
+  --do_train            Whether to perform training
+  --do_eval             Whether to perform evaluation
+  --priming             Whether to use priming for evaluation
+  --eval_set {dev,test}
+                        Whether to perform evaluation on the dev set or the
+                        test set
