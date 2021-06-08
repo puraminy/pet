@@ -335,6 +335,7 @@ class CopaTaskHelper(TaskHelper):
     def _get_choice_log_probability(self, batch, target_sequence, decoding_strategy: str = 'default'):
         # adjust the number of masks
         num_masks = sum(1 for tok_id in target_sequence[0] if tok_id != -100)
+        print("number of masks:", num_masks)
         input_ids = trim_input_ids(batch['input_ids'], num_masks=num_masks,
                                    pad_token_id=self.wrapper.tokenizer.pad_token_id,
                                    mask_token_id=self.wrapper.tokenizer.mask_token_id)
