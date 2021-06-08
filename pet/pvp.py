@@ -634,11 +634,12 @@ class AtomicPVP(PVP):
 
     def get_parts(self, example: InputExample) -> FilledPattern:
         # switch text_a and text_b to get the correct order
-        label_list = self.wrapper.config.label_list
+        if not hasattr(self,"max_label_tokens"): 
+            self.max_label_tokens = max(len(get_verbalization_ids(l[0],self.wrapper.tokenizer, False)) for l in self.VERBALIZER.values())
+
         text_a = example.text_a
         text_b = example.text_b.rstrip(string.punctuation)
-        num_masks = max(len(get_verbalization_ids(self.verbalize(label), self.wrapper.tokenizer, False)) for label in label_list)
-        return ['"', self.shortenable(text_a), '";', self.mask * num_masks, '"', self.shortenable(text_b), '"'], []
+        return ['"', self.shortenable(text_a), '";', self.mask * self.max_label_tokens, '"', self.shortenable(text_b), '"'], []
 
     def verbalize(self, label) -> List[str]:
         return AtomicPVP.VERBALIZER[label]
