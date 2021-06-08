@@ -18,7 +18,7 @@ python3 cli.py \
 --do_train \
 --do_eval \
 --pet_per_gpu_eval_batch_size=1 \
---train_examples=1000 \
---pet_max_seq_length=40 \
---sc_max_seq_length=250
+--train_examples=50000 \
+--pet_max_seq_length=60 \
+--sc_max_seq_length=150
 
