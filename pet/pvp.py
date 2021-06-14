@@ -620,16 +620,15 @@ class RecordPVP(PVP):
 class AtomicPVP(PVP):
     is_multi_token = True
     VERBALIZER = {
-         "oEffect":["The effect on others will be "],
-         "oReact":["As a result, others feel "],
-         "oWant":["After, others will want to "],
-         "xAttr":["PersonX is "],
+         "oEffect":["The effect on PersonY will be "],
+         "oReact":["As a result, PersonY feel "],
+         "oWant":["After, PersonY will want "],
+         "xAttr":["PersonX is ", "PersonX is seen as "],
          "xEffect":["The effect on PersonX will be "],
-         "xIntent":["PersonX did this to "],
-         "xNeed":["Before, PersonX needs to "],
+         "xIntent":["Because PersonX want ", "PersonX did this to "],
+         "xNeed":["Before, PersonX needed "],
          "xReact":["PersonX will be "],
-         "xReason":["PersonX did this because "],
-         "xWant":["After, PersonX will want to "]
+         "xWant":["After, PersonX will want "]
     }
 
     def get_parts(self, example: InputExample) -> FilledPattern:
@@ -639,11 +638,12 @@ class AtomicPVP(PVP):
 
         text_a = example.text_a
         text_b = example.text_b.rstrip(string.punctuation)
-        return ['"', self.shortenable(text_a), '";', self.mask * self.max_label_tokens, '"', self.shortenable(text_b), '"'], []
+        template1 = [self.shortenable(text_a), ';', self.mask * self.max_label_tokens, self.shortenable(text_b)], []
+        template2 = [self.shortenable(text_a), '.'], [self.mask * self.max_label_tokens, self.shortenable(text_b)]
+        return template2
 
     def verbalize(self, label) -> List[str]:
         return AtomicPVP.VERBALIZER[label]
-
 
 PVPS = {
     'atomic':AtomicPVP,

@@ -1,0 +1,480 @@
+0,1,2
+target,prediction,input
+xEffect,xEffect,PersonX comes ___ to dinner--PersonX falls asleep from tiredness of eating food
+xEffect,xEffect,PersonX requires every ___--Gets nourishment
+xEffect,xEffect,PersonX assumes another ___--THAT IS WORK
+xEffect,xEffect,PersonX hears the ___ close--PersonX quietly walks towards the door
+xEffect,xEffect,PersonX laughs every ___--PersonX chest opens
+xEffect,xEffect,PersonX laughs every ___--PersonX's head drops back
+xEffect,xEffect,PersonX shakes PersonX's ___ in disbelief--eyes widen
+xEffect,xEffect,PersonX understands PersonY's ___ better--PersonX smiles sympathetically at peronY
+xEffect,xEffect,PersonX loses ___ of time--Person x needs to hurry
+xEffect,xEffect,PersonX pulls the ___ over PersonX's eyes--PersonX loses the ability to see.
+xEffect,xEffect,PersonX comes ___ at night--PersonX goes to sleep
+xEffect,xEffect,PersonX spends ___ in bed--muscles become weak
+xEffect,xEffect,PersonX adopts every ___--Gets all options
+xEffect,xEffect,PersonX adopts every ___--Must make right choice
+xEffect,xEffect,PersonX spends the ___ trying--sweats
+xEffect,xEffect,PersonX keeps PersonX's ___ in check--X is on edge
+xEffect,xEffect,PersonX raises ___ from sources--PersonX makes capital
+xEffect,xEffect,PersonX needs ___ to talk--PersonX is brimming with excitment
+xEffect,xEffect,PersonX needs ___ to talk--PersonX can't keep a secret
+xEffect,xEffect,PersonX sets the ___ on fire--PersonX has lung damage
+xEffect,xEffect,PersonX comes ___ that night--Person x lies down in owns bed
+xEffect,xEffect,PersonX works hard all ___--Takes a vacation
+xEffect,xEffect,PersonX prevents ___ from occurring--PersonX gets clean from contamination
+xEffect,xEffect,PersonX fights PersonX's battle--PersonX gets beaten up.
+xEffect,xEffect,PersonX takes into account the fact--PersonX squints their eyes in curiosity
+xEffect,xEffect,PersonX reaches PersonX's house--They sit down and relax
+xEffect,xEffect,PersonX accepts PersonY invitation--PersonX buys a gift for PersonY
+xEffect,xEffect,PersonX runs for PersonX's life--'s heart beats rapidly
+xEffect,xEffect,PersonX accepts PersonY's invitation--learns date and time of event
+xEffect,xEffect,PersonX accepts PersonY's invitation--Person X attends event
+xEffect,xEffect,PersonX accepts PersonY's invitation--PersonX feels included
+xEffect,xEffect,PersonX works hard to get--sweats
+xEffect,xEffect,PersonX receives PersonY invitation--person x accepts invitation
+xEffect,xEffect,PersonX receives PersonY invitation--person x has to prepare for event
+xEffect,xEffect,PersonX receives PersonY invitation--They go to the event.
+xEffect,xEffect,PersonX receives PersonY invitation--They have a good time.
+xEffect,xEffect,PersonX receives PersonY invitation--PersonX smiles
+xEffect,xEffect,PersonX receives PersonY invitation--PersonX holds onto invitation
+xEffect,xEffect,PersonX develops PersonX's talents--Gets a promotion
+xEffect,xEffect,PersonX eats PersonX's bread--PersonX is less hungry
+xEffect,xEffect,PersonX eats PersonX's bread--PersonX becomes thirsty
+xEffect,xEffect,PersonX eats PersonX's bread--PersonX's teeth get dirty/need brushing
+xEffect,xEffect,PersonX accepts PersonY offer--Person X marks the offer on his calendar
+xEffect,xEffect,PersonX accepts PersonY offer--Person X thanks person Y
+xEffect,xEffect,PersonX accepts PersonY offer--PersonX joins the company
+xEffect,xEffect,PersonX accepts PersonY offer--PersonX accepts a new job
+xEffect,xEffect,PersonX works hard to make--PersonX sweats from hard work
+xEffect,xEffect,PersonX works hard to make--PersonX's back becomes sore
+xEffect,xEffect,PersonX loves PersonY's neighbor--PersonX blushes
+xEffect,xEffect,PersonX makes PersonX's peace--PersonX is left alone.
+xEffect,xEffect,PersonX mourns PersonY's loss--PersonX weeps
+xEffect,xEffect,PersonX mourns PersonY's loss--PersonX gnashes their teeth
+xEffect,xEffect,PersonX reaches PersonY's height--Person X has to buy new pants.
+xEffect,xEffect,PersonX enhances PersonX's ability--PersonX gains marketable skills
+xEffect,xEffect,PersonX enhances PersonX's ability--PersonX learns new things
+xEffect,xEffect,PersonX divides PersonX's time--Gets all tasks done
+xEffect,xEffect,PersonX takes off PersonX's coat--PersonX's hair prickle up
+xEffect,xEffect,PersonX sees PersonY opportunity--PersonX stumbles into a big payday
+xEffect,xEffect,PersonX sees PersonY opportunity--PersonX gets lucky
+xEffect,xEffect,PersonX quits smoking cigarettes--PersonX's blood pressure is reduced
+xEffect,xEffect,PersonX starts a new job--they meet new people
+xEffect,xEffect,PersonX starts a new job--they learn new skills
+xEffect,xEffect,PersonX starts a new job--sweats
+xEffect,xEffect,PersonX starts a new job--Earns more money
+xEffect,xEffect,PersonX faces PersonY's fear--PersonX stands up to PersonY
+xEffect,xEffect,PersonX faces PersonY's fear--PersonX refuses to be intimidated
+xEffect,xEffect,PersonX goes apple picking--Person X gets sunburn.
+xEffect,xEffect,PersonX looks up ___ online--eyes are fatigued
+xEffect,xEffect,PersonX looks up ___ online--PersonX gains knowledge of Nigerian cuisine
+xEffect,xEffect,PersonX looks up ___ online--PersonX gains knowledge of the best southern recipes.
+xEffect,xEffect,PersonX calls PersonY's boss--He has to form sentences and communicate
+xEffect,xEffect,PersonX eats ice cream--blood sugar spikes
+xEffect,xEffect,PersonX takes ___ out to dinner--PersonX's stomach hurts from food
+xEffect,xEffect,PersonX accepts PersonY's offer--shakes hands
+xEffect,xEffect,PersonX works every day--PersonX develops a habit
+xEffect,xEffect,PersonX starts high school--The person starts to learn new ideas.
+xEffect,xEffect,PersonX starts high school--meets new friends
+xEffect,xEffect,PersonX makes PersonY mad--PersonX sees red
+xEffect,xEffect,PersonX spends too much time--PersonX procrastinates
+xEffect,xEffect,PersonX later told PersonY--Person X feels relieved
+xEffect,xEffect,PersonX wrings PersonY's hands--PersonX experiences worry
+xEffect,xEffect,PersonX wrings PersonY's hands--PersonX experiences anxiety
+xEffect,xEffect,PersonX has a really great time--PersonX laughs in excitement
+xEffect,xEffect,PersonX starts a new life--makes new friends
+xEffect,xEffect,PersonX knows yet why PersonY died--personX cries with guilt
+xEffect,xEffect,PersonX trails PersonY's fingers--PersonX gets a frisson
+xEffect,xEffect,PersonX trails PersonY's fingers--PersonX gets tickled
+xEffect,xEffect,PersonX looks at one another--PersonX hears noises
+xEffect,xEffect,PersonX hands ___ back to PersonY--Person x can no longer utilize item
+xEffect,xEffect,PersonX glances around the room--PersonX sweats from nervousness
+xEffect,xEffect,PersonX glances around the room--PersonX's lip quiver
+xEffect,xEffect,PersonX wraps ___ around waist--PersonX gains an errection
+xEffect,xEffect,PersonX undoes PersonY's pants--PersonX frown after being hit with an unpleasant smell.
+xEffect,xEffect,PersonX checks out my two newest creations--PersonX admires the creations
+xEffect,xEffect,PersonX drinks lots of water--cramps
+xEffect,xEffect,PersonX runs around the house--PersonX's heart rate goes up
+xEffect,xEffect,PersonX runs around the house--PersonX sweats from running around the house
+xEffect,xEffect,PersonX eats dinner with PersonY--PersonX feels full.
+xEffect,xEffect,PersonX goes begging--PersonX grabs their chest in pain from being pushed over
+xEffect,xEffect,PersonX drags PersonX's feet--PersonX's feet throb
+xEffect,xEffect,PersonX gets PersonX's marching orders--PersonX takes orders.
+xEffect,xEffect,PersonX gets PersonX's marching orders--PersonX is put in their place.
+xEffect,xEffect,PersonX gets PersonX's marching orders--they get to work
+xEffect,xEffect,PersonX gets PersonX's marching orders--they get the job done
+xEffect,xEffect,PersonX scares out of PersonX's wits--PersonX jumps back in fear
+xEffect,xEffect,PersonX goes to sea--PersonX has to maintain his sailboat while out at sea
+xEffect,xEffect,PersonX gets the point--personX integrates their new understanding
+xEffect,xEffect,PersonX makes beautiful music together--PersonX tears up from being overwhelmed with joy
+xEffect,xEffect,PersonX rips to shreds--PersonX gains muscle and loses fat
+xEffect,xEffect,PersonX sets PersonX's sights on ___--PersonX becomes determined and focused
+xEffect,xEffect,PersonX looks down PersonX's shirt--PersonX adjusts their clothing
+xEffect,xEffect,PersonX hems and haw--PersonX questions their decision
+xEffect,xEffect,PersonX exposes oneself--Person x trembles
+xEffect,xEffect,PersonX loses PersonX's shirt--he has to find another shirt to wear
+xEffect,xEffect,PersonX loses PersonX's shirt--he has to spend time looking for the lost shirt
+xEffect,xEffect,PersonX takes seriously the ___--PersonX gets a police detail
+xEffect,xEffect,PersonX offer PersonY resistance--PersonX feels PersonY revolt against him
+xEffect,xEffect,PersonX attends PersonY school--Person x learns things in school
+xEffect,xEffect,PersonX attends PersonY school--Person x sees person y in passing
+xEffect,xEffect,PersonX takes ___ in the battle--sore muscles
+xEffect,xEffect,PersonX gets behind PersonY--personx 's view is blocked by persony
+xEffect,xEffect,PersonX reaches PersonY age--PersonX gets a birthday present
+xEffect,xEffect,PersonX reaches PersonY age--PersonX gets social security
+xEffect,xEffect,PersonX loses PersonY arm--PersonX sweats from stress
+xEffect,xEffect,PersonX loses PersonY arm--PersonX screams
+xEffect,xEffect,PersonX takes ___ of this opportunity--makes new friends
+xEffect,xEffect,PersonX knows would die--PersonX fears death
+xEffect,xEffect,PersonX knows would die--PersonX is in denial
+xEffect,xEffect,PersonX believes every word--NONE
+xEffect,xEffect,PersonX believes every word--NONE
+xEffect,xEffect,PersonX takes ___ of business--PersonX has a sense of acheivment
+xEffect,xEffect,PersonX makes a ___ upon PersonY--PersonX runs back in fear of PersonY
+xEffect,xEffect,PersonX passes along the street--PersonX is oblivious to their surroundings
+xEffect,xEffect,PersonX accepts PersonX's diploma--shakes a hand
+xEffect,xEffect,PersonX accepts PersonX's diploma--They throw their hat into the air
+xEffect,xEffect,PersonX accepts PersonX's diploma--They pose for photographs
+xEffect,xEffect,PersonX accepts PersonX's diploma--They go out for dinner to celebrate
+xEffect,xEffect,PersonX leaves PersonX's purse--PersonX jumps toward robber in panic
+xEffect,xEffect,PersonX loses PersonX's purse--Panics
+xEffect,xEffect,PersonX loses PersonX's purse--Looks everywhere for it
+xEffect,xEffect,PersonX sleeps through PersonX's alarm--PersonX rushes to get ready
+xEffect,xEffect,PersonX can n't find PersonX's car keys--X has to look for the keys.
+xEffect,xEffect,PersonX can n't find PersonX's car keys--X has to make a plan to find the keys.
+xEffect,xEffect,PersonX scraps PersonX's knee--PersonX seeks first aid
+xEffect,xEffect,PersonX scraps PersonX's knee--PersonX gets a band-aid
+xEffect,xEffect,PersonX laughs at PersonY's antics--PersonX rolls on the floor
+xEffect,xEffect,PersonX lands on PersonX's back--PersonX is in pain from landing on their back
+xEffect,xEffect,PersonX lands on PersonX's back--PersonX rolls over and grabs their back to bear the pain
+xEffect,xEffect,PersonX sees PersonY's leave--PersonX looks down in sadness
+xEffect,xEffect,PersonX sees PersonY's leave--PersonX thinks deeply about PersonY
+xEffect,xEffect,PersonX rides PersonX's motorcycle--PersonX's legs get burnt from the exhaust pipe
+xEffect,xEffect,PersonX rides PersonX's motorcycle--PersonX's hair becomes messy from the wind
+xEffect,xEffect,PersonX turns PersonX's phone--Person X receives a call
+xEffect,xEffect,PersonX is at PersonX's friend 's house--Person X feels scared.
+xEffect,xEffect,PersonX ignores PersonY's complaints--PersonX doesn't understand
+xEffect,xEffect,PersonX eats PersonY's cereal--PersonX is no longer hungry
+xEffect,xEffect,PersonX tells PersonX's landlord--WEALTH
+xEffect,xEffect,PersonX walks to PersonX's class--PersonX breathes heavy from walking
+xEffect,xEffect,PersonX walks to PersonX's class--PersonX sweats from increase of body temperature
+xEffect,xEffect,PersonX walks to PersonX's class--PersonX learns that there is a pop quiz
+xEffect,xEffect,PersonX walks to PersonX's class--PersonX learns that class was cancelled.
+xEffect,xEffect,PersonX works very hard at PersonX's job--Person X gets tired.
+xEffect,xEffect,PersonX eats PersonX's cereal--PersonX's stomach aches from eating too much
+xEffect,xEffect,PersonX finds a better job--gets new training
+xEffect,xEffect,PersonX finds a better job--GOOD JOB
+xEffect,xEffect,PersonX starts at a new school--makes new friends
+xEffect,xEffect,PersonX starts at a new school--gains knowledge
+xEffect,xEffect,PersonX starts at a new school--PersonX stresses about starting at a new school
+xEffect,xEffect,PersonX starts at a new school--PersonX is jittery to meet new classmates
+xEffect,xEffect,PersonX does n't feel well--PersonX holds onto their stomach
+xEffect,xEffect,PersonX does n't feel well--PersonX throws up
+xEffect,xEffect,PersonX does n't feel well--PersonX sweats
+xEffect,xEffect,PersonX hires a personal trainer--muscles get sore from training
+xEffect,xEffect,PersonX hires a personal trainer--starts a routine
+xEffect,xEffect,PersonX hires a personal trainer--muscles get stronger
+xEffect,xEffect,PersonX hires a personal trainer--starts to attend trasining classes
+xEffect,xEffect,PersonX gets a summer job--Person x buys items.
+xEffect,xEffect,PersonX gets a summer job--PersonX has less time for fun summer activities.
+xEffect,xEffect,PersonX studies hard in school--PesonX sits their exams
+xEffect,xEffect,PersonX takes a very long time--PersonX has grey hair.
+xEffect,xEffect,PersonX can n't find it anywhere--PersonX buys another item.
+xEffect,xEffect,PersonX buys an old house--PersonX sees a ghost
+xEffect,xEffect,PersonX buys an old house--PersonX hears the house settling
+xEffect,xEffect,PersonX takes the long drive--cramped leg muscles
+xEffect,xEffect,PersonX ca n't wait to go back--PersonX experiences relief
+xEffect,xEffect,PersonX gets lots of candy--gains 10 lbs
+xEffect,xEffect,PersonX eats cereal instead--Person x holds bowl.
+xEffect,xEffect,PersonX reads many books--Personx gains knowledge
+xEffect,xEffect,PersonX loves to watch tv--Gets hump from sitting
+xEffect,xEffect,PersonX gets free food--PersonX has a full stomache
+xEffect,xEffect,PersonX gets free food--Rubs stomach
+xEffect,xEffect,PersonX meets many new friends--get's invited to do lots of stuff
+xEffect,xEffect,PersonX meets many new friends--acknowledges new friends
+xEffect,xEffect,PersonX gets a credit card--they get more credit
+xEffect,xEffect,PersonX needs a root canal--Person X reviews his insurance coverage.
+xEffect,xEffect,PersonX needs a root canal--Person X makes an appointment with the dentist.
+xEffect,xEffect,PersonX plays together every day--PersonX could fall.
+xEffect,xEffect,PersonX thinks it was a great idea--PersonX votes yes
+xEffect,xEffect,PersonX opens a savings account--Gains financial security
+xEffect,xEffect,PersonX opens a savings account--they prepare for the future
+xEffect,xEffect,PersonX gets extra help--PersonX passes their class
+xEffect,xEffect,PersonX gets extra help--PersonX is grateful towards their tutor
+xEffect,xEffect,PersonX gets extra help--PersonX gains a better understanding of the subject
+xEffect,xEffect,PersonX gets extra help--PersonX understands the course material better as a result
+xEffect,xEffect,PersonX gets extra help--PersonX studies less as a result of prior knowledge
+xEffect,xEffect,PersonX leaves early in the morning--PersonX's heart rate goes up from the rush
+xEffect,xEffect,PersonX leaves early in the morning--PersonX yawns from tiredness
+xEffect,xEffect,PersonX is surprised to see PersonY--Shakes his hand
+xEffect,xEffect,PersonX finds a wallet on the street--person x gains money
+xEffect,xEffect,PersonX finds a wallet on the street--Thinks about how to go about returning it
+xEffect,xEffect,PersonX feels a lot of pain--HAVE PAIN
+xEffect,xEffect,PersonX feels a lot of pain--NONE
+xEffect,xEffect,PersonX feels a lot of pain--NONE
+xEffect,xEffect,PersonX starts middle school--he learns many topics
+xEffect,xEffect,PersonX starts middle school--His maturity grows up
+xEffect,xEffect,PersonX starts middle school--Gains knowledge
+xEffect,xEffect,PersonX starts middle school--Makes friends
+xEffect,xEffect,PersonX buys an expensive car--PersonX takes on debt
+xEffect,xEffect,PersonX buys an expensive car--PersonX has to budget in a new car payment
+xEffect,xEffect,PersonX grows big and strong--increased capability
+xEffect,xEffect,PersonX sleeps much better--Person x wakes up
+xEffect,xEffect,PersonX can not find PersonY anywhere--They look more for PersonY
+xEffect,xEffect,PersonX can not find PersonY anywhere--They eventually find  PersonY
+xEffect,xEffect,PersonX wants to try something different--sweats
+xEffect,xEffect,PersonX wants to try something different--learns a new skill
+xEffect,xEffect,PersonX is going on a camping trip--PersonX gets sprayed by a skunk
+xEffect,xEffect,PersonX eats ___ the next day--PersonX is no longer hungry
+xEffect,xEffect,PersonX watches ___ every night--blurry eyes
+xEffect,xEffect,PersonX watches ___ every night--itchy eyes
+xEffect,xEffect,PersonX gets ___ from the vending machine--PersonX receives a sugar rush
+xEffect,xEffect,PersonX gets ___ from the vending machine--PersonX smiles
+xEffect,xEffect,PersonX starts ___ at a new school--meets people
+xEffect,xEffect,PersonX starts ___ at a new school--learns
+xEffect,xEffect,PersonX starts ___ at a new school--greets
+xEffect,xEffect,PersonX starts ___ at a new school--Person X meets his new teacher.
+xEffect,xEffect,PersonX starts ___ at a new school--learns new things
+xEffect,xEffect,PersonX puts ___ on PersonX's wrist--X's mobility is limited.
+xEffect,xEffect,PersonX watches videos--improved comprehension
+xEffect,xEffect,PersonX finds a job--Goes to training
+xEffect,xEffect,PersonX finds a job--Buys a new wardrobe
+xEffect,xEffect,PersonX eats candy--PersonX yells from sharp toothache
+xEffect,xEffect,PersonX takes the test--They get their knowledge tested
+xEffect,xEffect,PersonX takes the test--They find out their results
+xEffect,xEffect,PersonX wins the competition--PersonX becomes rich.
+xEffect,xEffect,PersonX waits patiently--PersonX thinks of what they are waiting for
+xEffect,xEffect,PersonX is watching tv--headache
+xEffect,xEffect,PersonX takes a test--PersonX sweats from nervousness
+xEffect,xEffect,PersonX takes a test--PersonX receives a grade
+xEffect,xEffect,PersonX feels comfortable--he becomes lethargic
+xEffect,xEffect,PersonX needs surgery--Person X spends 2 weeks in the hospital recovering.
+xEffect,xEffect,PersonX joins the team--PersonX makes new friends
+xEffect,xEffect,PersonX gets a promotion--Has increased workload
+xEffect,xEffect,PersonX is getting old--PersonX moves cautiously slow
+xEffect,xEffect,PersonX accepts the offer--Pays them
+xEffect,xEffect,PersonX accepts the offer--Shakes hands
+xEffect,xEffect,PersonX accepts the offer--smiles
+xEffect,xEffect,PersonX accepts the offer--gets higher salary
+xEffect,xEffect,PersonX accepts the offer--gets new job
+xEffect,xEffect,PersonX has a new baby--Feeds new baby all the time.
+xEffect,xEffect,PersonX gets an email--PersonX reads the email
+xEffect,xEffect,PersonX gets an email--PersonX responds to the email
+xEffect,xEffect,PersonX gets an email--Reads
+xEffect,xEffect,PersonX gets an email--Deletes
+xEffect,xEffect,PersonX stands still--Person X's muscles get stiff from not moving.
+xEffect,xEffect,PersonX feels pain--PersonX begins to cry from the pain.
+xEffect,xEffect,PersonX feels pain--PersonX's legs give out from the shock.
+xEffect,xEffect,PersonX hears a snap--they see what it is
+xEffect,xEffect,PersonX hears a snap--they pick up the fallen item
+xEffect,xEffect,PersonX always tries--muscle pain
+xEffect,xEffect,PersonX never received--PersonX asks for a refund.
+xEffect,xEffect,PersonX never received--PersonX contacts the seller.
+xEffect,xEffect,PersonX grows dark--PersonX glowers
+xEffect,xEffect,PersonX is in first grade--PersonX learns to read
+xEffect,xEffect,PersonX gets change--TO EMPIRE
+xEffect,xEffect,PersonX gets change--NONE
+xEffect,xEffect,PersonX gets change--NONE
+xEffect,xEffect,PersonX finds friends--PersonX smiles
+xEffect,xEffect,PersonX finds friends--PersonX sweats from nervousness
+xEffect,xEffect,PersonX is completely ruined--PersonX cries
+xEffect,xEffect,PersonX hears a crash--Hears ambulance sirens
+xEffect,xEffect,PersonX hears a crash--Jumps out of bed
+xEffect,xEffect,PersonX hears a crash--Screams
+xEffect,xEffect,PersonX is waiting for the bus--Is late for work
+xEffect,xEffect,PersonX sees where it went--Person X goes to get it
+xEffect,xEffect,PersonX sees where it went--personx looses something
+xEffect,xEffect,PersonX sees where it went--personx cries
+xEffect,xEffect,PersonX goes deaf--PersonX cannot hear
+xEffect,xEffect,PersonX goes deaf--PersonX yells for help
+xEffect,xEffect,PersonX starts to growl--PersonX's facial expression becomes negative
+xEffect,xEffect,PersonX wears a jacket--Person X warms up
+xEffect,xEffect,PersonX wears a jacket--PersonX stays dry
+xEffect,xEffect,PersonX pays cash--PersonX thinks about what they're spending money on
+xEffect,xEffect,PersonX gets all the supplies--they smile with accomplishment
+xEffect,xEffect,PersonX starts shopping--Buys shorts
+xEffect,xEffect,PersonX starts shopping--Person X will have to put away the products bought.
+xEffect,xEffect,PersonX starts shopping--He or she will need to rest.
+xEffect,xEffect,PersonX is playing in the snow--Their body becomes cold
+xEffect,xEffect,PersonX is playing in the snow--Their hands and feet get wet
+xEffect,xEffect,PersonX sees a dentist--teeth are cleaned
+xEffect,xEffect,PersonX sees a dentist--cavity is filled
+xEffect,xEffect,PersonX has to drive to the store--They get gasoline
+xEffect,xEffect,PersonX has to drive to the store--They make purchases
+xEffect,xEffect,PersonX loses the ball--PersonX sweats from running to the ball
+xEffect,xEffect,PersonX misses the target--They reload and try again
+xEffect,xEffect,PersonX watches tutorials--they learn a lot
+xEffect,xEffect,PersonX watches tutorials--they start their own project
+xEffect,xEffect,PersonX has any money though--Decides to save the money
+xEffect,xEffect,PersonX is getting fat--PersonX goes on a diet.
+xEffect,xEffect,PersonX can not find a job--personx starves
+xEffect,xEffect,PersonX would be ruined--PersonX avoids scandal
+xEffect,xEffect,PersonX makes music--PersonX head swells
+xEffect,xEffect,PersonX is afraid of the dark--teeth clench
+xEffect,xEffect,PersonX is afraid of the dark--he doesn't sleep
+xEffect,xEffect,PersonX is afraid of the dark--he paces alot
+xEffect,xEffect,PersonX heads out the door--PersonX gets rained on.
+xEffect,xEffect,PersonX heads out the door--PersonX gets snowed on.
+xEffect,xEffect,PersonX sees the dentist--person x teeth get cleaned
+xEffect,xEffect,PersonX sees the dentist--person x doesnt get cavities
+xEffect,xEffect,PersonX recently bought--X get's receipt
+xEffect,xEffect,PersonX recently bought--X get's change given
+xEffect,xEffect,PersonX is allergic to bees--MUST TAKE CORRESPONDING SAFETY PRECAUTIONS
+xEffect,xEffect,PersonX walks on the beach--increased body temperature
+xEffect,xEffect,PersonX feels more comfortable--muscles relax
+xEffect,xEffect,PersonX turns eighteen--They become an adult
+xEffect,xEffect,PersonX is going camping--Becomes sunburned
+xEffect,xEffect,PersonX practices for months--PersonX's muscles become sore
+xEffect,xEffect,PersonX is going to be late--heart rate increases
+xEffect,xEffect,PersonX is nervous but excited--PersonX twitches with excitement
+xEffect,xEffect,PersonX is nervous but excited--PersonX jiggles their foot
+xEffect,xEffect,PersonX is nervous but excited--they can't stop hicupping
+xEffect,xEffect,PersonX goes bankrupt--X sees a lawyer.
+xEffect,xEffect,PersonX allergic to bees--They break out in hives
+xEffect,xEffect,PersonX allergic to bees--They have trouble breathing
+xEffect,xEffect,PersonX waits nervously--person x cries
+xEffect,xEffect,PersonX feels lazy--PersonX falls asleep
+xEffect,xEffect,PersonX eats cheese--Excessive flatulence
+xEffect,xEffect,PersonX hears nothing--PersonX goes deaf
+xEffect,xEffect,PersonX attends school--person x chills
+xEffect,xEffect,PersonX attends school--person x sleeps
+xEffect,xEffect,PersonX takes longer--PersonX misses half the event.
+xEffect,xEffect,PersonX learns quickly--gets complimented by their teacher
+xEffect,xEffect,PersonX is working late--energy level decreases
+xEffect,xEffect,PersonX loves horses--Plans on buying a horse
+xEffect,xEffect,PersonX grows closer--PersonX gets comfortable
+xEffect,xEffect,PersonX grows closer--PersonX learns to trust
+xEffect,xEffect,PersonX arrives just in time--PersonX breathes a sigh of relief
+xEffect,xEffect,PersonX loves halloween--PersonX eats too much candy
+xEffect,xEffect,PersonX finishes the movie--PersonX thinks about the movie
+xEffect,xEffect,PersonX gets it removed--PersonX's self esteem improves
+xEffect,xEffect,PersonX gets it removed--PersonX's confidence improves
+xEffect,xEffect,PersonX wants to be a pilot--PersonX admires Amelia Earhardt.
+xEffect,xEffect,PersonX spends a weekend--energy increases
+xEffect,xEffect,PersonX tells my husband--PersonX sweats from nervousness
+xEffect,xEffect,PersonX leaves quickly--PersonX sweats from running
+xEffect,xEffect,PersonX would n't budge--PersonX puffs their chest out in anger
+xEffect,xEffect,PersonX is camping in the woods--PersonX prepares for hit night over in the woods
+xEffect,xEffect,PersonX is playing soccer--PersonX sweats from exercise
+xEffect,xEffect,PersonX gets a massage--GOOD HEALTH
+xEffect,xEffect,PersonX gets a massage--MANAGE BODY
+xEffect,xEffect,PersonX is both nervous and excited--TO BE CAREFULL
+xEffect,xEffect,PersonX is both nervous and excited--TO BE CORRECT
+xEffect,xEffect,PersonX is getting a divorce--PersonX cries
+xEffect,xEffect,PersonX is getting a divorce--PersonX loses their belongings
+xEffect,xEffect,PersonX eats burgers--fingers get dirty
+xEffect,xEffect,PersonX takes the test again--CORRECTS THE MISTAKES
+xEffect,xEffect,PersonX drinks the coffee--they get energetic
+xEffect,xEffect,PersonX feels frustrated--heart rate rises
+xEffect,xEffect,PersonX feels frustrated--blood pressure rises
+xEffect,xEffect,PersonX sees a counselor--receives bill
+xEffect,xEffect,PersonX eats bread--PersonX gains weight
+xEffect,xEffect,PersonX goes a week--PersonX becomes irritable without smoking for a week
+xEffect,xEffect,PersonX goes a week--PersonX begins to regret going a week cold turkey
+xEffect,xEffect,PersonX recently purchased ___--person x goes to concert
+xEffect,xEffect,PersonX recently purchased ___--person x uses tickets
+xEffect,xEffect,PersonX makes ___ on mturk--PersonX can afford to go on vacation now
+xEffect,xEffect,PersonX makes ___ to the bathroom--PersonX relieves themself in the bathroom
+xEffect,xEffect,PersonX buys ___ that day--eagerness
+xEffect,xEffect,PersonX gets ___ the other day--PersonX grunts in annoyance from the ad
+xEffect,xEffect,PersonX gets ___ the other day--PersonX thinks about cancelling xfinity
+xEffect,xEffect,PersonX gets ___ that day--gets lots of bills
+xEffect,xEffect,PersonX goes shopping ___--PersonX has spent money.
+xEffect,xEffect,PersonX goes shopping ___--PersonX has a new possession.
+xEffect,xEffect,PersonX grabs ___ from the fridge--Eats it
+xEffect,xEffect,PersonX finds ___ on facebook--they jump with amazement
+xEffect,xEffect,PersonX finds ___ on facebook--pumps fist
+xEffect,xEffect,PersonX buys ___ yesterday--Prepares it
+xEffect,xEffect,PersonX recently bought ___--Has to return item
+xEffect,xEffect,PersonX recently bought ___--PersonX's item didn't arrive on time
+xEffect,xEffect,PersonX leaves ___ at night--PersonX may lose something dear behind
+xEffect,xEffect,PersonX hands ___ back--PersonX misses having it
+xEffect,xEffect,PersonX studies ___ every night--X learns facts
+xEffect,xEffect,PersonX studies ___ every night--X does better in class
+xEffect,xEffect,PersonX starts a new job ___--PersonX is stressed to start the new job
+xEffect,xEffect,PersonX starts a new job ___--meets new people
+xEffect,xEffect,PersonX buys ___ in advance--PersonX is out money spent on tickets
+xEffect,xEffect,PersonX never received ___--Misses out
+xEffect,xEffect,PersonX buys ___ on the way home--PersonX eats dinner
+xEffect,xEffect,PersonX always watch ___--PersonX can't help but watch
+xEffect,xEffect,PersonX suddenly got ___--sweats
+xEffect,xEffect,PersonX suddenly got ___--increases heart rate
+xEffect,xEffect,PersonX buys PersonX's clothes--PersonX puts their shirt on inside out
+xEffect,xEffect,PersonX finds PersonX's friends--Person x sighs with  relief.
+xEffect,xEffect,PersonX can not find PersonX's car keys--they search the house
+xEffect,xEffect,PersonX can not find PersonY's car keys--PersonX looks in the table for the keys
+xEffect,xEffect,PersonX can not find PersonY's car keys--PersonX is sweaty from being nervous
+xEffect,xEffect,"PersonX leaves PersonX's book--Person x returns to fetch book, thereby wasting time"
+xEffect,xEffect,PersonX reaches ___ that night--Gains knowledge about new area
+xEffect,xEffect,PersonX holds it in PersonX's hand--muscle pain
+xEffect,xEffect,PersonX watches PersonX's step--PersonX is walking much slower
+xEffect,xEffect,"PersonX watches PersonX's step--PersonX looks back down at the ground often, instinctively"
+xEffect,xEffect,PersonX takes PersonY's advice--person x uses adivce
+xEffect,xEffect,PersonX takes PersonY's advice--person x leaves school
+xEffect,xEffect,PersonX needs to talk to PersonY--moves closer to PersonY
+xEffect,xEffect,PersonX slams ___ behind PersonY--PersonX sweats from nervousness
+xEffect,xEffect,PersonX spends so much money--person x has less money
+xEffect,xEffect,PersonX skips a beat--personx's face looks red and flushed
+xEffect,xEffect,PersonX takes account of the fact--Person x does internal assessing
+xEffect,xEffect,PersonX ministers unto PersonY--PersonX is touched by the lord
+xEffect,xEffect,PersonX meets PersonX's heroes--jumps happily
+xEffect,xEffect,PersonX puts it on PersonX's wrist--PersonX is handcuffed
+xEffect,xEffect,PersonX eats the ice cream--stomach bloats
+xEffect,xEffect,PersonX eats the ice cream--PersonX's stomach aches from dairy
+xEffect,xEffect,PersonX is looking for a new car--stresses about finances
+xEffect,xEffect,PersonX is pulled over by a police officer--heart rate elevates.
+xEffect,xEffect,PersonX waits a half hour--PersonX moves on to do the activity.
+xEffect,xEffect,PersonX has trouble staying awake--X drinks some coffee.
+xEffect,xEffect,PersonX has trouble staying awake--X splashes water on their face.
+xEffect,xEffect,PersonX goes bowling--muscles ache
+xEffect,xEffect,PersonX hikes in the woods--Person X gets muddy.
+xEffect,xEffect,PersonX receives an invitation--prepares gift
+xEffect,xEffect,PersonX agrees to the challenge--Sweats
+xEffect,xEffect,PersonX agrees to the challenge--Loses electrolytes
+xEffect,xEffect,PersonX agrees to the challenge--their muscles are sore
+xEffect,xEffect,PersonX has a pool party--PersonX's body is slippery from the water
+xEffect,xEffect,PersonX has a pool party--PersonX shivers from cold
+xEffect,xEffect,PersonX accepts the invitation--makes new friends
+xEffect,xEffect,PersonX accepts the invitation--heartrate increases
+xEffect,xEffect,PersonX feels left out--PersonX's face crumbles
+xEffect,xEffect,PersonX gets cancer--PersonX dies slowly
+xEffect,xEffect,PersonX wants to try--PersonX attempts the sport
+xEffect,xEffect,PersonX wants to try--PersonX signs up for lessons
+xEffect,xEffect,PersonX feels excited--Person X gets up from his chair
+xEffect,xEffect,PersonX feels excited--Person X starts to plan different things
+xEffect,xEffect,PersonX calls the dentist--Asks a question
+xEffect,xEffect,PersonX calls the dentist--Exchanges information
+xEffect,xEffect,PersonX watches a documentary--students sweat from nerves
+xEffect,xEffect,PersonX keeps score--PersonX gains more experience in keeping score
+xEffect,xEffect,PersonX keeps score--PersonX builds concentration and improves organization
+xEffect,xEffect,PersonX learns how to juggle--arms get sore
+xEffect,xEffect,PersonX checks the internet--Person X money transfer failed.
+xEffect,xEffect,PersonX also ordered ___--Receives item
+xEffect,xEffect,PersonX takes PersonY advice--PersonX considers the options
+xEffect,xEffect,PersonX takes PersonY advice--PersonX avoids tragedy
+xEffect,xEffect,PersonX loses PersonX's character--PersonX re-evaluates their life
+xEffect,xEffect,PersonX loses PersonX's character--PersonX asks for help
+xEffect,xEffect,PersonX gets on with PersonX's life--PersonX sighs with relief
+xEffect,xEffect,PersonX gets on with PersonX's life--PersonX gets relaxes their muscles
+xEffect,xEffect,PersonX thinks PersonX's thoughts--Exhibits brain activity
+xEffect,xEffect,PersonX tries new foods--gains a new favorite
+xEffect,xEffect,PersonX asks PersonY's teacher--PersonX gains knowledge about PersonY
+xEffect,xEffect,PersonX asks PersonY's teacher--PersonX thanks the teacher
+xEffect,xEffect,PersonX holds PersonX's head high--PersonX gains confidence
+xEffect,xEffect,PersonX obtains PersonY order--Makes food
+xEffect,xEffect,PersonX obtains PersonY order--Delivers it
+xEffect,xEffect,PersonX shows PersonY the place--PersonX sweats from nervousness
+xEffect,xEffect,PersonX bakes PersonX's own bread--PersonX sweats from baking.
+xEffect,xEffect,PersonX bakes PersonX's own bread--PersonX gets flushed from the heat.
+xEffect,xEffect,PersonX starts PersonX's new job--Meets new friends
+xEffect,xEffect,PersonX breaks PersonX's wrist--person x passes out
+xEffect,xEffect,PersonX feels bad afterwards--Person x cries from sadness.
+xEffect,xEffect,PersonX feels bad afterwards--Person x shoulders droop.
+xEffect,xEffect,PersonX shares ___ with PersonX's friends--Person X cries.
+xEffect,xEffect,PersonX tells a lie--PersonX's self esteem goes down
+xEffect,xEffect,PersonX tries to play--PersonX sweats from moving around
+xEffect,xEffect,PersonX tries to play--PersonX breathes heavily from tiredness
+xEffect,xEffect,PersonX misses something--X wonders where it could be.
+xEffect,xEffect,PersonX finds a wife--PersonX gets widdowed
+xEffect,xEffect,PersonX spends so much ___--Pays debts
