@@ -85,7 +85,7 @@ train_history = model.fit(
 
 model.load_weights('model.h5')
 test_pred = model.predict(test_input)
-with open("bert_predictions", "w") as f:
+with open("output_bert/bert_predictions", "w") as f:
    print(test_pred, file= f)
 
 
