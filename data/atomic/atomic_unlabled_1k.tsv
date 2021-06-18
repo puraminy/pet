@@ -1,0 +1,1001 @@
+input_text	target_text	score	type	prefix
+PersonX be there	PersonY be mrs. randall	0.6690646409988403	new	oWant
+PersonX have cry night	PersonY child be as reserve	0.5705782771110535	new	oEffect
+PersonX go to chief	PersonX get worried	0.6562954783439636	new	xWant
+PersonX take PersonY	PersonY get away	0.8056378364562988	head	oReact
+they be all helpful	PersonY be hot	0.6955002546310425	tail	oReact
+PersonX want PersonY	PersonY be my business	0.77960604429245	head	oReact
+it be fine	PersonY be my opinion	0.5560547709465027	new	oReact
+PersonX sit by PersonY	PersonY be dead	0.6939622759819031	tail	oReact
+PersonX go back to sleep	PersonX didnt believe he	0.7802295088768005	head	xIntent
+PersonX be the cook	PersonX will be ashamed	0.7440208792686462	new	xReact
+PersonX rub PersonX eye	PersonX be old	0.8731213808059692	head	xIntent
+they stop suddenly	PersonY door bell ring	0.7813917994499207	new	oWant
+that be wayyyyyy over top	PersonY order the cheesecake desert	0.5132678747177124	new	oEffect
+PersonX turn a profit	PersonX be a staunch atheist	0.9891425967216492	head	xAttr
+PersonX pay my debt	PersonX be sorry	0.9169952273368835	head	xReact
+PersonX play football in school	PersonY be ask	0.7985147833824158	head	oReact
+PersonX can see	PersonY smoothie be really fresh	0.699297308921814	new	oEffect
+PersonX would have go	PersonX have keep	0.8340457081794739	new	xIntent
+PersonX will give snack too	PersonX will provide you with alcohol too	0.5402722358703613	new	xEffect
+PersonX go back	PersonX get they	0.5817326307296753	head	xWant
+PersonX go to america	PersonY shouldn t wonder	0.7265852093696594	new	oWant
+PersonX write a note	PersonX ll come along	0.8788975477218628	head	xWant
+PersonX be old	PersonX could make a novel	0.8317140340805054	head	xEffect
+this be a duty	PersonY go again	0.923130750656128	tail	oWant
+PersonX be old	PersonX be handsome	0.9358201026916504	head	xAttr
+PersonX try to get away	PersonY collar PersonX	0.5780572891235352	new	oEffect
+PersonX heart be beat steadily	PersonX have perfect control of himself	0.6348458528518677	new	xWant
+PersonX move to city	PersonX be adorable	0.8345872163772583	head	xReact
+PersonX wake up	PersonX be piss	0.8800433278083801	head	xWant
+PersonX get the boot	PersonX be military	0.8957508206367493	head	xAttr
+PersonX take PersonY	PersonY die of consumption	0.5430757999420166	head	oEffect
+PersonX be PersonY wife	PersonY be wait a long time	0.6738799810409546	new	oEffect
+PersonX really like PersonY	PersonX have be twice now	0.6761369705200195	head	xEffect
+PersonX be at summer camp	PersonX have hear	0.7385177016258241	head	xReact
+PersonX need PersonY help	PersonY always pick up	0.9068343043327332	head	oWant
+PersonX be famous	PersonY be interested	0.7678908705711365	tail	oReact
+the mist of passion have pass from eye now	PersonY see she	0.8858711719512941	tail	oWant
+PersonX be not overweight	PersonX exercise regularly	0.8089986443519592	tail	xNeed
+PersonX shake PersonX head	PersonX temper have grow greedy with accumulation	0.8591499924659729	head	xReact
+PersonX take PersonY hand	PersonY be you friend	0.9917804598808287	head	oReact
+PersonX eat nothing	PersonX leg be break	0.6408369541168213	head	xReact
+PersonX be old	PersonX have not be a kid	0.9664838314056396	head	xWant
+that be usually more than enough	PersonY we split	0.5918933153152466	new	oWant
+PersonX love my husband	PersonX treat he with respect	0.8182530999183655	new	xWant
+PersonX try to help myself	PersonX can not afford therapy	0.5445408821105957	new	xNeed
+PersonX try to blame PersonY	PersonX will admit	0.6336902976036072	new	xEffect
+PersonX have be sit here for minute	PersonY be 3 car of PersonX	0.8903741240501404	new	oEffect
+PersonX be super rude	PersonX be mad	0.9399266839027404	tail	xAttr
+PersonX be sure	PersonY be go to have	0.565867006778717	new	oEffect
+PersonX come close	PersonY come here	0.725955605506897	new	oReact
+there be a high demand	PersonY be labor day weekend	0.6247480511665344	new	oEffect
+PersonX get it	PersonX will not be happy	0.5179114937782288	head	xNeed
+spoil be fairly sell	PersonY be for a party	0.7681164145469666	new	oEffect
+PersonX pick PersonY up	PersonY one have a answer	0.7531058192253113	head	oEffect
+PersonX make it	PersonX try to distance himself from remark	0.7037383913993835	head	xEffect
+PersonX be so cool about it	PersonY have a friend	0.7827903032302856	new	oEffect
+PersonX would like one	PersonX get it	0.8724332451820374	tail	xEffect
+PersonX remain in state	PersonX be old	0.8326370120048523	tail	xReact
+PersonX may have miss	PersonX might go back	0.5538982748985289	new	xWant
+PersonX will hear	PersonY be kneel at foot	0.7621949911117554	new	oEffect
+PersonX take PersonY	PersonY go there	0.776930570602417	head	oReact
+PersonX get in way	PersonX remember about they	0.6348711252212524	head	xIntent
+PersonX answer PersonY question	PersonY have hear	0.8307681083679199	head	oEffect
+PersonX lip be part	PersonX eye be close	0.5868884325027466	new	xNeed
+PersonX run fast	PersonX be glad	0.7822949886322021	head	xAttr
+PersonX look PersonY in eye	PersonX have see	0.8913004398345947	head	xAttr
+PersonX invite everyone	PersonX be uncool	0.9480403661727904	head	xAttr
+one of actor space	PersonY be shoot this webisode	0.5620608329772949	new	oEffect
+PersonX give PersonY	PersonY be a man	0.8750666975975037	head	oWant
+PersonX live alone	PersonY be sad	0.6689790487289429	tail	oReact
+PersonX get brace	PersonX be wrong	0.9515112638473512	head	xNeed
+PersonX be pay	PersonY almost kill PersonX	0.6848993301391602	new	oEffect
+PersonX have already place the order	PersonY want to leave immediately	0.9405569434165956	new	oEffect
+all dry up	PersonY be not a drop of water	0.8283204436302185	new	oEffect
+PersonX be old	PersonX wake up one day	0.8688814640045166	head	xWant
+PersonX will not be put on hold	PersonX be on hold	0.8975270390510559	tail	xReact
+it be too sweet	PersonY tea be good	0.6157957315444946	new	oReact
+PersonX reach home	PersonY be busy	0.6141757965087891	tail	oReact
+PersonX like music	PersonX be confuse	0.8722532987594604	head	xReact
+PersonX give PersonY	PersonY guy be here	0.783045768737793	head	oWant
+PersonX have a craving for sushi	PersonX be in cleveland on business	0.5404794812202454	new	xAttr
+we be fond of PersonX	PersonY be not in jail	0.6436129808425903	new	oEffect
+PersonX be old	PersonX can not tie my shoe	0.7209030389785767	head	xEffect
+PersonX take PersonX away	PersonY be mad at PersonX	0.7797985672950745	head	oEffect
+PersonX hit PersonY	PersonY rest of gang can come	0.8510198593139648	head	oWant
+PersonX try maybe	PersonX find they	0.7322795987129211	tail	xWant
+PersonX give PersonY a ride	PersonX buy a groupon	0.8071196675300598	head	xNeed
+PersonX inflammatory eloquence keep the town council on side	PersonX be present at meeting	0.6032122373580933	new	xWant
+PersonX wait 20 min	PersonY get it	0.8992363214492798	tail	oWant
+PersonX don t care	PersonX have a camera	0.96595299243927	tail	xNeed
+PersonX burn the cat at midnight	PersonX put they together	0.8725504279136658	tail	xIntent
+PersonX be look for place to stay with amenity	PersonY be late at night	0.5830354690551758	new	oWant
+PersonX be lazy	PersonX denial mean nothing	0.6177308559417725	new	xEffect
+PersonX go to store	PersonX be hungry day	0.8977518081665039	head	xReact
+they way lay through wood	PersonY temptation can not be resist	0.6132262945175171	new	oEffect
+PersonX love PersonY	PersonY remember PersonX	0.7319225072860718	head	oWant
+PersonX will need a little time	PersonY be so important	0.5378197431564331	new	oEffect
+PersonX be old	PersonX be still together	0.8502100706100464	head	xEffect
+PersonX could not avoid it	PersonY party be now in hot blood	0.5248965620994568	new	oWant
+PersonX will all be in the front row	PersonY be go to be a great spectacle	0.6893295049667358	new	oReact
+PersonX own the snooker hall in 2008	PersonX sell it	0.8788023591041565	tail	xWant
+it be a buffet	PersonY be sad	0.9394492506980896	tail	oWant
+PersonX call the police	PersonY be a gonner	0.9389891624450684	head	oEffect
+PersonX return to home	PersonY can not remember	0.634326696395874	head	oWant
+PersonX take off PersonX glove	PersonX come inside	0.5775349736213684	tail	xIntent
+PersonX would go	PersonY can hit you again	0.8573582768440247	head	oWant
+PersonX make a decision	PersonY be hurt	0.9958601593971252	tail	oReact
+that be god 's decision	PersonY be punish	0.9283112883567808	tail	oReact
+PersonX pack my bag	PersonX be late	0.809890866279602	head	xReact
+PersonX retrace PersonX step	PersonX be on point	0.975620687007904	head	xAttr
+PersonX love PersonY	PersonY pass on PersonX	0.6129248142242432	head	oEffect
+PersonX bring something	PersonY be different	0.9172029495239258	head	oReact
+PersonX would be frustrated too	PersonX be ugly	0.6280986666679382	new	xNeed
+PersonX call PersonY by name	PersonX have get left	0.8651545643806458	head	xReact
+PersonX see PersonY	PersonY t be nice	0.798671543598175	head	oReact
+PersonX be drink	PersonY be too late	0.8181387186050415	new	oReact
+PersonX take PersonY	PersonY leave he	0.6010879278182983	head	oEffect
+PersonX open PersonX eye	PersonY stir up	0.7127758860588074	head	oEffect
+PersonX be get high	PersonY would not judge PersonX	0.6699605584144592	new	oEffect
+PersonX be handsome	PersonX be a decent young man at heart	0.8823924660682678	new	xAttr
+PersonX would be sack	PersonX be in trouble	0.7260335683822632	tail	xReact
+PersonX accept the fact	PersonX be get old	0.9075397849082948	head	xReact
+PersonX work part time	PersonX be in college	0.9537180066108704	head	xAttr
+PersonX be old	PersonX have not hear	0.5921316146850586	head	xWant
+'s cut a session	PersonY come in here	0.8452649712562561	new	oWant
+PersonX can take another crack at it	PersonY be gon na go	0.5356418490409851	new	oWant
+there be chicken in it	PersonY be not sure	0.5908955931663513	new	oEffect
+it can take 2	PersonY can take 2	0.8126260042190552	new	oEffect
+people have see a car	PersonY be not sure	0.6312955617904663	new	oWant
+it be work	PersonY just have to wait	0.8530498147010803	new	oWant
+PersonX marriage will end	PersonY be not remorseful	0.8384724259376526	new	oWant
+it be crazy	PersonY really need this right now	0.9050349593162536	new	oWant
+PersonX be in love with PersonY	PersonX have always hope someday	0.7254641056060791	new	xEffect
+PersonX wake up morning	PersonX be so excited	0.694186806678772	head	xReact
+it be great	PersonY try a cider	0.7690012454986572	new	oEffect
+PersonX join a band	PersonY be here	0.9937447905540466	head	oReact
+PersonX hire a private investigator	PersonY would hope	0.7412163615226746	new	oEffect
+PersonX take PersonX revenge	PersonY can gather plenty firewood	0.7924606204032898	head	oWant
+PersonX be not a threat	PersonX be run away from you	0.6548029184341431	new	xIntent
+PersonX take a few minute	PersonY be here	0.6791254281997681	new	oEffect
+PersonX have already book another appointment	PersonY skin look great	0.8067336082458496	new	oReact
+nothing will convince PersonX	PersonY have already make PersonX mind up	0.9247200489044192	new	oEffect
+PersonX try to fix it	PersonX be a kid	0.8679850101470947	head	xReact
+PersonX get a glass	PersonX be sad	0.9226956367492676	head	xReact
+PersonX be responsible for death	PersonX will have to live with that	0.6554060578346252	new	xEffect
+PersonX feel terrible	PersonX will be execute	0.8296847939491272	head	xReact
+there be probably a thousand sellerse bear	PersonY sellers be a safe name	0.5007594227790833	new	oEffect
+PersonX make sure	PersonX figure out	0.6949913501739502	head	xNeed
+PersonX have no idea	PersonX be female	0.8296824097633362	head	xReact
+all PersonX get	PersonY want to hang out	0.6406896114349365	tail	oEffect
+PersonX go to house	PersonX ride forward	0.8690233826637268	head	xWant
+PersonX be bald	PersonY be bald	0.6828919649124146	tail	oEffect
+PersonX be thankful	PersonY be patient	0.9095382690429688	new	oWant
+they be nazis	PersonY be bad	0.9048087596893308	tail	oWant
+PersonX have no idea	PersonX can not remember the episode	0.9002534747123718	head	xWant
+whenever it might be	PersonY this befall enough	0.5023313760757446	new	oEffect
+PersonX be in poor health	PersonX have no prospects for employment	0.8695879578590393	new	xIntent
+PersonX be gorgeous	PersonX be curvy	0.9172523021697998	tail	xAttr
+PersonX have see	PersonY be a small place	0.6148910522460938	new	oEffect
+the taresians have escort we back	PersonY kim be a member of race	0.6028965711593628	new	oWant
+PersonX would inform they	PersonY neighbor would often inquire	0.7536851763725281	new	oEffect
+PersonX be old	PersonX could refuse she nothing	0.6093274354934692	head	xWant
+PersonX want to take a swing for PersonY	PersonX feel good	0.5200231075286865	new	xAttr
+PersonX read book	PersonX be obese	0.9124407768249512	head	xAttr
+PersonX meet PersonY	PersonY be in PersonY garden in nightie	0.9528298377990724	head	oReact
+the food be consistently awesome	PersonY eat here time	0.8176758289337158	new	oWant
+PersonX have to go to er	PersonY be the first time	0.9126195311546326	head	oWant
+PersonX be affectionate	PersonX treat my ex	0.6781530976295471	new	xIntent
+PersonX just could not put it down	PersonX actually read the book time	0.6888284087181091	new	xEffect
+PersonX could not enjoy it	PersonX look at it	0.8823651075363159	tail	xWant
+PersonX put PersonX arm around PersonY	PersonY just have to look at kwami	0.5775104761123657	head	oEffect
+PersonX stay busy	PersonX find out	0.9872742891311646	head	xAttr
+PersonX remain here	PersonX be convince	0.7942080497741699	tail	xAttr
+PersonX drink up the rest of tea	PersonX go back to sleep	0.6534537672996521	tail	xIntent
+south draw the last trump	PersonY rise with ace	0.8155244588851929	new	oWant
+PersonX come to PersonY	PersonY be a therapist	0.9280540347099304	head	oWant
+PersonX will be in touch	PersonY will hve we next news at 11	0.6287204027175903	new	oWant
+PersonX want to watch	PersonX have read	0.9327794909477234	head	xReact
+PersonX have one younger sister	PersonX parent be ed	0.664706826210022	new	xAttr
+PersonX be old	PersonX have never have a job in life	0.6439051032066345	head	xWant
+PersonX like it	PersonX ll follow you	0.9024639129638672	head	xWant
+PersonX have a drinking problem	PersonX post have be remove	0.7364552021026611	head	xEffect
+the experiment be not consider a success	PersonY promotion be make to rank	0.693489134311676	new	oEffect
+PersonX get bigger	PersonY be useful	0.8137327432632446	head	oWant
+PersonX lick my lip	PersonY my face get the gift of all	0.7235925197601318	head	oEffect
+PersonX go to station	PersonX be glad	0.6213626265525818	head	xEffect
+PersonX get through quickly	PersonY be clean	0.6638128161430359	tail	oReact
+PersonX give PersonY	PersonY look PersonX in eye	0.8850113153457642	head	oEffect
+PersonX invite PersonY	PersonY be a stranger	0.7443820238113403	head	oEffect
+PersonX be old	PersonX have not have one hair on head	0.926320254802704	head	xWant
+PersonX never look back	PersonX get up	0.8986982107162476	head	xEffect
+PersonX kiss PersonY	PersonY sit down	0.8922480940818787	tail	oEffect
+PersonX be my best friend	PersonX be in trouble	0.8493708372116089	head	xAttr
+PersonX move to city	PersonX pass out	0.8432497382164001	head	xAttr
+PersonX go to PersonY	PersonX can go	0.5197353959083557	head	xEffect
+PersonX try to play	PersonX have hear	0.7366217970848083	head	xWant
+it be wonderful	PersonY have the flatiron steak	0.8763084411621094	new	oWant
+PersonX would not let	PersonY believe lynde understand	0.670058012008667	new	oWant
+sometimes it be hard to PersonX	PersonY be more focus	0.6700261831283569	new	oEffect
+PersonX love it	PersonX have mine mount	0.9657923579216005	new	xNeed
+PersonX accuse PersonY	PersonX be mistaken	0.7502626180648804	tail	xAttr
+PersonX start at center	PersonX be tall	0.9813714623451232	tail	xAttr
+PersonX stay away	PersonY get it	0.9433871507644652	tail	oWant
+it have to come to this	PersonY have such a collection	0.5068386793136597	new	oEffect
+PersonX take PersonY hand	PersonY feel dizzy	0.943208396434784	head	oReact
+the feeling here be	PersonY speak for itself	0.5589609742164612	new	oWant
+PersonX walk out	PersonX be still wait	0.5043851137161255	new	xNeed
+PersonX want PersonY	PersonX be pregnant with baby	0.979198694229126	head	xAttr
+PersonX jump into bush	PersonX be wise	0.7524009943008423	tail	xReact
+PersonX want PersonY	PersonX be go to kill about people	0.6391599178314209	head	xEffect
+PersonX make my decision	PersonX walk out	0.5085431337356567	head	xReact
+we community will re-evaluate we opinion of administration	PersonY appropriate action be take	0.5079168677330017	new	oEffect
+whatever PersonX want	PersonY be nice	0.957788109779358	tail	oReact
+PersonX come away	PersonX be a fascist	0.8478926420211792	head	xAttr
+PersonX speak PersonY language	PersonY get throw in pool	0.8990111947059631	head	oReact
+food from uber eat	PersonY order be wrong	0.6551209092140198	new	oReact
+PersonX stay here in room	PersonX be a diamond member	0.5766381025314331	new	xNeed
+PersonX lose PersonX job	PersonX begin disappear on trip overseas	0.5341148376464844	head	xEffect
+those guy get	PersonY be lucky	0.8676149249076843	tail	oReact
+the car be park	PersonY start rain	0.7630982398986816	new	oWant
+PersonX be go to die	PersonX will operate on PersonX	0.8049840927124023	head	xEffect
+the rice be undercooked	PersonY be disappointed	0.7280511856079102	tail	oReact
+suddenly PersonX voice break	PersonY have run from room	0.8330047726631165	new	oWant
+PersonX be run for president	PersonX be a man	0.8830416798591614	head	xAttr
+PersonX mount PersonX horse	PersonY drive off	0.8179107308387756	head	oEffect
+PersonX choke on blood	PersonX ask i for help	0.5831728577613831	new	xEffect
+PersonX be old	PersonX be lawrence wilheimer	0.8616888523101807	head	xWant
+luck would have it	PersonY turn out	0.8156048655509949	new	oWant
+that be not good	PersonY be upset she	0.5123026371002197	new	oWant
+no one shall take it from PersonX	PersonY be my faith	0.5543275475502014	new	oEffect
+PersonX be old	PersonX be older	0.7871283888816833	head	xEffect
+PersonX never go back	PersonX go to get some	0.5606629848480225	new	xIntent
+PersonX still don	PersonY be not really my business	0.657457709312439	new	oWant
+PersonX be play basketball	PersonX can see	0.7718780040740967	head	xIntent
+PersonX would probably enjoy	PersonX come back	0.9422046542167664	tail	xIntent
+PersonX would be honour	PersonX have agree	0.5299707651138306	new	xIntent
+PersonX go back to place	PersonY pick up my car	0.814919114112854	head	oEffect
+PersonX have with orthodontist	PersonY use a different type	0.6315898895263672	new	oEffect
+PersonX explain the situation	PersonY be crazy	0.9946455955505372	head	oReact
+PersonX could look stuff up	PersonX have access to library	0.7756644487380981	new	xWant
+they give PersonX a discount	PersonY be a student	0.6937173008918762	new	oEffect
+PersonX be leave the hotel	PersonX run into someone	0.9064953327178956	tail	xEffect
+PersonX adore PersonY	PersonX be bias	0.5042144060134888	new	xEffect
+PersonX could kill the entire lawn	PersonX administer many chemical	0.5007933378219604	new	xIntent
+PersonX take a photo	PersonX have not see it	0.5352644920349121	head	xIntent
+PersonX give PersonY	PersonY brother declare	0.7961149811744691	head	oEffect
+PersonX use to run full-speed through wilderness	PersonY be ever at stake	0.9024683237075806	new	oWant
+the portion be pretty small	PersonY be a little much batter	0.5715919733047485	new	oEffect
+PersonX be old	PersonX be both gon na die	0.7434653043746948	head	xEffect
+PersonX wash the clothes	PersonX will cook	0.5825115442276001	head	xEffect
+PersonX see PersonY	PersonX be walk through store	0.8343828916549683	head	xWant
+PersonX want PersonY	PersonY PersonY more	0.9237146377563475	head	oEffect
+PersonX have buyer	PersonY be marry	0.5518423318862915	new	oWant
+PersonX account will not get ban	PersonY work fine	0.5234134197235107	new	oReact
+PersonX fall in love	PersonX try it out	0.8430644869804382	tail	xIntent
+PersonX save PersonY	PersonY meet baloo	0.8948501348495483	head	oWant
+PersonX like everything	PersonX be happy	0.9104348421096802	tail	xReact
+PersonX be afraid	PersonX stay at home	0.9757469892501832	tail	xWant
+the bleeding be very severe	PersonY be well	0.8417387604713441	tail	oReact
+PersonX find the track	PersonX can be lose in dune	0.7239557504653931	new	xReact
+PersonX be a little girl	PersonY PersonX finally have a grown-up excuse	0.8111439943313599	new	oEffect
+PersonX really love PersonY	PersonX be bear	0.8206577301025391	tail	xReact
+PersonX live with PersonY	PersonY go to work	0.925493597984314	tail	oEffect
+PersonX be legally blind without glass	PersonX will ever get	0.5302049517631531	new	xIntent
+these will come	PersonY be mike	0.6455510258674622	new	oEffect
+PersonX want a snack	PersonX have see	0.8491567373275757	head	xAttr
+time PersonX plane land	PersonY catch PersonX cab	0.843891978263855	new	oWant
+PersonX keep PersonY	PersonY be frustrated	0.5704960227012634	head	oReact
+PersonX stand in doorway	PersonY be out sight	0.6284462809562683	new	oWant
+PersonX be not sure	PersonY water would be nice	0.7596552968025208	new	oEffect
+PersonX will prove it to PersonY	PersonX be a good cook	0.5437085032463074	new	xIntent
+PersonX be warm	PersonX be gon na stay	0.7533493638038635	new	xWant
+there be something	PersonY so engagingly have its care for purity	0.7094230055809021	new	oEffect
+neither have PersonX	PersonY read the menu	0.5404829382896423	new	oWant
+PersonX go to pick it up	PersonY wheel be go	0.9015340209007264	new	oEffect
+we be all volunteer	PersonY most people commit suicide at night	0.8735066056251526	new	oEffect
+PersonX look better	PersonY be awesome	0.9935152530670166	tail	oReact
+PersonX have have excess of punishment	PersonX shall be indemnify	0.6291948556900024	new	xReact
+PersonX be stand next to rick	PersonX get to shoot	0.6059063076972961	new	xIntent
+81 % of population be from general caste	PersonY % be schedule tribe	0.747097373008728	new	oEffect
+PersonX die ago	PersonX be clay thompson	0.8678978681564331	new	xWant
+PersonX become very upset	PersonX be always adopt	0.8895729780197144	head	xReact
+PersonX could not sleep	PersonX meet you	0.8615703582763672	tail	xWant
+PersonX get convince	PersonX friendship be not just friendship	0.6221610307693481	new	xNeed
+they have no business create	PersonY be the worst mistake of career	0.8671014308929443	new	oEffect
+PersonX work at place	PersonX be cool	0.6914041638374329	tail	xReact
+mikey get more annoying	PersonY get more powerful	0.8079252839088441	new	oEffect
+PersonX have some background	PersonX be wonder	0.7022284269332886	tail	xReact
+PersonX work day	PersonX have no social life	0.9751560091972352	head	xNeed
+PersonX kick with foot	PersonY have try	0.9161407351493835	head	oWant
+PersonX be old	PersonX be honest	0.954412281513214	head	xAttr
+PersonX get PersonX way	PersonY like it	0.9175660610198976	head	oEffect
+PersonX use god justify the dramatic event	PersonY be kind annoying	0.9003034234046936	new	oReact
+PersonX be not kill here	PersonY be obvious	0.5064106583595276	new	oEffect
+PersonX sit in chair	PersonX can get a reading on energy	0.939265251159668	head	xWant
+PersonX always come here for lunch	PersonX go to school	0.9272263050079346	tail	xIntent
+PersonX receive a stinging blow on ear	PersonX be on the ground	0.5415844917297363	tail	xEffect
+PersonX be a famous race car driver	PersonX be alive	0.9144854545593262	new	xNeed
+PersonX call julia	PersonY call the police	0.8611533045768738	tail	oEffect
+PersonX be lucky	PersonY pass through at twilight	0.6810557842254639	new	oEffect
+PersonX go to store	PersonX be pretty	0.5388413667678833	head	xAttr
+PersonX can not be a part of game	PersonY PersonX be look for stuff	0.7186015248298645	new	oEffect
+PersonX be old	PersonX illness have be cruel	0.7497497200965881	head	xEffect
+the hideous blackamoor drop from straightway	PersonY be sa'ad al din saood	0.5872341990470886	new	oEffect
+PersonX go to bed	PersonX would dream about	0.7984704971313477	head	xEffect
+PersonX answer my question	PersonY be ok	0.9873335361480712	tail	oReact
+PersonX raise my hand	PersonX be new	0.9666268229484558	head	xAttr
+PersonX wish to achieve	PersonX create policy	0.6215733289718628	new	xWant
+PersonX be not gon na fire anybody	PersonY be dumb	0.7146663069725037	tail	oReact
+PersonX be old	PersonX be lovely	0.5530312657356262	head	xReact
+PersonX could not wonder at it	PersonX could see	0.7766419053077698	new	xNeed
+PersonX wasn t	PersonX have the flu	0.6599996089935303	new	xIntent
+it be so	PersonY feel pain at parting	0.9069138765335084	new	oWant
+PersonX get nut	PersonY kick PersonX out	0.6570455431938171	new	oEffect
+it can store	PersonY be very good	0.948563516139984	tail	oReact
+dessert we get the creme brulee	PersonY be good	0.7982164025306702	tail	oReact
+PersonX want to keep it	PersonY opinion be wrong	0.976697325706482	head	oReact
+both of parent die	PersonY fiancee leave i	0.8058407306671143	new	oEffect
+PersonX have be work PersonY for year	PersonX be bias	0.9069446921348572	tail	xReact
+PersonX be old	PersonX be win	0.6086754202842712	head	xAttr
+PersonX have the qualification	PersonY need the money	0.7082892656326294	new	oEffect
+PersonX cover my face	PersonX be excite	0.895595133304596	head	xAttr
+PersonX love PersonY much	PersonX need something	0.8797643780708313	head	xWant
+this vessel be rip apart level by archangel	PersonY retain a certain structural integrity	0.7661996483802795	new	oWant
+it start to rain	PersonY all come indoors	0.5839555263519287	new	oEffect
+PersonX forgive PersonY	PersonY girl be okay	0.8850284218788147	head	oReact
+PersonX have a sweet tooth	PersonX will not be disappointed whatsoever	0.9569416642189026	head	xAttr
+PersonX have to go to room	PersonY find a way	0.8852545022964478	head	oWant
+PersonX push PersonY away	PersonX be finish	0.9213192462921144	head	xAttr
+PersonX have much fun	PersonX might have go farther	0.58089679479599	head	xNeed
+PersonX be not go to help	PersonX be leave	0.884535014629364	tail	xReact
+they be not in love with other	PersonY be true	0.5027539134025574	new	oEffect
+they be go	PersonY be only	0.7269230484962463	new	oWant
+PersonX aspire to nothing	PersonX may not even be halfway through my life	0.7460846900939941	new	xIntent
+PersonX would leave it to PersonY	PersonY would buy a cosy little home some place for PersonX	0.7754840850830078	new	oEffect
+PersonX get here	PersonY be hope	0.9948412775993348	tail	oReact
+PersonX take it	PersonX go to jail	0.5922421813011169	tail	xEffect
+this town be stand on edge	PersonY can really stop it anymore	0.8454568982124329	new	oWant
+PersonX live in california	PersonX go to place	0.8106060028076172	tail	xEffect
+PersonX want to visit	PersonY flag down the first wheelchair	0.5474064946174622	new	oEffect
+PersonX want PersonY	PersonY wife be here	0.9186699986457824	head	oWant
+PersonX be welcome	PersonY crash on couch	0.8549363613128662	new	oWant
+everyone love they food	PersonY give out big portion	0.8307204246520996	new	oWant
+PersonX be gon na be fucking paranoid life	PersonX be average	0.97978013753891	tail	xAttr
+PersonX could see PersonY	PersonX leave PersonY	0.8401079177856445	tail	xWant
+PersonX take PersonY to hospital	PersonX call the police	0.7484175562858582	head	xEffect
+PersonX be really good at it	PersonX be old	0.8480615019798279	head	xReact
+PersonX baby be go to be fine	PersonX dont have anything	0.9376474022865297	new	xWant
+PersonX be eat at place	PersonX be a vegetarian	0.7582839727401733	tail	xAttr
+PersonX be come on offensive	PersonX be ruthless	0.8271709680557251	tail	xAttr
+there be not a boy	PersonY have burn away	0.7649915814399719	new	oEffect
+PersonX play a little	PersonY be fun	0.6618927121162415	new	oEffect
+PersonX would recommend this place !!!	PersonY be fast	0.5044071078300476	new	oEffect
+PersonX be not clear	PersonX be drunk	0.8282492756843567	tail	xAttr
+PersonX feel sorry for PersonY	PersonY they be back together	0.8487789630889893	head	oWant
+PersonX just let	PersonX send my son to york	0.7034603357315063	new	xEffect
+PersonX take medication	PersonX be deny	0.8333629369735718	head	xAttr
+PersonX want to go	PersonX be not even sure	0.941951870918274	head	xAttr
+PersonX find the problem	PersonX go ahead	0.7885347604751587	head	xIntent
+PersonX ask PersonX	PersonX walk up PersonX at bar	0.7701000571250916	head	xEffect
+PersonX be old	PersonX wake early	0.7498207092285156	head	xEffect
+PersonX be still good	PersonY be have	0.7219346761703491	new	oWant
+PersonX be glad	PersonX hear you	0.7170819044113159	tail	xNeed
+PersonX make it in time	PersonY be busy now	0.7812935113906859	head	oReact
+PersonX be home	PersonX be gay	0.5944940447807312	new	xReact
+there be a cockroach inside samosa	PersonY place be the definition of disaster	0.7500669956207275	new	oReact
+now PersonX be go to bed	PersonY stomach be sick	0.5278484821319579	new	oReact
+PersonX use to be	PersonX be not quick	0.6707395911216736	new	xNeed
+PersonX be old	PersonX have never be pregnant	0.8562656044960022	head	xWant
+PersonX have a friend	PersonX be look forward	0.5756785869598389	head	xReact
+PersonX be not gon na go talk to they	PersonX have something	0.7543476819992065	tail	xWant
+PersonX leave my phone	PersonX sit on bench	0.8856497406959534	head	xNeed
+it be radiation	PersonY climb now	0.7020840048789978	new	oWant
+all be to issue the command	PersonY command be	0.5344921350479126	new	oEffect
+it ring 7-8 time	PersonY be busy	0.7527901530265808	tail	oReact
+PersonX be first in line	PersonX will be lucky	0.9826585054397584	head	xAttr
+PersonX want to buy it	PersonY be wonder	0.9513431191444396	head	oReact
+PersonX be not home by 23:30	PersonY will send the cavalry	0.8046913743019104	new	oWant
+PersonX keep the money	PersonY be really very serious	0.7047759890556335	new	oWant
+PersonX pay well	PersonX really be	0.9144676923751832	head	xWant
+PersonX work day	PersonX be murder	0.6220211982727051	head	xAttr
+PersonX be old	PersonX be you history teacher	0.8136278390884399	head	xWant
+PersonX be old	PersonX have be dream about it	0.5988486409187317	head	xWant
+PersonX be very sorry for loss	PersonX be sure	0.6004916429519653	new	xEffect
+PersonX see PersonY first	PersonX would feel bad	0.6223901510238647	head	xReact
+PersonX get my degree	PersonY ask we	0.8757508397102356	new	oEffect
+PersonX give PersonY	PersonY would give PersonX two charriot of gold	0.8385373950004578	head	oWant
+together they go to concord to call on emerson	PersonY make a farewell trip to boston	0.566293478012085	new	oWant
+PersonX want a quiet place	PersonY crowd of people show up	0.6119459867477417	new	oEffect
+so be i.	PersonY be home free	0.9563986659049988	new	oReact
+PersonX be adam	PersonY cut the jargon	0.7395065426826477	new	oEffect
+that be true	PersonY cover be blow	0.7530935406684875	new	oWant
+PersonX be extremely disappointed	PersonY get from here	0.7600712776184082	new	oEffect
+that be built-in clientele	PersonY would all follow i over second	0.5387455224990845	new	oEffect
+PersonX would come again	PersonX be bore	0.9617851972579956	tail	xAttr
+PersonX ask my sister	PersonX be free	0.940123975276947	head	xAttr
+thing be hopeless	PersonY get stick	0.8117973208427429	new	oEffect
+PersonX get PersonY	PersonX be sure	0.6534782648086548	head	xEffect
+PersonX get my friend	PersonY will be fine	0.7458545565605164	head	oReact
+PersonX would be ruin	PersonX get there	0.9404888153076172	head	xWant
+PersonX knock at door	PersonY come home	0.6789600849151611	head	oReact
+PersonX have be sell a lie	PersonX buy it	0.5139750838279724	tail	xEffect
+PersonX be there with a large group	PersonY be seat quickly	0.7286437153816223	new	oEffect
+PersonX be play with friend	PersonX be lucky	0.8595202565193176	head	xReact
+PersonX would pay for it	PersonY be go to be in trouble	0.9125185608863832	head	oReact
+PersonX take PersonX child	PersonX dispose of body	0.7378861904144287	head	xWant
+PersonX sit at foot	PersonX see PersonX weakness	0.6058087944984436	head	xIntent
+PersonX be restless	PersonX can win back	0.6437176465988159	new	xEffect
+the objection have be withdraw	PersonY have receive from government	0.66237473487854	new	oWant
+PersonX be russian	PersonX read the newspaper	0.913072407245636	tail	xWant
+PersonX take PersonY back	PersonX feel bad	0.830245316028595	head	xIntent
+they have not even	PersonY company be awesome	0.8080371022224426	new	oEffect
+PersonX hate get	PersonX be bear in 1984	0.7148081064224243	new	xAttr
+PersonX meet people	PersonX be responsible	0.901745080947876	head	xAttr
+PersonX take care of it	PersonY owner be hands-on	0.8779062032699585	head	oReact
+PersonX can walk to supermarket	PersonY be good	0.8858904838562012	tail	oWant
+PersonX see PersonY	PersonX feel better	0.9216437935829164	head	xReact
+PersonX be sick	PersonX be indebted for food	0.608490526676178	head	xEffect
+PersonX spend day	PersonX have the day of work today	0.9069861769676208	head	xNeed
+PersonX have a long way	PersonY be free	0.6180666089057922	tail	oEffect
+PersonX be run into arm	PersonX feel so safe	0.592390239238739	new	xNeed
+the suspect be the only PersonX in vehicle	PersonY be decease	0.8904829621315002	tail	oEffect
+PersonX will not get more	PersonX catch up	0.9705265164375304	tail	xWant
+they be so tiny	PersonY actually make a good travel project	0.9187726378440856	new	oWant
+it cost 5	PersonY be ok	0.9404786825180054	tail	oReact
+PersonX have enough money	PersonX be not sure	0.833909809589386	head	xReact
+PersonX feel a anxious throbbing at heart	PersonX turn myself spot to point	0.6505519151687622	new	xEffect
+PersonX be not love	PersonX be good	0.9137523174285888	tail	xNeed
+PersonX be really surprised	PersonX wake up	0.9838062524795532	tail	xEffect
+PersonX be old	PersonX have always manage to save PersonX skin	0.7380117177963257	head	xWant
+PersonX be really scared	PersonX be jinx	0.9072259068489076	head	xWant
+that PersonX throw PersonY away	PersonY have spend day	0.6416633725166321	new	oEffect
+relation be strain	PersonY find much	0.9165605902671814	new	oWant
+PersonX go into walgreens	PersonX be sick	0.7138240933418274	tail	xAttr
+PersonX try to run	PersonY can go you separate way	0.5464727878570557	head	oWant
+PersonX go home	PersonX be not that proud of makeup	0.556006133556366	head	xNeed
+PersonX get cancer	PersonX be wrong	0.7869882583618164	tail	xIntent
+it be not get any simpler	PersonY have a case	0.6338245272636414	new	oWant
+it be the right order	PersonY guy ask we	0.5503796339035034	new	oWant
+PersonX miss PersonX train	PersonX be jealous	0.828090488910675	head	xReact
+we will need	PersonY be at all possible	0.730177104473114	new	oWant
+it be not true	PersonY be go to marry she	0.6344525814056396	new	oWant
+PersonX have get the ring	PersonY of crew have ever see each other	0.6099925041198729	new	oEffect
+PersonX have to make	PersonX be work with material	0.6327898502349854	new	xIntent
+PersonX will feel better	PersonX talk about it	0.609774649143219	new	xIntent
+PersonX take PersonY by arm	PersonX can see	0.9238629341125488	head	xNeed
+PersonX have no idea	PersonY be already late	0.6909748911857605	head	oWant
+PersonX be first hear in '90	PersonY have not really change	0.6960287690162659	new	oEffect
+PersonX throw open the door	PersonX there wait	0.8419501781463623	head	xIntent
+PersonX be look for board	PersonX can ride	0.7052290439605713	tail	xEffect
+PersonX love PersonX job	PersonX intend to stay	0.9655866026878356	head	xEffect
+they be affect first	PersonY teenager be more severe	0.6278926730155945	new	oEffect
+PersonX be old	PersonX be a good american	0.8529769778251648	head	xEffect
+PersonX believe in PersonY	PersonX be bore	0.8225694894790649	tail	xReact
+they fix that	PersonY be get	0.6959370970726013	new	oEffect
+PersonX husband be cheat on PersonX	PersonX find receipt hotel in wallet	0.7511538863182068	new	xNeed
+the good reasonably price	PersonY be friendly	0.5710362195968628	tail	oReact
+PersonX go to store	PersonX be convince	0.6606189608573914	head	xAttr
+PersonX will see	PersonY would not have to earn money in way	0.8265680074691772	new	oWant
+PersonX give PersonY time	PersonY have a health scare month	0.8369749188423157	head	oWant
+PersonX love this place much	PersonX love you	0.6237186193466187	tail	xNeed
+PersonX face be	PersonX be pale	0.8696388602256775	new	xWant
+PersonX call PersonY	PersonX stay rudgate goon	0.6079597473144531	head	xEffect
+PersonX die year	PersonY metastasize to liver	0.6203344464302063	head	oReact
+we end up	PersonY come here on date	0.5964406728744507	new	oEffect
+manfaloot with regiment save the bimbashi	PersonY bimbashi be superstitious	0.904790461063385	new	oReact
+PersonX go to store	PersonX be leave town day	0.6977760195732117	head	xIntent
+PersonX shall carry it to end	PersonY i present you to niece	0.6824536323547363	new	oEffect
+the official figure signal a rebound in economy	PersonY be not sure	0.68265300989151	new	oEffect
+agent doherty open the garage	PersonY guy start firing	0.531359851360321	new	oWant
+PersonX be not as close my family	PersonX grow up	0.8575193285942078	tail	xIntent
+a round eye stare	PersonY woman might have escape	0.5281029343605042	new	oWant
+PersonX be the best	PersonY love PersonX accent	0.5894244313240051	new	oEffect
+PersonX have day	PersonX be a good fellow	0.9798943400382996	head	xAttr
+there be no copy	PersonY have have time	0.7271575927734375	new	oEffect
+PersonX marry PersonX first husband money title	PersonX be set	0.8009235262870789	new	xReact
+PersonX be pay for service	PersonX gain experience	0.7729092240333557	tail	xWant
+PersonX kind laugh	PersonY take care of i	0.5781324505805969	new	oEffect
+PersonX be on deck	PersonY vessel strike	0.6710329055786133	new	oReact
+it smell really good	PersonY pull up	0.635086178779602	new	oWant
+PersonX be sorry	PersonY love PersonX	0.9047141075134276	tail	oWant
+PersonX watch it	PersonX ask i	0.663475751876831	head	xEffect
+PersonX be a young girl	PersonX be not happy	0.6147923469543457	tail	xIntent
+PersonX rub PersonX eye	PersonY be still not sure	0.994923174381256	head	oReact
+it be just easier	PersonY want to record	0.9176253676414492	new	oEffect
+PersonX want a copy	PersonY ask PersonX	0.738167405128479	tail	oEffect
+it have not have happen	PersonY might have drive	0.6098346710205078	new	oEffect
+PersonX be get a restrain order	PersonX be get	0.8148077726364136	new	xWant
+PersonX live in east	PersonY refuse to let	0.6096569895744324	new	oEffect
+PersonX go to store	PersonY beat everyone	0.7763363718986511	head	oEffect
+PersonX want PersonY	PersonY have promise	0.5472742915153503	head	oWant
+PersonX become ill	PersonX have find he	0.8400552868843079	head	xEffect
+PersonX give PersonY	PersonY be a trust	0.9606114029884338	head	oReact
+PersonX be old	PersonX be proud	0.6886031627655029	head	xAttr
+PersonX have a good lunch	PersonX will feel better	0.7187080383300781	new	xWant
+here PersonX be	PersonY be not sure	0.5012428164482117	tail	oReact
+PersonX see PersonX dog	PersonY be look forward	0.9901520609855652	head	oReact
+price be pretty decent	PersonY be excellent	0.7101422548294067	new	oEffect
+PersonX respond quickly	PersonY should not take long	0.7345514297485352	new	oWant
+PersonX be still a PersonY	PersonX have PersonY 's duty	0.9108392596244812	new	xWant
+it probably will not be	PersonY new digimon be bear	0.5366220474243164	new	oEffect
+PersonX eat meat	PersonY be dead	0.9820813536643982	tail	oReact
+one plane in design be not a derivative of something	PersonY be airbus 's a3xx	0.9636578559875488	new	oReact
+PersonX love meat	PersonX have see	0.9428578019142152	head	xAttr
+PersonX wash my hand	PersonY still smell	0.8932617902755737	head	oEffect
+PersonX come back to PersonY	PersonX be there	0.8812819123268127	head	xAttr
+1 % be asian	PersonY % be hispanic	0.6346124410629272	new	oEffect
+PersonX go back to place	PersonX be afraid	0.8706046342849731	head	xReact
+PersonX be old	PersonX have no clue	0.8530277013778687	head	xWant
+PersonX save PersonX money	PersonX be a freelancer	0.977711021900177	head	xAttr
+PersonX work night	PersonX use to be able	0.9201738834381104	head	xReact
+PersonX be not go to discuss my business with PersonY	PersonY be about PersonY business	0.7865921258926392	new	oWant
+PersonX eat everything	PersonX leg be break	0.990581214427948	head	xAttr
+PersonX succeed PersonX father	PersonX be a hero	0.8982671499252319	head	xReact
+PersonX be old	PersonX be on PersonX game	0.7868477106094359	head	xEffect
+PersonX be rant	PersonX deal day to day	0.8391810059547424	new	xNeed
+it be on a busy street	PersonY only downside be the parking	0.8485101461410522	new	oWant
+PersonX be confuse	PersonY have two couple	0.7612534761428833	new	oWant
+PersonX family soon move	PersonX graduate from school	0.5375486016273499	tail	xEffect
+PersonX be not sure	PersonX would want to see	0.5919249057769775	new	xNeed
+PersonX add water	PersonX be go to sin	0.660364031791687	head	xWant
+PersonX be quite empty here	PersonX be afraid	0.9122626185417176	tail	xAttr
+PersonX see PersonY again	PersonX be in love with PersonY	0.8178131580352783	tail	xReact
+PersonX get PersonX money	PersonY have ever have	0.5329571962356567	head	oWant
+we will not return again	PersonY place be so overhyped	0.6631060838699341	new	oWant
+PersonX be go on memory	PersonX be sorry	0.9033958911895752	tail	xAttr
+PersonX live in area	PersonX would order from they	0.6648726463317871	head	xWant
+PersonX be old	PersonY consummate he marriage	0.7642418742179871	head	oWant
+PersonX read the bible	PersonX be year old	0.8703071475028992	head	xReact
+we order quickly	PersonY ask for food	0.8535585403442383	new	oEffect
+we come here night in hope	PersonY be amazing	0.8035117387771606	tail	oReact
+PersonX shake my head	PersonX be happy	0.8373239040374756	head	xReact
+PersonX want to quit	PersonX be hope	0.8401941657066345	head	xAttr
+PersonX lose my son	PersonX get back	0.7489816546440125	head	xEffect
+PersonX be old	PersonX have actually use a chair	0.7483160495758057	head	xEffect
+PersonX want a end	PersonX would not screw	0.5618805885314941	new	xIntent
+PersonX give up	PersonX get a refund	0.8581483960151672	tail	xWant
+PersonX could be PersonY father	PersonY give up the love of life	0.7283641695976257	new	oWant
+PersonX be old	PersonX be the love of life	0.7445210218429565	head	xWant
+PersonX be pretty happy	PersonX be afraid	0.8996595144271851	head	xAttr
+PersonX go back	PersonX be look for strength	0.9374569058418274	head	xNeed
+PersonX be super excite	PersonX ever eat on network	0.7519948482513428	new	xNeed
+PersonX still have they	PersonX regret it	0.6511301994323729	tail	xWant
+PersonX meet a girl	PersonY be maybe lonely in way	0.6856796145439148	head	oEffect
+PersonX want PersonY	PersonY have the right	0.5607777237892151	head	oEffect
+PersonX spill PersonX drink	PersonY have be come here for year	0.8875778317451477	head	oEffect
+PersonX stop go	PersonX have the opportunity	0.5762194991111755	head	xEffect
+PersonX be a PersonY	PersonY can assure you	0.7834883332252502	new	oWant
+the parking be around the building	PersonY be cold inside	0.8320276737213135	new	oWant
+PersonX give PersonY advice	PersonX be in my dream	0.875640332698822	head	xReact
+PersonX will come over	PersonX be cool	0.746925950050354	tail	xReact
+PersonX definitely understand PersonY point of view	PersonX thank PersonY	0.6468512415885925	tail	xWant
+tax be low	PersonY economy be great	0.6160879135131836	new	oEffect
+PersonX be king of jaguar	PersonX be my favorite wrestler	0.8573741912841797	new	xWant
+india attain independence in august	PersonY the landmark action of plan launch government in 1951	0.5353955626487732	new	oEffect
+PersonX throw thing	PersonX would get upset	0.7008038163185121	head	xReact
+PersonX look away from PersonY	PersonY must go with PersonX	0.8528574705123901	head	oWant
+PersonX give PersonY a ride	PersonY will kill you	0.9250445365905762	head	oWant
+a waitress come to take my order	PersonY sit down	0.9405916929244996	tail	oWant
+PersonX have time	PersonY be okay	0.8164441585540771	tail	oWant
+PersonX like the decor	PersonX like the ambiance of place	0.7388530969619751	new	xNeed
+PersonX go to movie	PersonY be lousy	0.8653280735015869	head	oEffect
+PersonX be frighten	PersonY be nothing	0.8702158927917479	tail	oReact
+heaven be merciful	PersonY be send to you	0.6060088276863098	new	oWant
+a poise bureaucracy be turn into dictatorship	PersonY be successful	0.9235931038856506	tail	oReact
+PersonX change to cluster	PersonY be remarkable	0.7366083860397339	new	oEffect
+PersonX extend the same toleration to himself	PersonX be not disgust by negligence	0.6302773952484131	new	xNeed
+PersonX be old	PersonX be play in park	0.6981642246246338	head	xWant
+PersonX would not stop	PersonX give up	0.88531094789505	head	xAttr
+PersonX make a offer	PersonX be so awesome	0.5958323478698729	head	xAttr
+PersonX catch a whiff of revenge	PersonX lock you in tank	0.5965210795402527	new	xWant
+PersonX want to try it out	PersonX be joke	0.9132655262947084	head	xAttr
+PersonX be polite	PersonX be safe	0.6292862892150879	tail	xWant
+PersonX be old	PersonX be clever	0.6329407691955566	head	xEffect
+that be really good	PersonY will see	0.8477383852005005	new	oWant
+it all happen in instant	PersonY be go	0.5772430300712585	new	oWant
+PersonX be out front	PersonX be wait for you	0.5347001552581787	new	xEffect
+it be ok	PersonY have the barbacoa	0.6375000476837158	new	oWant
+PersonX would have agree with PersonY	PersonY could have end the sentence there	0.9226531982421876	new	oEffect
+PersonX brother be a despicable disgraceful PersonY	PersonY PersonX able live	0.8391842842102051	new	oWant
+PersonX use they daily	PersonX like they much	0.6263186931610107	new	xNeed
+PersonX be clever	PersonX have no air of badness at all	0.504646897315979	new	xIntent
+we show up	PersonY door 's lock	0.8435334563255309	new	oEffect
+PersonX have to go home	PersonY have see	0.9945547580718994	head	oReact
+PersonX give PersonY a good life	PersonY be grateful	0.934355080127716	tail	oReact
+PersonX be invite to party	PersonY explain the menu throughly	0.8927931189537048	head	oWant
+PersonX want PersonY	PersonX want to talk to PersonY	0.8288643360137941	head	xEffect
+now that be remedy	PersonY be welcome	0.5816977620124817	tail	oEffect
+PersonX apply for job	PersonX be listen	0.8636929988861084	head	xReact
+PersonX be in a good mood	PersonX be pretty good at it	0.5175412297248839	head	xEffect
+PersonX take off my hat	PersonY be not here	0.7540601491928101	head	oEffect
+PersonX be excited	PersonX have the good fortune	0.5418430566787721	head	xEffect
+PersonX should be a liar	PersonY it be prove by adventure	0.7776532769203186	new	oEffect
+PersonX go away	PersonX give she	0.8531440496444702	tail	xNeed
+PersonX have order	PersonY food come out	0.5009282231330872	new	oEffect
+the food be fine	PersonY be really disappointed	0.7863771319389343	new	oEffect
+PersonX will flip	PersonX get they again	0.9520601034164428	new	xNeed
+PersonX want PersonY	PersonX be kid myself	0.8594725131988525	head	xEffect
+PersonX go out	PersonY could come	0.8074849843978882	new	oEffect
+it be the first time	PersonY first time beat the patriots in championship	0.675413966178894	new	oWant
+PersonX see PersonY	PersonX mess up	0.862157940864563	head	xEffect
+PersonX prevent PersonY	PersonX deprive yourself	0.6343376040458679	head	xIntent
+PersonX adore PersonY	PersonY be old	0.6708351969718933	new	oEffect
+PersonX pull down my little panties	PersonX even finish	0.9251571297645568	new	xWant
+PersonX be travel a distance	PersonY want you be particularly nice to girl	0.9784263968467712	new	oReact
+PersonX get really angry	PersonX kinda lose control of roar	0.8945692777633667	head	xEffect
+PersonX persuade himself	PersonX marry she	0.6996889114379883	tail	xWant
+PersonX take PersonY place	PersonY will kill PersonY	0.9463166594505308	head	oWant
+it have a lot	PersonY like this subreddit	0.7700641751289368	new	oWant
+PersonX listen to alot of rock	PersonX get up	0.939879298210144	tail	xWant
+PersonX be be honest	PersonY be weak	0.6478610038757324	tail	oReact
+PersonX be old	PersonX go out	0.5105335712432861	head	xEffect
+PersonX be not sure	PersonX make this up	0.8497877717018127	new	xNeed
+PersonX be constantly get	PersonX be a heel	0.9055794477462769	new	xReact
+PersonX take it	PersonY better question be	0.8103851079940796	new	oEffect
+PersonX lock my key in car	PersonX be plan	0.958301603794098	head	xAttr
+PersonX be be here	PersonY have ever be here	0.6899592876434326	new	oEffect
+PersonX have be through lot	PersonY be no big deal	0.5015619993209839	new	oEffect
+PersonX have something	PersonY be bad	0.9931806325912476	tail	oReact
+PersonX take PersonX life	PersonX be catch	0.6777883768081665	head	xAttr
+PersonX look at PersonY	PersonY blood have drain from face	0.6720268726348877	head	oWant
+the night overtake PersonX	PersonY make a fire	0.6679074764251709	tail	oWant
+PersonX love PersonY work	PersonX be not sure	0.8596506118774414	head	xReact
+PersonX come to PersonY	PersonY will take you for son	0.8673036694526672	head	oWant
+there be a long interval	PersonY be see	0.9390533566474916	tail	oReact
+PersonX watch all it today	PersonY be great	0.8654705286026001	tail	oWant
+PersonX love baseball	PersonX be not sure	0.9734798073768616	head	xNeed
+the set be very nice	PersonY be not so large	0.7354829907417297	new	oReact
+PersonX get back in car	PersonX be right	0.9259130358695984	head	xEffect
+PersonX need it	PersonX give up	0.9183883666992188	tail	xEffect
+PersonX be old	PersonY 's name be really walter	0.6347949504852295	head	oWant
+PersonX take a picture	PersonY be not sure	0.73831707239151	head	oWant
+PersonX take the picture	PersonY be busy	0.9826671481132508	head	oReact
+PersonX ask PersonY pardon	PersonY be good	0.8982681035995483	head	oReact
+PersonX feel sorry for PersonY	PersonX excuse PersonY	0.9281060695648192	head	xWant
+PersonX stand on foot	PersonX come really close	0.9142272472381592	head	xReact
+PersonX be pretty good with sword	PersonY would be nice	0.5735956430435181	new	oEffect
+PersonX want child	PersonY be pregnant	0.9145678281784058	head	oWant
+PersonX be go back forth to house	PersonY madame have a son	0.6392312049865723	new	oEffect
+PersonX weigh myself	PersonX go to bed	0.5408663153648376	new	xReact
+it take 10 minute	PersonY order a homeburger	0.5920611619949341	new	oEffect
+PersonX take PersonY place	PersonX just wonder	0.5644804835319519	head	xIntent
+that be right	PersonY run the test	0.7083789706230164	new	oEffect
+we be celebrate we 1 year anniversary	PersonY absolutely love the place	0.5178812146186829	new	oEffect
+PersonX pull himself up	PersonX grasp it	0.70122891664505	new	xEffect
+PersonX get PersonY hope up	PersonX be so sorry	0.9197285771369934	head	xAttr
+PersonX meet PersonY at park	PersonY keep go	0.7426173090934753	head	oEffect
+PersonX be old	PersonY be no wonder	0.7817338705062866	head	oWant
+now we be kiss	PersonY look at i	0.8963804841041565	tail	oEffect
+PersonX get a good deal	PersonY PersonX feel	0.8420620560646057	head	oWant
+PersonX throw it back	PersonX will get it	0.6613004803657532	head	xNeed
+the u.s. senate confirm the award on may	PersonY andrew johnson nominate general	0.8906241655349731	new	oEffect
+PersonX be afraid	PersonY be write in haste	0.5217354893684387	new	oWant
+PersonX pay tax	PersonX get service in return	0.683303952217102	head	xEffect
+PersonX look away	PersonX face flush	0.9828560948371888	head	xAttr
+PersonX be home free	PersonX can get to anger	0.6919309496879578	new	xWant
+PersonX be free	PersonX be healthy	0.6024340987205505	tail	xAttr
+PersonX walk alone	PersonY will be well	0.5672107338905334	head	oReact
+PersonX find a job	PersonX have to feed they	0.6211937665939331	head	xNeed
+PersonX want PersonY	PersonX want to write	0.8219533562660217	head	xWant
+PersonX glance around room	PersonX be out sight	0.8656253218650818	head	xReact
+PersonX see PersonY	PersonX be so happy	0.5213733911514282	head	xIntent
+PersonX remember cry	PersonX be in pain	0.9764738082885742	tail	xAttr
+PersonX be in charge	PersonY get back	0.7981928586959839	tail	oWant
+PersonX eat slow	PersonX peel the fruit	0.627403199672699	tail	xNeed
+we have a husky	PersonY be worry	0.920042872428894	tail	oReact
+PersonX be old	PersonX be make a ruckus	0.7351022958755493	head	xEffect
+PersonX could back the way	PersonX be frightened	0.8438051342964172	tail	xAttr
+PersonX be feel okay	PersonY ask PersonX often	0.8993046879768372	new	oWant
+PersonX open door	PersonX feel better	0.9155474305152892	head	xAttr
+price be even better	PersonY service be great	0.6214739680290222	new	oEffect
+PersonX be go backwards	PersonX be lift	0.9450600147247314	tail	xAttr
+it get quite packed	PersonY place be small	0.6533392071723938	new	oWant
+they be simply impossible	PersonY impossible event have happen	0.7162275910377502	new	oEffect
+this game need	PersonY should be okay	0.5825287699699402	new	oEffect
+PersonX forget that then	PersonY will be fine	0.8791964054107666	new	oReact
+food be cold	PersonY be very slow	0.9052363634109496	new	oReact
+PersonX take PersonY	PersonX be so glad	0.5083422660827637	head	xAttr
+there be not a doctored yummy in house	PersonY will not get excite	0.8226764798164368	new	oEffect
+PersonX invite PersonY	PersonY white queen smile feebly	0.5436573624610901	head	oWant
+PersonX get the chance	PersonY be correct	0.5272806882858276	head	oReact
+PersonX pay my bill	PersonX be good	0.890310525894165	head	xAttr
+PersonX be hungry	PersonX live in area	0.9091955423355104	tail	xNeed
+PersonX get the part	PersonX be beautiful	0.9152357578277588	head	xIntent
+PersonX be very gay	PersonX put she with laugh	0.6128367185592651	new	xEffect
+PersonX get PersonY	PersonY door be a hobby shop	0.6235157251358032	head	oReact
+PersonX want PersonY	PersonY have not see she	0.8684432506561279	head	oEffect
+PersonX assure PersonY	PersonY have to be in washington	0.8420055508613586	new	oEffect
+PersonX shake PersonX head	PersonX be lie	0.8637266159057617	head	xAttr
+PersonX be here	PersonY be not memorable	0.7203736901283264	new	oWant
+PersonX call PersonY	PersonY would never meet PersonX	0.90190851688385	head	oWant
+PersonX be marry	PersonY union have be bless with child	0.5098333954811096	new	oEffect
+PersonX can not go back	PersonX get out of water	0.8630687594413757	tail	xWant
+it be funny	PersonY be theft	0.8308984637260437	new	oWant
+PersonX want to make a good impression	PersonX come back	0.6018216609954834	head	xAttr
+PersonX take PersonY	PersonY shall eat it	0.8516690731048584	head	oEffect
+PersonX run a business	PersonX be a sophomore	0.7921015620231628	new	xWant
+we can watch it together on tv	PersonY come over	0.6898070573806763	new	oEffect
+PersonX leave that	PersonX be the same age	0.7885069847106934	new	xIntent
+PersonX be old	PersonY have be in the same room long	0.6647229194641113	head	oWant
+PersonX be faithful	PersonX be pervert	0.6384410858154297	tail	xAttr
+PersonX be old	PersonX be a child	0.751853346824646	head	xEffect
+PersonX want PersonY	PersonY to come	0.7183606028556824	head	oWant
+PersonX smoke cigarette	PersonX barely dream	0.789840579032898	head	xEffect
+PersonX want PersonY	PersonY beckett be angry	0.819799542427063	head	oReact
+PersonX be really glad	PersonY be good for he	0.8805393576622009	new	oEffect
+PersonX be simply ask	PersonY recollection can be refresh	0.5336346030235289	new	oEffect
+it impede the development of technology	PersonY advancement will always side	0.6177027225494385	new	oWant
+PersonX smell bad	PersonX look good	0.8869519829750061	tail	xIntent
+mushroom be really good	PersonY cocktail be	0.8841097950935364	new	oEffect
+PersonX love a good patio	PersonY have get	0.6670795083045961	new	oEffect
+PersonX get beat up	PersonY turn round	0.8610354065895081	head	oEffect
+PersonX look at PersonY	PersonY can not pee	0.8162768483161926	head	oEffect
+it be like impossible	PersonY should just remove it entirely	0.7066648006439209	new	oEffect
+PersonX be try to avoid PersonY	PersonY be have a facial	0.535243034362793	new	oWant
+PersonX make it just in time	PersonY be happy	0.9841203093528748	tail	oWant
+PersonX owe other much money	PersonX have a baby	0.8705039620399475	tail	xWant
+PersonX get a dog	PersonX be on leave	0.8502935767173767	head	xAttr
+PersonX feel ashamed	PersonY be come	0.7301821112632751	head	oEffect
+PersonX hit the accelerator	PersonY be smart	0.979842245578766	tail	oReact
+PersonX enjoy it much	PersonY soup be really rich	0.9549217224121094	head	oReact
+PersonX could use	PersonX get away	0.7596157789230347	tail	xReact
+service madrid castell n ave train cover the distance hour minute	PersonY train be schedule	0.8013955354690552	new	oWant
+PersonX be not come back	PersonY be wrong	0.8889199495315552	tail	oReact
+they ask PersonX	PersonY order a bloody mary	0.7451449632644653	new	oEffect
+PersonX swim in lake	PersonX be bear there	0.8390355110168457	head	xReact
+PersonX be old	PersonX be awful	0.7066415548324585	head	xAttr
+meadow they raise a bale on high	PersonY in southlands weave	0.7205864787101746	new	oWant
+PersonX want PersonY	PersonY whack my partner	0.581260085105896	head	oWant
+PersonX will have to update this review	PersonX try the food	0.7821546196937561	new	xNeed
+PersonX have any last word	PersonY ask PersonX	0.8861393332481384	tail	oEffect
+PersonX move PersonX arm	PersonX assure i	0.932072103023529	head	xWant
+PersonX feel trap	PersonX could not leave	0.5552598237991333	head	xEffect
+PersonX feel confident	PersonY be go well	0.9366504549980164	head	oReact
+PersonX look closely	PersonY be just energy	0.8386619687080383	new	oReact
+PersonX use a junior-size shot	PersonX be be ban from competition	0.6215522289276123	new	xNeed
+PersonX make fun of PersonY	PersonY catch PersonX	0.8268833756446838	head	oEffect
+PersonX give PersonX PersonX hand	PersonX take PersonX up PersonX into chariot	0.8802918195724487	head	xWant
+PersonX want to be good	PersonY be great	0.9141052961349488	tail	oReact
+PersonX ask one the worker	PersonY go and	0.8932054042816162	tail	oWant
+PersonX be grateful to hall	PersonX have benefit	0.5954061150550842	tail	xWant
+my car be steal	PersonY be attack	0.6651219129562378	new	oWant
+PersonX have the pc version	PersonY be much the same	0.5657652020454407	new	oEffect
+we have a great time	PersonY friend of mine bring i here for time	0.888210117816925	new	oWant
+PersonX use to drill the boy	PersonX be home	0.7900364398956299	tail	xAttr
+PersonX give PersonY	PersonY be not sure	0.6616556644439697	head	oEffect
+PersonX get a mouthful of breath	PersonY get a bagful of nothing	0.6540352702140808	new	oEffect
+PersonX see PersonX dog	PersonY staff be very friendly	0.978025496006012	head	oReact
+PersonX would make	PersonX be super	0.8897531628608704	head	xAttr
+it be time	PersonY be all prisoner of gossip	0.6105263233184814	new	oWant
+PersonX look up PersonY fluffy facebook page	PersonX need something	0.8778395056724548	tail	xIntent
+PersonX go to store	PersonX break a	0.9466860890388488	head	xWant
+PersonX always go	PersonX be not ok	0.843683123588562	head	xAttr
+PersonX be gon na be we fucking muscle	PersonX be gon na be we muscle	0.5206752419471741	new	xAttr
+this sound great	PersonY be new to city	0.8307422995567322	new	oWant
+PersonX can beat it	PersonX can fight this disease	0.6967388391494751	new	xWant
+PersonX be old	PersonX be kiss	0.7630283832550049	head	xWant
+PersonX want more	PersonX get into they	0.70018470287323	head	xEffect
+PersonX get ta make sure	PersonX hire a hitter pull off a job	0.7884888052940369	new	xNeed
+PersonX look around	PersonX start throw PersonX hand into it	0.6768631339073181	new	xEffect
+PersonX talk to friend	PersonX get a baby come	0.6458166837692261	head	xIntent
+there be plenty parking	PersonY location be perfect	0.5677927732467651	new	oEffect
+they open ago	PersonY have be here	0.8167476058006287	new	oWant
+PersonX have no time	PersonX be too busy	0.919195830821991	tail	xAttr
+that be the only video	PersonY be weird	0.9713788032531738	tail	oReact
+now PersonX be try to drown PersonY in caviar	PersonY drown my rolls-royce	0.5781464576721191	new	oWant
+it be still good	PersonY lose 14 lb	0.5405365228652954	new	oEffect
+PersonX can not see PersonY	PersonX can not read PersonY aura	0.7664022445678711	new	xWant
+PersonX go to house	PersonY give PersonX excuse	0.8875150680541992	head	oEffect
+PersonX have work	PersonY be this thing call	0.7670154571533203	new	oEffect
+PersonX set sail	PersonY day would come	0.6440947651863098	new	oWant
+PersonX turn PersonY away	PersonY be happy here	0.7064433097839355	head	oReact
+PersonX have the lobster roll	PersonY be ok	0.8331212401390076	tail	oWant
+PersonX live to be old	PersonY ancestor come over sea	0.5668577551841736	new	oWant
+PersonX want to give up	PersonX be at work	0.9824191331863404	head	xAttr
+PersonX start scream	PersonY be still alive	0.9893442988395692	tail	oReact
+PersonX sit in chair	PersonX just leave	0.8689256310462952	head	xAttr
+PersonX graduate top of class in resolution	PersonX have be involve in discussion	0.6205942034721375	new	xAttr
+PersonX go to store	PersonX be not impressed	0.6352062821388245	head	xIntent
+PersonX be insane	PersonX be get	0.8768241405487059	tail	xAttr
+PersonX be not have it	PersonY he be try to cut PersonX out	0.8098059892654419	new	oWant
+PersonX be heart break	PersonX be strong	0.7574197053909302	head	xWant
+it be a major	PersonY people swear by it	0.5032206773757935	new	oWant
+we be impressed	PersonY be we first time have	0.8073320388793945	new	oWant
+the police be search	PersonY will find she soon	0.8887406587600708	new	oWant
+PersonX call PersonY	PersonY check it out	0.9270319938659668	head	oWant
+we order the tasting menu	PersonY be go to be a problem	0.772720992565155	new	oEffect
+time PersonX sit	PersonY wait for call	0.8703464269638062	tail	oEffect
+PersonX go to PersonY	PersonX go along	0.6350337862968445	head	xIntent
+PersonX be work on thing immediately	PersonX go in room	0.939083993434906	tail	xWant
+PersonX turn into PersonY	PersonX be not crazy	0.5049654245376587	tail	xEffect
+michigan strike early	PersonY harbaugh throw a touchdown pass to kattus	0.8908118009567261	new	oWant
+PersonX talk to PersonY	PersonX will not get in trouble	0.7717863917350769	head	xWant
+we have small child	PersonY be friendly	0.9818007946014404	tail	oReact
+PersonX break the law	PersonX get catch	0.9644209742546082	head	xAttr
+the march begin	PersonY be million	0.7274851799011229	new	oEffect
+PersonX have any room	PersonX would get it again	0.6076101660728455	new	xEffect
+PersonX turn the key in lock	PersonX rise to foot	0.614500880241394	head	xNeed
+PersonX put PersonY	PersonX be cheating on PersonY	0.6042683124542236	head	xAttr
+PersonX will come away with PersonY	PersonY be rid of PersonX	0.9282647371292114	new	oReact
+PersonX get day	PersonX wind up at bottom	0.7512878179550171	new	xEffect
+PersonX feel hopeless	PersonY look tired	0.9009715914726256	head	oReact
+PersonX be old	PersonX be the love of life	0.5195012092590332	head	xEffect
+PersonX have no right	PersonY be up	0.8798388838768005	tail	oReact
+we all enjoy we meal	PersonY be happy	0.9772375226020812	tail	oReact
+PersonX see PersonY	PersonX be not really fine	0.9157165288925172	head	xReact
+PersonX come out	PersonY may be ok	0.6175299882888794	new	oWant
+we should fall in heat	PersonY day of victory dawn	0.6547937989234924	new	oWant
+we lose sight of they	PersonY turn into street	0.8131697773933411	new	oWant
+PersonX be find	PersonY need not be surprise	0.9640276432037354	new	oReact
+PersonX move PersonX arm	PersonX be awesome	0.7099048495292664	head	xEffect
+PersonX come from sampa	PersonY be a proper house	0.5309698581695557	new	oEffect
+PersonX beat the game	PersonX be gon na have fun	0.8591160774230957	head	xAttr
+PersonX eat dinner	PersonX be sorry	0.8740159273147583	head	xEffect
+PersonX want PersonY	PersonY be a great spot	0.5060928463935852	head	oWant
+PersonX fall to knee	PersonX tumble backwards	0.9090616106987	head	xEffect
+PersonX make a mistake	PersonY destroy my marriage	0.8030159473419191	new	oWant
+PersonX take PersonX money	PersonX be bear	0.7116417884826659	head	xIntent
+now PersonX be sad	PersonY really want	0.6855740547180176	new	oWant
+PersonX enter my office	PersonX have be wait	0.8732050061225891	head	xAttr
+it be degree	PersonY would have prefer	0.6559709310531616	new	oWant
+PersonX be go to throw up	PersonX be so full	0.8384658694267273	head	xAttr
+PersonX will never see PersonY again	PersonX wife will be dead	0.8153244853019714	new	xIntent
+PersonX have a company	PersonY be so	0.8873556852340698	new	oReact
+'s cover PersonX mouth	PersonY come home	0.8956414461135864	tail	oWant
+PersonX take PersonY	PersonX hold PersonY in arm	0.827600359916687	head	xEffect
+PersonX be at home	PersonX be happy	0.910813808441162	tail	xEffect
+that settle it	PersonY thing be decide	0.518035888671875	new	oEffect
+PersonX see a suspect in building	PersonX wait in car	0.8192398548126221	tail	xWant
+PersonX get a letter	PersonX be clean	0.9322299957275392	head	xReact
+PersonX eye be bright	PersonY be a touch of color	0.8392519950866699	new	oEffect
+PersonX would have by now	PersonX be go to materialize	0.8280659914016724	new	xNeed
+PersonX be in ontario	PersonX have one	0.8138577342033386	tail	xIntent
+PersonX be old	PersonY opera be successful	0.7529138922691345	head	oWant
+PersonX become aware	PersonX be on PersonX own	0.65365070104599	head	xEffect
+PersonX be truck driver	PersonX live alone	0.6826561093330383	tail	xEffect
+the movement become	PersonY all be still	0.8202510476112366	new	oWant
+PersonX want to eat	PersonX be marry	0.9770593047142028	head	xEffect
+PersonX be nervous	PersonX be safe	0.5419145226478577	head	xReact
+PersonX want PersonY	PersonY be PersonY life	0.9960921406745912	head	oReact
+PersonX be happy to night	PersonX be tired	0.8677564859390259	tail	xReact
+PersonX cry with joy	PersonX be innocent	0.9528781771659852	head	xAttr
+we walk in afternoon	PersonY be very busy	0.6550961136817932	new	oEffect
+PersonX still want to walk	PersonY be upto	0.6216817498207092	new	oEffect
+PersonX find a great one	PersonY have something	0.8011270761489868	tail	oEffect
+it be south	PersonY we be actually deal with climate	0.6940946578979492	new	oEffect
+PersonX make PersonY decision	PersonX woukfa quit	0.628128170967102	head	xEffect
+PersonX feed they	PersonY be very jealous of they	0.5926075577735901	new	oEffect
+PersonX go to house	PersonX have get it in bag	0.8457469344139099	head	xEffect
+PersonX ask PersonX	PersonX be a new boy	0.9003263711929321	head	xAttr
+PersonX put down a mil one of these	PersonX find out	0.6696420907974243	tail	xEffect
+PersonX be very naive	PersonX be the quiet kid	0.5687500238418579	new	xNeed
+PersonX ask PersonX sister	PersonX be scared	0.9338730573654176	head	xIntent
+PersonX will be ok	PersonX be use	0.907826840877533	tail	xAttr
+PersonX just drive along	PersonX be oblivious to thing	0.6935699582099915	new	xEffect
+PersonX go day	PersonX little boy be bear	0.5681130290031433	head	xNeed
+PersonX would go back to behavior	PersonY it evolve into murder	0.765014111995697	new	oEffect
+PersonX give PersonY	PersonX be a good shot	0.664722740650177	head	xIntent
+they be pretty open	PersonY would not need one	0.5456533432006836	new	oWant
+PersonX climb the mountain	PersonX could see	0.5537307858467102	head	xNeed
+PersonX be a white PersonY	PersonY be interested	0.914101779460907	tail	oWant
+PersonX will help	PersonY be PersonX fault	0.9158450961112976	head	oReact
+PersonX have day	PersonX just wan na binge watch	0.8909415006637573	head	xEffect
+it be not crowd	PersonY ambiance be wonderful	0.902843713760376	new	oWant
+it be mess up	PersonY reserve the right amend this	0.844115674495697	new	oEffect
+we will meet	PersonY have not be in age	0.7279432415962219	new	oEffect
+we fail to roll back PersonX aggression	PersonY set great store on need	0.8246692419052124	new	oWant
+PersonX try to end the cycle of neglect	PersonY hit PersonX with neglect	0.5038435459136963	new	oWant
+staff be very nice	PersonY food be good again	0.6860344409942627	new	oReact
+PersonX love my dad	PersonX be serious	0.8858797550201416	head	xAttr
+PersonX be marry	PersonX marry i	0.8917450904846191	tail	xWant
+PersonX get a interior decorator	PersonX take the money	0.6873468160629272	tail	xWant
+PersonX be give everything	PersonX be more christmassy than anybody	0.7604895234107971	new	xReact
+PersonX be lie right	PersonX be catch	0.7580442428588867	tail	xReact
+PersonX be old	PersonX be sore	0.7092679738998413	head	xWant
+maybe there be PersonX there	PersonY be watch we	0.5294965505599976	new	oEffect
+we will take it from there	PersonY want you run this back to boss	0.8321866393089294	new	oEffect
+PersonX play everyday	PersonX be here from sweden	0.9366875290870668	head	xAttr
+PersonX arrive home	PersonX get my food	0.6289532780647278	head	xNeed
+PersonX make dinner	PersonX be sure	0.6350164413452148	head	xReact
+PersonX suffocate PersonY	PersonY be in my head	0.9492539167404176	new	oReact
+PersonX miss stuff	PersonX be sure	0.8428452014923096	tail	xAttr
+the puppy be okay	PersonY be wrong	0.5679794549942017	tail	oWant
+PersonX sit with child	PersonY come away	0.5361132025718689	new	oEffect
+PersonX be old	PersonX have be a fan of hers	0.8042175769805908	head	xWant
+PersonX have a problem with alcohol	PersonX need help	0.9148634672164916	tail	xNeed
+ye shall eat PersonX fill	PersonY land shall yield she fruit	0.8087192177772522	new	oEffect
+some be atheists	PersonY be true	0.6616495847702026	new	oEffect
+PersonX run into lady	PersonX go to wedding	0.9540395140647888	tail	xWant
+PersonX meet PersonY	PersonY have be a ongoing thing	0.855473518371582	head	oReact
+PersonX be get sick	PersonX be fine	0.933058261871338	head	xWant
+PersonX change PersonX mind	PersonY need to be in a home	0.7915156483650208	head	oReact
+PersonX see PersonY for time	PersonX return to thee	0.8745668530464172	head	xWant
+PersonX be ready	PersonX accept that	0.7381872534751892	new	xWant
+PersonX take a seat	PersonX be offer a beverage	0.6043793559074402	head	xEffect
+none of asshole will help PersonX up	PersonY feel down	0.8041085004806519	new	oWant
+hot girl get into party	PersonY can see that	0.62306147813797	new	oWant
+PersonX will want to hit the ground running	PersonY be sure	0.9637085795402528	tail	oReact
+the crew member be award four point	PersonY ' battery bring down a enemy aircraft	0.8532660603523254	new	oWant
+every snowflake be like a little white bee	PersonY snow be fall again	0.5213638544082642	new	oEffect
+we come here on friday	PersonY be not pack	0.8446651697158813	new	oReact
+PersonX like PersonY hair	PersonY be pretty cute	0.9862326383590698	head	oReact
+PersonX have day	PersonX walk out	0.6293387413024902	head	xAttr
+PersonX be grateful	PersonX be confuse	0.6480644345283508	tail	xAttr
+PersonX want PersonY	PersonY come over	0.7509081959724426	head	oEffect
+PersonX want PersonY	PersonY be on call	0.7613802552223206	head	oReact
+the god of kerlistians lie	PersonY go back to people	0.5154092907905579	new	oEffect
+PersonX have be look to get one of these	PersonX be ready	0.5806499719619751	tail	xReact
+they quote PersonX $	PersonY set up a time for they	0.8771287798881531	new	oEffect
+PersonX still love PersonY	PersonX be not sure	0.6705949902534485	head	xReact
+PersonX get so angry	PersonX be glad	0.5218701362609863	head	xIntent
+PersonX run a red light	PersonY be old	0.7526941895484924	head	oReact
+PersonX turn right	PersonX be go to be walk street	0.8763428330421448	head	xIntent
+PersonX be no scholar	PersonY be at ease	0.9866163730621338	tail	oReact
+PersonX feel amazing	PersonX be wear frozen underwear now	0.9586400985717772	head	xNeed
+PersonX eat a food	PersonX need to fix it	0.9771829843521118	head	xNeed
+it virtually guarantee	PersonY have be wait for this to happen	0.8039242029190063	new	oEffect
+PersonX find tooth mark on board	PersonX wake up	0.8686785101890564	tail	xEffect
+this be a chain	PersonY have one in vegas	0.6763262152671814	new	oWant
+PersonX eat here often	PersonY be a hit	0.5123156905174255	new	oEffect
+el rinc n have 60 house	PersonY truck bring 1,850 gallon of water	0.6889493465423584	new	oEffect
+PersonX file a complaint	PersonY could spend the rest of life	0.6185876727104187	head	oWant
+PersonX throw it with spin	PersonY come back	0.7256554961204529	tail	oWant
+the staff be fabulous	PersonY be very friendly	0.8442486524581909	new	oEffect
+PersonX run fast	PersonX can not play	0.917521357536316	head	xEffect
+PersonX would ask	PersonY would give PersonX a big hug	0.689612090587616	new	oEffect
+pepper spray be from point-blank range	PersonY be nowhere painful	0.538796067237854	new	oEffect
+the wall of house seem to hold PersonX shadow	PersonY be there	0.6590171456336975	new	oReact
+PersonX will not go to office	PersonY be fine	0.9881296157836914	tail	oReact
+corner PersonX could see	PersonY we speak for moment	0.7561971545219421	new	oEffect
+PersonX read PersonY book	PersonY ask PersonX	0.9424569010734558	head	oEffect
+PersonX be sick in head	PersonY have win this argument	0.9224225282669068	new	oWant
+PersonX be old	PersonX never see she	0.5103969573974609	head	xEffect
+the case might be	PersonY annual tenure of office shorten	0.6198188066482544	new	oReact
+PersonX could not place PersonY	PersonX hear the maid gab	0.7545437812805176	new	xEffect
+PersonX sit in room	PersonX be good	0.8822906017303467	head	xAttr
+PersonX try my best	PersonX be hungry	0.794265627861023	head	xWant
+PersonX work day	PersonX get home	0.8016694188117981	head	xNeed
+PersonX move into neighborhood	PersonY have a repeat offender with remorse	0.7664294838905334	new	oEffect
+PersonX take my food	PersonX wait about minute	0.6074735522270203	head	xReact
+PersonX leave school at age	PersonX be old	0.8804208636283875	tail	xReact
+PersonX be transport	PersonX go into house	0.9626985788345336	tail	xWant
+it be sad	PersonY you learn it	0.6938855051994324	new	oEffect
+the bullet have strike PersonX in shoulder	PersonY be down	0.9077467918395996	tail	oReact
+several day would elapse	PersonY should be miss	0.8411856889724731	new	oWant
+PersonX want to see PersonX	PersonX look at he	0.8138651847839355	head	xNeed
+PersonX butter a spider toast morning	PersonX be upset	0.8910492658615112	tail	xAttr
+he/she forgive PersonX in day	PersonY consider to forgive steve for something	0.654791533946991	new	oEffect
+PersonX move out	PersonY it be	0.6473783254623413	new	oEffect
+PersonX have tattoo	PersonX turn away party	0.7153068780899048	new	xWant
+life be ephemeral	PersonY be inevitable	0.658261775970459	new	oWant
+PersonX have day	PersonX be a guy	0.8556685447692871	head	xReact
+PersonX be seldom at home	PersonY place look	0.6943802833557129	new	oEffect
+PersonX be ride PersonX bike	PersonX be further the block	0.9729027748107908	head	xWant
+PersonX will not get one	PersonX keep up	0.5698615312576294	new	xIntent
+PersonX be old	PersonX be in love	0.9351143836975098	head	xWant
+PersonX go to house	PersonX love it	0.8529438376426697	head	xWant
+PersonX go there ago	PersonY be dope see	0.6334824562072754	new	oWant
+we arrive at tonight	PersonY be completely empty	0.6257416605949402	new	oEffect
+PersonX have a play ready	PersonX be halfway through it	0.7332757115364075	new	xAttr
+PersonX send PersonY	PersonY be much oblige to PersonX	0.8853417038917542	head	oEffect
+these be distinct species	PersonY variability of ape be so extensive	0.5483756065368652	new	oWant
+PersonX have day	PersonX be right	0.9758456349372864	head	xAttr
+we wait a little	PersonY better it would be	0.6421443819999695	new	oEffect
+PersonX will get back to PersonY	PersonX be busy	0.5431905388832092	tail	xAttr
+PersonX call PersonY by name	PersonX can not help	0.7299693822860718	head	xEffect
+one be pai y n sh	PersonY third be liang y n tung	0.6719345450401306	new	oEffect
+PersonX would see	PersonY marry mikael	0.6438664793968201	new	oEffect
+PersonX take PersonY	PersonY be PersonX possession	0.6652516722679138	head	oReact
+PersonX get teacher 's credential	PersonX take some time off	0.6864762306213379	tail	xNeed
+everything be set up perfectly	PersonY show up	0.8804948329925537	tail	oWant
+PersonX could use the bathroom	PersonX ask she	0.7708788514137268	tail	xWant
+PersonX hold PersonY hand	PersonY be on this couch	0.9473002552986144	head	oWant
+PersonX have lose it	PersonX be a woman	0.9897719025611876	tail	xAttr
+we be still get	PersonY be ago	0.7974965572357178	new	oEffect
+PersonX have tomorrow	PersonX be fine	0.8403003215789795	head	xReact
+PersonX invite PersonY	PersonY could make a impression on community	0.8111612796783447	head	oEffect
+PersonX try to make	PersonX be deal a bad hand	0.8801311254501343	new	xIntent
+PersonX can help in way	PersonX be not sure	0.7178781032562256	new	xEffect
+beatty 's marriage be fail disastrously at time	PersonY result be to be a decade-long love affair	0.6499767899513245	new	oWant
+PersonX will find trouble	PersonX keep go	0.6023467183113098	tail	xEffect
+PersonX come home	PersonX have be cruelly use	0.8230444192886353	head	xReact
+PersonX can not afford to lose PersonY	PersonY all lose PersonY	0.6467227935791016	new	oWant
+PersonX love PersonY much	PersonX be grateful for all	0.939367175102234	head	xAttr
+PersonX be not sure	PersonX be on a phone	0.5482379794120789	new	xEffect
+PersonX read this right	PersonX finish it	0.9138553142547609	tail	xIntent
+PersonX see PersonY car	PersonX be go to event	0.6931498646736145	head	xWant
+it be a prequel	PersonY be make	0.8734458684921265	tail	oWant
+PersonX would test positive for meth	PersonX be afraid	0.9641289114952089	tail	xAttr
+PersonX believe any of these	PersonX be not sure	0.6052650809288025	tail	xReact
+PersonX go to house	PersonX be invite	0.7863436341285706	head	xNeed
+PersonX be crazy enough	PersonY horse be not	0.8399876356124878	new	oWant
+PersonX die without issue	PersonX ash be scatter into ocean	0.961201012134552	head	xAttr
+'cause PersonX want	PersonY love you	0.5413163304328918	tail	oWant
+PersonX understand PersonY feeling	PersonY be very young	0.936553955078125	head	oReact
+PersonX be call out	PersonX be lie	0.7316958904266357	new	xReact
+there be power for month	PersonY disconnect it	0.6522923707962036	new	oWant
+PersonX be right	PersonX can accept my fate	0.921163022518158	new	xWant
+PersonX watch they with interest	PersonY be something new to PersonX	0.6655691862106323	new	oEffect
+PersonX stand trial	PersonY konopka spend month at institute	0.8750675916671753	head	oWant

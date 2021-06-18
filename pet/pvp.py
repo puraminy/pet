@@ -620,15 +620,15 @@ class RecordPVP(PVP):
 class AtomicPVP(PVP):
     is_multi_token = True
     VERBALIZER = {
-         "oEffect":["The effect on PersonY will be "],
-         "oReact":["As a result, PersonY feel "],
-         "oWant":["After, PersonY will want "],
-         "xAttr":["PersonX is ", "PersonX is seen as "],
-         "xEffect":["The effect on PersonX will be "],
-         "xIntent":["Because PersonX want ", "PersonX did this to "],
-         "xNeed":["Before, PersonX needed "],
-         "xReact":["PersonX will be "],
-         "xWant":["After, PersonX will want "]
+         "xAttr":[". PersonX is ", ". PersonX is seen as "],
+         "xIntent":[" because PersonX wanted ", " because PersonX intends "],
+         "xNeed":[". Before this, PersonX needed to ", " providing that PersonX "],
+         "xReact":[". Then, PersonX will feel ", "; Therefore, PersonX show "],
+         "xEffect":[". As a result, PersonX ", " and consequently, PersonX "],
+         "xWant":[". After, PersonX decided "],
+         "oReact":[". Then, PersonY feel ", "; Therefore, PersonY show "],
+         "oEffect":[". As a result, others ", " and consequently, others "],
+         "oWant":[". After, PersonY decided "],
     }
 
     def get_parts(self, example: InputExample) -> FilledPattern:
@@ -638,9 +638,10 @@ class AtomicPVP(PVP):
 
         text_a = example.text_a
         text_b = example.text_b.rstrip(string.punctuation)
-        template1 = [self.shortenable(text_a), ';', self.mask * self.max_label_tokens, self.shortenable(text_b)], []
-        template2 = [self.shortenable(text_a), '.'], [self.mask * self.max_label_tokens, self.shortenable(text_b)]
-        return template2
+        if self.pattern_id == 0:
+           return [self.shortenable(text_a), self.mask * self.max_label_tokens, self.shortenable(text_b)], []
+        if self.pattern_id == 1:
+           return [self.shortenable(text_a), '.'], [self.mask * self.max_label_tokens, self.shortenable(text_b)]
 
     def verbalize(self, label) -> List[str]:
         return AtomicPVP.VERBALIZER[label]

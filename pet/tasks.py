@@ -767,16 +767,16 @@ class AtomicProcessor(DataProcessor):
     """Processor for the BoolQ data set."""
 
     def get_train_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "atomic_train.tsv"), "train")
+        return self._create_examples(os.path.join(data_dir, "atomic_train_nn.tsv"), "train")
 
     def get_dev_examples(self, data_dir, for_train=False):
-        return self._create_examples(os.path.join(data_dir, "atomic_validation_2k_per_prefix.tsv"), "dev")
+        return self._create_examples(os.path.join(data_dir, "atomic_validation_nn_1k_per_prefix.tsv"), "dev")
 
     def get_test_examples(self, data_dir):
         return self._create_examples(os.path.join(data_dir, "atomic_test.tsv"), "test")
 
     def get_unlabeled_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "atomic_unlabled_100k.tsv"), "unlabeled")
+        return self._create_examples(os.path.join(data_dir, "atomic_unlabled_1k.tsv"), "unlabeled")
     def get_labels(self):
         return ["xWant", "oWant", "xAttr", "xNeed", "xIntent", "xEffect", "xReact", "oReact", "oEffect"]
 
