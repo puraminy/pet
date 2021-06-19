@@ -767,7 +767,7 @@ class AtomicProcessor(DataProcessor):
     """Processor for the BoolQ data set."""
 
     def get_train_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "atomic_train_nn.tsv"), "train")
+        return self._create_examples(os.path.join(data_dir, "atomic_train_nn_5k_per_prefix.tsv"), "train")
 
     def get_dev_examples(self, data_dir, for_train=False):
         return self._create_examples(os.path.join(data_dir, "atomic_validation_nn_1k_per_prefix.tsv"), "dev")
@@ -825,7 +825,7 @@ TASK_HELPERS = {
     "multirc": task_helpers.MultiRcTaskHelper,
     "copa": task_helpers.CopaTaskHelper,
     "record": task_helpers.RecordTaskHelper,
-    "atomic": task_helpers.AtomicTaskHelper,
+   # "atomic": task_helpers.AtomicTaskHelper,
 }
 
 METRICS = {

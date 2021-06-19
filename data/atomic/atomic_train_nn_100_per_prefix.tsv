@@ -1,0 +1,901 @@
+prefix	input_text	target_text
+xWant	PersonX makes smoothies	wash the blender
+xIntent	PersonX takes PersonY oath	to show his loyalty
+xWant	PersonX gets checked out	to put away her groceries.
+xReact	PersonX evens got ___	great
+xIntent	PersonX checks PersonY's pockets	to take something that isn't theirs
+xAttr	PersonX buys ___ from amazon	wealthy
+oWant	PersonX rubs PersonY's hands	to say thank you
+xIntent	PersonX moves back in with PersonX's parents	to be close to parents
+xWant	PersonX heads toward the door	to go home
+xReact	PersonX has been practicing for weeks	proud
+xNeed	PersonX eats healthier	to stop being junk food
+xEffect	PersonX writes PersonY a ticket	issues warning
+xNeed	PersonX becomes very interested	to talk with the actors
+xWant	PersonX hears someone	respond to someone
+oEffect	PersonX guides PersonY even more forcefully onto	saves his life
+xEffect	PersonX drives it home	LOADED BY WORKS
+xIntent	PersonX finds PersonX's family	to reuinte
+xAttr	PersonX asks PersonY for a date	bold
+oEffect	PersonX keeps ___ in PersonY's prayers	Becomes closer to God
+xAttr	PersonX rents movies	Entertained
+oWant	PersonX solves the country 's ___	to thank PersonX
+xIntent	PersonX glances back at PersonY	to see what person is doing
+oReact	PersonX robs the bank	stolen from
+xAttr	PersonX opens PersonX's gifts	friendly
+oReact	PersonX confesses PersonX's ___ before PersonY father	angry
+xIntent	PersonX smells very bad	to not shower.
+oWant	PersonX starts a lemonade stand	chat to X to keep them company
+xWant	PersonX gets lucky	to go home
+xAttr	PersonX is knocked unconscious	vulnerable
+xNeed	PersonX bakes ___ in the oven	to go to the kitchen
+xAttr	PersonX takes a class	learned
+xWant	PersonX runs late for work	to work hard.
+oReact	PersonX gets PersonY understanding	understood
+xEffect	PersonX wins something	pays taxes on the winnings
+oWant	PersonX observes PersonY closely	help getting a drink to take the medicine with
+xAttr	PersonX likes ___ so much	friendly
+xReact	PersonX asks PersonY the reason	confounded
+xNeed	PersonX sends PersonY's ___ to college	help their child apply to college
+xEffect	PersonX leaves PersonY's body	he walks away
+oWant	PersonX hangs ___ on PersonX's wall	To compliment X on taste
+xWant	PersonX holds PersonX's meetings	drink coffee
+oEffect	PersonX takes the law into PersonX's hands	something is taken away
+oWant	PersonX shares PersonX's husband 's ___	X to go away
+xIntent	PersonX helps PersonY's study	to help
+xReact	PersonX changes ___ back	satisfied
+xEffect	PersonX pushes open the ___	OPEN COOKWARE
+xEffect	PersonX builds PersonX's house	saves a ton of money
+xWant	PersonX decides to try something new	skill
+xWant	PersonX is really sick	to take medication
+oEffect	PersonX manages PersonX's ___ in PersonY's way	maintains order
+xAttr	PersonX pays PersonY's fees	contributory
+oWant	PersonX puts two together	to laugh
+oEffect	PersonX serves PersonY's interests	time to go to the movies.
+xIntent	PersonX swims around	to have fun
+xAttr	PersonX needs something	needy
+oEffect	PersonX hits my head	lose conscience
+xEffect	PersonX is having a bad day	avoids human contact
+xReact	PersonX has trouble sleeping	frustrated
+xEffect	PersonX helps paint the living room	to living the room painting
+oReact	PersonX wipes PersonY's tears	sad
+xWant	PersonX eats pumpkin pie	to take a drink
+xAttr	PersonX is identical twins	lucky
+xReact	PersonX is driving down the highway	terrified
+xIntent	PersonX leaves the theater	to go home
+xEffect	PersonX gets back to school	gets lost on campus
+oWant	PersonX lies at PersonY's feet	move feet
+oReact	PersonX will always love PersonY	loved
+xNeed	PersonX mows PersonY's grass	to ask for permission
+oEffect	PersonX takes ___ to a mechanic	mechanic gets paid
+xEffect	PersonX becomes angry	yells
+xNeed	PersonX gets ___ off PersonX's chest	to feel better
+xReact	PersonX defines the ___ in terms	satisfied
+xWant	PersonX decides to walk away	to avoid a confrontation
+xNeed	PersonX plies PersonY with questions	to ask them things they need to know
+xNeed	PersonX gives PersonY's daughter ___	to find his daughter
+xEffect	PersonX creates PersonY opportunity	earns gratitude
+xReact	PersonX brings ___ into the world	love for everyone
+oEffect	PersonX rushes to the hospital	person x is healed
+xReact	PersonX turns bright red	embarassed
+xIntent	PersonX is playing in the park	to spend time with some ducks
+xNeed	PersonX goes to the beach with friends	to ask for ride with friends
+xIntent	PersonX wants to attend	to participate something
+oEffect	PersonX saves a ___ from death	appreciative
+xReact	PersonX rescues the cat	sad for the cat
+xIntent	PersonX searches the entire house	to find something
+xIntent	PersonX is about to get married	to have children.
+oReact	PersonX gives PersonY education	happy
+xWant	PersonX puts PersonY arm around PersonZ	to pat themselves on  the back
+oReact	PersonX gives ___ a headache	annoyed
+xAttr	PersonX gladly accepted	agreeable
+oWant	PersonX talks for hours	to talk
+xReact	PersonX always listened	caring
+xNeed	PersonX comes PersonY's way	a car
+xIntent	PersonX gets some water	to get rehydrated
+oReact	PersonX spends PersonY money	hurt
+xReact	PersonX likes to dance	nan
+xEffect	PersonX turns PersonY's back to PersonY	gets in a fight
+oReact	PersonX supplies PersonY with food	happy
+xEffect	PersonX tells the students	Person x watches the students do what they're told.
+xIntent	PersonX finally told PersonY	person to know what he does for a living
+xNeed	PersonX saves PersonY's country	to be a general in the army
+xNeed	PersonX rips ___ apart	use both hands
+xIntent	PersonX is at work one day	to make money
+xWant	PersonX has to go to the doctor	to see a good provider
+oEffect	PersonX sends PersonX's friend	PersonX's friend vows never to listen to PersonX again
+xReact	PersonX keeps going	proud
+xIntent	PersonX sends PersonY away	to be alone
+xIntent	PersonX makes the right decision	to accept the job offer.
+xAttr	PersonX gets a car	lucky
+xAttr	PersonX really wanted ___	bored
+xAttr	PersonX orders a pizza	adventurous
+oReact	PersonX holds the baby	happy.
+xNeed	PersonX kicks the tyres	be near the tires
+oWant	PersonX holds PersonX's horses	to reason with PersonX
+xNeed	PersonX retraces PersonY steps	to look for tracks
+xAttr	PersonX eats more healthy food	careful
+xReact	PersonX is doing really well	good
+oReact	PersonX marries PersonX's girlfriend	loved
+xAttr	PersonX comes to a head	sure of himself
+oEffect	PersonX offer PersonY opportunity	returns the favor
+xAttr	PersonX pulls into the parking lot	observant
+oEffect	PersonX starts yelling	call the police.
+xReact	PersonX flashes lights	helpful
+xAttr	PersonX applies the ___ to problems	competent
+oWant	PersonX performs PersonY's function	comforted
+xNeed	PersonX gets closer	To show caution
+oReact	PersonX dwells together in PersonY	cared for
+oWant	PersonX gives PersonY pain	to fight PersonX
+xIntent	PersonX takes ___ to australia	to see another culture
+oEffect	PersonX opens PersonX's own business	personx can give jobs to othor persons
+xIntent	PersonX becomes a vegan	to support environmental causes
+xNeed	PersonX rids PersonX's motorcycle	to get the motorcycle up
+xEffect	PersonX is on PersonX's feet all day	buys better shoes
+xIntent	PersonX gets PersonY's books	to be helpful
+xNeed	PersonX decides to go camping	to want to do something fun
+oWant	PersonX leaves PersonX's job	to persuade PersonX to stay
+xWant	PersonX also gave PersonY ___	to ask if it was enjoyed
+xReact	PersonX preaches to the choir	drained.
+xNeed	PersonX receives no ___ yet	hold onto an expectation
+xEffect	PersonX catches PersonY in the act	is yelled at
+xReact	PersonX asks PersonY to join	good
+xWant	PersonX takes some time	to relax on the beach
+xIntent	PersonX plays ___ with my friends	to enjoy playing
+xWant	PersonX fits perfectly	Pretend it's a wedding ring
+oWant	PersonX makes PersonY more comfortable	to be comfortable
+xAttr	PersonX understands PersonY well	Sympathetic
+oReact	PersonX is playing football with PersonY's friends	included
+oEffect	PersonX hopes would return	Avoids X
+xEffect	PersonX invites ___ to PersonX's party	Do arrangements
+oReact	PersonX talks for hours	interested
+xEffect	PersonX takes PersonY to the store	perhaps spends money
+oEffect	PersonX puts PersonY on the table	Open mouth
+xIntent	PersonX goes to the nurse 's office	to get something for a headache
+xWant	PersonX wins the grand prize	to be happy
+xWant	PersonX gets married today	to stop being nervous
+xIntent	PersonX gets everywhere	to find stuff to do
+xNeed	PersonX keeps PersonY's head down	to touch personY's head
+xWant	PersonX shoots the breeze	go to the movies
+oEffect	PersonX sees ] for details	they do their own work
+xAttr	PersonX needs to get started	inspired
+oWant	PersonX takes ___ to the shelter	to shut the shelter door
+oEffect	PersonX tells PersonY to take	PersonY takes it
+xReact	PersonX has great fun	pleased
+oWant	PersonX uses the ___ to obtain	to see it
+oReact	PersonX leaves PersonY's keys	grateful
+xReact	PersonX makes a deposit	wealthy.
+oReact	PersonX thanks the ___ for PersonY's help	appreciated
+xIntent	PersonX finds a new place	a place to call their home
+oReact	PersonX is often late	annoyed
+oReact	PersonX leaves PersonY soon	sad to see someone go
+xNeed	PersonX hides PersonX's feelings	to have feelings surpressed
+oEffect	PersonX leads PersonX's team to victory	gets confident
+xReact	PersonX surprises PersonY's friend	good about themelves
+xIntent	PersonX sees PersonY's friends	she likes having a lot of friends to socialize with
+oWant	PersonX returns the wallet	provide a reward
+xWant	PersonX thanks PersonY for PersonZ's help	to get something from PersonZ
+oReact	PersonX finds someone	belonging
+xEffect	PersonX takes an art class	earns credits
+oReact	PersonX is 9 months pregnant	happy
+xWant	PersonX closes it behind PersonY	to put off the light
+oWant	PersonX picks ___ up from work	to say thank you
+xIntent	PersonX looks familiar	to imitate
+xIntent	PersonX changes my life	to be kind
+oEffect	PersonX gives ___ a huge hug	They leave the interaction more confident
+oEffect	PersonX plays catch with PersonY's dad	buys an icecream
+oEffect	PersonX goes really well	0.01
+xIntent	PersonX explains the situation	her friends to understand.
+oEffect	PersonX grabs PersonY's wrist	jumps in horror
+oWant	PersonX asks PersonY a questions	to satisfy person x with answers
+xEffect	PersonX is trying to quit smoking	Improves willpower
+xNeed	PersonX buys the ticket	to look at flights online
+xEffect	PersonX times to go home	drives on the highway
+xReact	PersonX takes the bus	comfortable
+oWant	PersonX abolishes the ___ altogether	to find other pursuits
+oReact	PersonX covers PersonY's retreat	safe
+xIntent	PersonX goes fishing with PersonX's grandfather	to make his grandfather happy.
+oReact	PersonX opens the door to PersonY	thankful , hopeful
+oEffect	PersonX uses ___ to represent	they learn
+xNeed	PersonX feels ___ on PersonY's shoulder	to place their hand near person y
+xNeed	PersonX spends ___ in jail	hurt someone
+xWant	PersonX gets bit	to put on a bandaid on
+xReact	PersonX leaves PersonX's phone	panicked one they realize the loss
+oReact	PersonX gets hired	happy
+oWant	PersonX lays down next to PersonY	to enjoy the stars
+xWant	PersonX has a bad cough	take medication
+oEffect	PersonX trains ___ to become	GET TIRED
+xNeed	PersonX learns about history	to attend school
+oReact	PersonX leaves PersonY's toys	sad
+xIntent	PersonX plants the seeds	to grow something
+oReact	PersonX makes it on time	glad
+oReact	PersonX lifts PersonY head	pleasant
+xNeed	PersonX eats ___ in one	to go to the grocery
+oReact	PersonX provides ___ to patients	thankful
+xNeed	PersonX is a terrible cook	to have it come out less than satisfactory
+xWant	PersonX goes to the beach with PersonX's friends	take a nap
+xIntent	PersonX shuts PersonY's eyes	person to rest
+xWant	PersonX gets PersonY's books	to study
+xWant	PersonX gains new clients	to sell the client things.
+xWant	PersonX itches the ditch	satisfy the ditch
+oReact	PersonX gets sick too	sad having to quarantine personx
+xWant	PersonX takes PersonY advantage	to have upperhand
+oEffect	PersonX brings PersonY's food	rest and relax
+oEffect	PersonX rides PersonY's bike ___	watches
+xWant	PersonX enjoys running	to rest
+oReact	PersonX plays frisbee	happy, healthy
+xNeed	PersonX prepares for PersonY's reception	to be invited
+oReact	PersonX gives PersonY a refund	happy to get back his money
+oWant	PersonX follows the ___ closely	to grade their work
+xReact	PersonX practises every ___	congrats
+xWant	PersonX is going to the beach	to go shower the sand off
+xIntent	PersonX devotes PersonX's ___ to writing	to devote himself more completely to writing
+xAttr	PersonX leaves disappointed	glum
+oReact	PersonX squeezes PersonY hand	acknowledged
+oReact	PersonX wins the talent show	envious.
+xIntent	PersonX changes PersonX's habits	to be spontaneous
+xNeed	PersonX beards the lion in his den	concur their fears
+xAttr	PersonX swerves to avoid it	Observant
+oEffect	PersonX makes ___ at school	A new person becomes acquainted with PersonX
+oEffect	PersonX leads ___ to christ	they become apart of a group
+xAttr	PersonX uses PersonY form	perceptive
+xEffect	PersonX studies for weeks	passes their exams
+xNeed	PersonX thinks it was delicious	make food
+xNeed	PersonX wants to go to a concert	buy tickets
+oEffect	PersonX offers to teach PersonY	shares knowledge
+xEffect	PersonX develops PersonY interest	has hopes
+xWant	PersonX burns PersonX's bridges	to fix what is broken
+xAttr	PersonX gives PersonY a look	curious
+xAttr	PersonX inherits PersonX's father 's ___	successfull
+xReact	PersonX starts to slow down	safe
+xEffect	PersonX performs tricks	BECOME FAMOUS
+xEffect	PersonX sets a new record	Gets tired because of the hard work
+oReact	PersonX buries PersonY's dead	sad it was hard
+xWant	PersonX transmits by PersonY means without the permission	to gain success
+oWant	PersonX reads PersonY account	their side of the story considered
+xWant	PersonX shows PersonX's cards	to lay down a card
+xWant	PersonX expresses PersonX's thoughts	walk out
+xNeed	PersonX wants to have a party	plan for a party
+xIntent	PersonX keeps running	to train for a marathon
+xIntent	PersonX finishes PersonX's degree	to be smart
+xEffect	PersonX breaks ___ in the process	PersonX must apologize.
+oWant	PersonX visits PersonX's grandma	to buy dinner
+xReact	PersonX sees things differently	invigorated
+oWant	PersonX uses ___ to PersonY's advantage	to observe PersonX
+xNeed	PersonX works so much	a job
+xNeed	PersonX starts last night	to start working on the project
+xAttr	PersonX finds it funny	droll
+xNeed	PersonX buys a new puppy	to go to the pet shop
+oEffect	PersonX turns PersonY head	get pain in the neck
+xEffect	PersonX makes ___ outside	They go back inside
+xNeed	PersonX rakes leaves	He gets his item out.
+oEffect	PersonX tells PersonY to be quiet	stops talking
+xNeed	PersonX finds ___ in PersonX's backyard	to have a backyard
+oReact	PersonX purchases tickets	happy personx got tickets for them
+oReact	PersonX reduces PersonY's risk	safer
+xIntent	PersonX visits PersonX's doctor	to check his heart
+oWant	PersonX takes a taxi	to accept payment
+oEffect	PersonX stretches PersonY's legs	give  a compliment in return
+xNeed	PersonX comes near PersonY	to move
+xEffect	PersonX is going to be okay	laughs
+xWant	PersonX wants to touch PersonY	get personY's attention
+oReact	PersonX pushes PersonY aside	grateful
+xWant	PersonX plays ___ on PersonX's computer	to go to bed
+oEffect	PersonX plays rugby	they get dirty
+oReact	PersonX is a great baseball player	inspired
+xIntent	PersonX spends ___ watching	time to pass
+oReact	PersonX visits PersonY's grandfather	befriended
+xNeed	PersonX eats too many sweets	to like sweets
+xEffect	PersonX lets PersonY know what happened	to breakup
+oReact	PersonX plays ___ with a friend	satisfied.
+xNeed	PersonX rubs PersonY's hands	to reprimand person y
+oEffect	PersonX spends any money	whoever received the spent money becomes richer
+xReact	PersonX enjoys the movie	happy
+xEffect	PersonX takes PersonX's eyes off PersonY	PersonX stops paying attention to personY
+xReact	PersonX straddles PersonY's hips	embarrassed.
+oEffect	PersonX awaits PersonY's return	PersonY thinks about PersonX
+xIntent	PersonX gives ___ a refund	to be fair
+xIntent	PersonX raises the ___ to the point	it's required, to do well in school, to get a good grade
+oWant	PersonX gives PersonY a hint	to thank PersonX
+oWant	PersonX gives money	pay a bill
+oWant	PersonX gives ___ PersonX's money	to thank PersonX
+xAttr	PersonX passes with flying colors	talented
+xWant	PersonX pushes PersonY back	to tell PersonY to stop pushing other people
+xEffect	PersonX draws ___ from data	PersonX thinks of what to do based on the data
+xEffect	PersonX thinks might go	becomes nauseous
+xWant	PersonX takes PersonX's friends	to have fun with them
+xWant	PersonX stops trying	to try something else
+xAttr	PersonX tries ___ instead	happy
+oReact	PersonX gives PersonY some money	happy
+xEffect	PersonX kills PersonY instantly	sweats in fear of being caught
+xWant	PersonX enjoys PersonY's work	to buy PersonY's work.
+xEffect	PersonX becomes PersonY's president	Experiences sense of responsibility
+oReact	PersonX sends ___ a text	good
+xEffect	PersonX sends to jail	get bail
+oWant	PersonX picks ___ up from work	don't have to walk home
+xAttr	PersonX raises PersonX's standard	victorious
+oWant	PersonX takes no prisoners	pillages
+xAttr	PersonX gives PersonY a hand	helpful
+oReact	PersonX contacts the seller	annoyed.
+oWant	PersonX sees PersonY's reaction	ask PersonX what their problem is
+oEffect	PersonX writes PersonY a ticket	persony goes to court
+xReact	PersonX takes ___ to the library	accomplished
+oReact	PersonX sends PersonY a message	attentive
+xIntent	PersonX throws it on the ground	to express his disapproval
+xWant	PersonX writes ___ a letter	to send the letter
+oWant	PersonX gives unto PersonY	to settle the the argument
+oEffect	PersonX feels PersonX's oats	persony is better off
+oEffect	PersonX brings PersonY to the point	rolls his eyes
+oReact	PersonX drives the ___ away	dissapointed
+xIntent	PersonX makes waves	to stir things up
+oReact	PersonX visits PersonY's friends	relieved
+xWant	PersonX makes oatmeal	to bring the oatmeal to the table
+oWant	PersonX decides to ask PersonY	to accept PersonX's offer
+xWant	PersonX catches nothing	to make a new plan
+xAttr	PersonX forms PersonY image	perceptive
+xReact	PersonX is set up on a blind date	interested in the other person
+xAttr	PersonX uses the ___ to help	supportive
+xEffect	PersonX accidentally dropped ___	looks for doll
+oEffect	PersonX explains the ___ on the basis	they gain knowledge
+xIntent	PersonX makes PersonY answer	to force persony
+xEffect	PersonX needs a job	writes a resume
+xAttr	PersonX satisfies PersonY's wants	giving
+xWant	PersonX tastes the sauce	pour the sauce over pasta.
+oReact	PersonX sees PersonY like this	surprised, grateful, happy
+oReact	PersonX approaches PersonY's crush	friendly
+oReact	PersonX plays video games with PersonY's friends	fun
+xReact	PersonX lives comfortably	content
+xNeed	PersonX quits my job	Get fed up
+xReact	PersonX lies on either side	refreshed
+xReact	PersonX learns ___ by heart	nice
+oReact	PersonX tells PersonX's best friend	sad
+xAttr	PersonX examines briefly the ___	hurried
+xEffect	PersonX calls PersonX's brother	Person X tells their brother they love them.
+xWant	PersonX drops PersonY's cell phone	apologize
+oWant	PersonX is cleaning out PersonY's garage	to thank them
+oWant	PersonX plays speed chess	play again
+xReact	PersonX does everything right	right
+oWant	PersonX knows PersonY very well	To meet PersonX
+oWant	PersonX tickles PersonY's funny bone	laugh some more
+xReact	PersonX spends ___ on the grade	successful
+oEffect	PersonX supports PersonY's family	Receives money
+oReact	PersonX supports PersonY's cause	hopeful
+oWant	PersonX brings PersonY along	to thank personx
+xWant	PersonX hides PersonY's ___ under a bushel	to better understand the situation
+oReact	PersonX makes ___ to school	like he does a good job of showing up
+xWant	PersonX makes PersonX's selection	to buy more things
+xAttr	PersonX sees the principal	curious
+xIntent	PersonX leaves the ___ immediately	be gone
+xEffect	PersonX effects PersonY entrance	punished
+oWant	PersonX seizes ___ by force	run away
+xEffect	PersonX comes home to PersonY	jumps up and down in joy
+xAttr	PersonX sends PersonY to the principal 's office	annoyed
+oEffect	PersonX gives PersonY a kick	Person Y gets hurt
+xEffect	PersonX loves oranges	eat's oranges a lot
+oWant	PersonX asks PersonY to get	to help
+xNeed	PersonX is sent to the principal 's office	to get caught
+oWant	PersonX loses PersonY job	to get a new job
+xAttr	PersonX is taking a trip	fun
+xAttr	PersonX makes five hundred dollars	ambitious
+oWant	PersonX hears PersonY's cry	to keep crying
+xWant	PersonX attends PersonY's meetings	Go home
+xEffect	PersonX drops PersonY's keys	becomes startled
+xEffect	PersonX gets really angry	fists clenches at his side
+xIntent	PersonX shakes a leg	to wake up
+oReact	PersonX picks a movie	amused
+oEffect	PersonX prevents ___ in the future	NONE
+xIntent	PersonX plays alone	to better be able to concentrate
+xIntent	PersonX helps PersonY feel better	to take of the other person.
+oEffect	PersonX asks PersonY to explain	able to convey their concerns
+oReact	PersonX completes PersonY's work	relieved.
+xEffect	PersonX invites PersonY to a movie	loses privacy
+oEffect	PersonX complains to PersonY's mother	they tell them why
+oEffect	PersonX rescues PersonX's dog	persony smiles for a week
+xAttr	PersonX recently visited	adventurous
+xEffect	PersonX wads imagining what PersonY was seeing	Asked
+xWant	PersonX puts PersonY to bed	to wish PersonY a good night's rest
+xReact	PersonX takes a joke	secretly ashamed
+xNeed	PersonX wins a million dollars	take a draw
+xAttr	PersonX arrives the next day	behind
+oReact	PersonX meets PersonY demand	on par with others
+oReact	PersonX feathers PersonX's nest	content.
+xAttr	PersonX squeezes PersonY's hand	caring
+xEffect	PersonX issues ___ to the amount	gets tired from issuing
+xAttr	PersonX urges PersonY to join	persuasive
+xIntent	PersonX purchases ___ from the store	to see it before buying
+xReact	PersonX decides to take a chance	happy
+xNeed	PersonX asks PersonY's help	to call him
+oEffect	PersonX leaves ___ behind PersonY	gets tired
+oEffect	PersonX runs PersonX's ___ through PersonY's hair	ticklish
+xReact	PersonX takes PersonY's friends	glad
+oWant	PersonX makes the call	to ignore the phone
+oWant	PersonX puts PersonX's ___ on the line	to reward PersonX for their bravery
+xIntent	PersonX changes the ___ in a way	important this rules in way
+oReact	PersonX holds sway	submissive
+xReact	PersonX makes PersonY entrance	helpful
+xAttr	PersonX gives ___ water	kind
+xReact	PersonX suffers from depression	hopeless
+oEffect	PersonX impresses everyone	driven to compete
+xEffect	PersonX gets better	not required to take medication any longer
+oWant	PersonX is getting late	to wait for PersonX
+xNeed	PersonX gains ___ rapidly	to start eating lots of protein
+oReact	PersonX uses PersonY's ___ to make	influenced
+xReact	PersonX asks PersonY to turn it down	satisfied
+oWant	PersonX meets PersonY for the first time	to start a project
+xNeed	PersonX tells ___ that PersonY is being solipsist and insolent	to start a conversation
+xAttr	PersonX sends PersonX's friend	thoughtful
+xNeed	PersonX eats PersonX's vegetables	buy veggies
+xAttr	PersonX helps get started	dedicated
+xEffect	PersonX pops the hood	does repair work
+oEffect	PersonX finds PersonY's family	are found
+oWant	PersonX lives near PersonY	to become friends with personx
+xWant	PersonX is still valid ___	to stay in the loop
+xEffect	PersonX gets some bad news	PersonX cries.
+xReact	PersonX suffers from depression	down
+xNeed	PersonX gives PersonY a gift	to go to the store.
+xReact	PersonX settles PersonX's affairs	accomplished
+oWant	PersonX takes care of PersonX's children	to talk to PersonX
+xReact	PersonX makes PersonY example	upset that he had to punish person
+xAttr	PersonX sets up shop	prepared
+xWant	PersonX just moved to a new town	to travel the city.
+xWant	PersonX tells PersonY's coworkers	to be informative
+xReact	PersonX makes a move	silly
+xEffect	PersonX chops wood	collect wood pieces
+xIntent	PersonX takes PersonX's rest	relax
+xEffect	PersonX immediately fell	Hurt
+xNeed	PersonX announces PersonY's intention	to speak aloud
+xWant	PersonX takes the trash out	wash their hands
+xAttr	PersonX turns out really well	proud
+oReact	PersonX beats the stuffing out of ___	even worse
+oReact	PersonX sets PersonY ___ at rest	grateful
+xWant	PersonX persuades the ___ to return	to have fun
+xReact	PersonX creates PersonY illusion	succesful
+xWant	PersonX purchases the ingredients	to make a pizza
+xNeed	PersonX becomes a father	to save a lot of money.
+xReact	PersonX gives PersonY water	helpful
+oEffect	PersonX gives PersonY aid	PersonY is saved after receiving first aid
+xEffect	PersonX is sad and lonely	indulges in food
+xIntent	PersonX takes ___ to the carnival	to make a friend
+xWant	PersonX gets ___ though	goes to detention
+oWant	PersonX complains to PersonY's mother	do something to help PersonX
+xIntent	PersonX plays all night	to have an audition.
+xNeed	PersonX gathers PersonX's ___ together	to have found a new place
+xEffect	PersonX learns PersonY's lesson	gains knowledge
+xEffect	PersonX changes the tire	gets dirty
+oWant	PersonX buys PersonY a new one	to give the old one to their brother.
+oWant	PersonX is super happy	to thank x
+xIntent	PersonX meets new people	to socialize
+xWant	PersonX enjoys PersonX's day	to have a good time
+oReact	PersonX left the ___ together	happy
+xAttr	PersonX takes PersonX's cat	caring
+oEffect	PersonX makes sure PersonY was okay	feels happy
+xIntent	PersonX takes PersonY's girlfriend out to dinner	to be unfriendly
+xWant	PersonX drops ___ in the toilet	to grab it out of the toilet
+xWant	PersonX throws a party for PersonY	enjoy
+xReact	PersonX finds ___ for sale	great
+oEffect	PersonX pays PersonY dollars	profits
+xEffect	PersonX starts last night	PersonX cuts it close
+oEffect	PersonX gives PersonY a gift card	they go shopping
+xReact	PersonX opens PersonY's gift	excited
+oWant	PersonX enjoys PersonY's work	express their gratitude
+xIntent	PersonX gets ___ at night	to rest
+xNeed	PersonX adds butter	Brings out the butter
+oEffect	PersonX steals PersonY's thunder	have less opportunity to shine
+xAttr	PersonX tries to clean it up	messy
+xIntent	PersonX deepens PersonX's understanding	to be more fair
+oEffect	PersonX shows PersonX's true stripes	avoids them
+xEffect	PersonX brings home the ___	they smile
+xEffect	PersonX is late for work	is rebuked
+xAttr	PersonX persuades PersonY to accept	calculating
+xIntent	PersonX goes out on a limb	to solve the problem.
+oReact	PersonX drives to PersonX's job	content
+xIntent	PersonX leaves school	to work instead.
+xWant	PersonX begins to lose weight	to look in the mirror
+xNeed	PersonX creates PersonY application	to know their talents
+oEffect	PersonX knows everything about PersonY	scowls at PersonX
+xEffect	PersonX takes the garbage	To the road
+oReact	PersonX sends PersonY a message	like they are part of the conversation
+xWant	PersonX works quickly	to finish things up
+xEffect	PersonX is driving PersonY insane	PersonX is punched
+xEffect	PersonX calls PersonY's wife	hears her cry
+xAttr	PersonX knows PersonY too well	detail-orientated
+xReact	PersonX posts ___ on instagram	proud
+oWant	PersonX drives around PersonY's neighborhood	to welcome PersonX.
+oWant	PersonX says PersonY name	To see who is calling them
+xReact	PersonX tries to cheer PersonY up	better
+oWant	PersonX strokes PersonY's cheek	talk about how they feel
+xReact	PersonX does something special	accomplished
+oWant	PersonX expresses PersonX's ___ freely	to respond to what was expressed
+xReact	PersonX builds ___ together	inclusive
+xEffect	PersonX starts eating	salivates
+xReact	PersonX strokes PersonY's hair	happy
+xIntent	PersonX glances behind PersonY	to pay attention
+xEffect	PersonX starts saving	is secure
+xAttr	PersonX looks upon PersonY	Scared
+xEffect	PersonX greets PersonY at the door	gets a reply
+oReact	PersonX gets PersonY's phone number	excited
+xAttr	PersonX possesses every ___	perfect
+xReact	PersonX prolongs PersonY's life	proud
+xIntent	PersonX suggests PersonY play	to listen to some music
+xEffect	PersonX takes my girlfriend	is no longer single
+xNeed	PersonX is eating PersonX's lunch	to make a sandwich
+xNeed	PersonX shows everyone	to approach people
+oWant	PersonX bars PersonY's way	to push person aside
+oReact	PersonX works as an accountant	satisfied
+xWant	PersonX wraps PersonY's arms around	to say something
+xWant	PersonX enjoys every moment	to meditate
+oEffect	PersonX loses PersonY's key	PersonY does not have keys to car
+xWant	PersonX starts the engine	to drive
+oReact	PersonX hugs PersonY back	cherished
+xWant	PersonX really hurt PersonY	to avoid PersonY at all costs
+oReact	PersonX seeks PersonY's help	satisfied
+xReact	PersonX tells ___ PersonY loved PersonY	smug
+oEffect	PersonX sells PersonY's wares	earns money
+xReact	PersonX goes back and forth	satisfied with their choice.
+xNeed	PersonX grows ___ in PersonX's backyard	water plants
+xEffect	PersonX is really embarrassed	hides
+xAttr	PersonX ensures PersonY supply	Responsible
+xWant	PersonX measures ___ by feet	to carry out a project
+xReact	PersonX buys some shoes	excited
+oReact	PersonX uses PersonY index	helpful
+xEffect	PersonX comes ___ on leave	PersonX is welcomed.
+oWant	PersonX wants to surprise PersonX's girlfriend	enjoy surprise
+xReact	PersonX provides PersonY atmosphere	useful
+oWant	PersonX suits PersonY's taste	show admiration
+xReact	PersonX enjoys it so much	interested
+oReact	PersonX runs amok	scared
+oEffect	PersonX washes PersonY's disciples ' ___	PersonY's feet soften up
+xReact	PersonX gets the pizza	happy about their meal.
+xIntent	PersonX announces to everyone	to inform as many people as possible
+xAttr	PersonX moves to texas	adventurous
+oReact	PersonX wins a game	excited
+oReact	PersonX brings the ___ to trial	nervous about the trial
+oReact	PersonX puts in PersonY's place	unhappy,worried
+xReact	PersonX treats PersonY with respect	respectful
+xIntent	PersonX upsets the applecart	may have been angry or upset
+oEffect	PersonX keeps a eye on PersonY	screams in shock
+xIntent	PersonX sings PersonX's songs	fame
+oReact	PersonX saves the rest	happy
+xReact	PersonX does not make the team	disappointed
+xEffect	PersonX rides PersonY's bike	has stronger leg muscles
+oEffect	PersonX pleases PersonY better	don't feel they need to try
+xWant	PersonX decides to buy a new car	to go to the dealer
+xWant	PersonX uses PersonX's ___ to get	make a change
+xEffect	PersonX is going out of town	calls relatives to notify of arrival
+oEffect	PersonX closes it behind PersonY	stays dry
+oWant	PersonX improves PersonY's quality	to succeed
+xWant	PersonX gets colder	to turn on the heater
+xNeed	PersonX shares these works with a audience	to prepare an assembly.
+oWant	PersonX prevents a ___ from forming	to stop person x
+xAttr	PersonX wins an award	PRestigious
+oEffect	PersonX names fred	fred learns name
+xReact	PersonX has a small dog	happy
+xIntent	PersonX quickly made ___	to go on a trip
+xIntent	PersonX wants ___ back	his bike back from his friend
+oWant	PersonX leaves PersonY's apartment	clean up
+xAttr	PersonX occupies PersonY place	homeless
+xNeed	PersonX impresses PersonY's boyfriend	know what PersonY's boyfriend's interests are
+xEffect	PersonX makes PersonY proud	gets a pat on the back
+xEffect	PersonX is the new kid in school	person x is lost in new school
+oWant	PersonX laughs and told	laugh along
+oWant	PersonX takes PersonY to the animal shelter	a new puppy
+xIntent	PersonX wipes the ___ from PersonX's brow	to be a good person
+xReact	PersonX becomes a success	hardworking
+xNeed	PersonX searches around	to decide to look for something
+oEffect	PersonX talks to PersonY's mother	smiles
+oReact	PersonX pays PersonY way	thankful
+xWant	PersonX loves to eat ice cream	to go on a diet
+xReact	PersonX feels so relieved	content
+xEffect	PersonX tells tales out of school	person x recounts
+oReact	PersonX catches the ___ back	sad
+oEffect	PersonX brings up something more universal	they suggest other things to talk about
+xWant	PersonX puts PersonY's ___ to work	to split the proceeds in his favor
+xEffect	PersonX makes sense in terms	person x feels foolish
+xReact	PersonX invites PersonY over for dinner	happy
+xNeed	PersonX plays a ___ in causing	to see busy intersection
+oEffect	PersonX rubs PersonY's temples	congragulated
+xAttr	PersonX supports PersonY's claims	supportive
+xEffect	PersonX lends PersonY the money	hands over the check
+oEffect	PersonX has an eye for ___	wants them to look at their work
+oEffect	PersonX grabs PersonY's chest	Has their space invaded
+oEffect	PersonX knows PersonY's stuff	become friends with PersonX
+oWant	PersonX seeks PersonY interview	to evaluate PersonX
+xWant	PersonX buys a new home	to have a house warming party
+xIntent	PersonX brings PersonY's car	to make sure that y has their car.
+oEffect	PersonX adjusts PersonX's ___ accordingly	Gets late
+xWant	PersonX makes chocolate chip cookies	to eat one of the cookies
+oWant	PersonX goes to the bar with PersonX's friends	to talk about fun things
+xEffect	PersonX is driving home one night	he has intent of being somewhere else
+oReact	PersonX moves back home	happy
+xWant	PersonX finds ___ to read	to buy the book
+xEffect	PersonX kisses PersonY lightly	is kissed back
+xNeed	PersonX sells PersonY on ebay	open ebay account
+xNeed	PersonX ensures PersonY's success	to make arrangements for it
+xReact	PersonX accidentally knocked over	fearful
+oEffect	PersonX uses PersonY number	Gets weird phone calls
+xWant	PersonX looks hard at PersonY	to talk to him
+xAttr	PersonX shows PersonY's face	bold
+xIntent	PersonX grows stronger every ___	strang tree
+xAttr	PersonX comes a long way	exhausted
+xIntent	PersonX reaches for PersonY's phone	to have it
+xWant	PersonX comes and help	insure safety
+xNeed	PersonX removes PersonX's hat	Insult PersonY
+oWant	PersonX kills PersonY's wife	to have a funeral for their wife
+oEffect	PersonX says unto PersonY	responds
+oWant	PersonX takes ___ to the shelter	to find a job
+xIntent	PersonX takes the job	make money
+oWant	PersonX invites PersonY's friend	thank PersonX for the invitation
+xWant	PersonX takes the dog	TO PLAY WITH DOG
+oEffect	PersonX is driving PersonY nuts	becomes stressed
+xEffect	PersonX collapses on the ground	get a headache
+xAttr	PersonX throws ___ on the floor	infuriated
+oEffect	PersonX gives PersonY proof	Accepts X's proof
+xAttr	PersonX likes the sound of PersonX's own voice	pleased
+oEffect	PersonX teaches PersonY the art	listens
+xAttr	PersonX tries hard enough	struggling
+xIntent	PersonX leads ___ astray	to be evil
+xAttr	PersonX feels ___ on PersonY's line	aware
+oReact	PersonX gives PersonY ___ instead	thankful
+xReact	PersonX teaches ___ to students	pleased with the progress their class is making.
+oReact	PersonX resolves PersonY's problems	freedom
+xEffect	PersonX gives PersonY a son	has to provide
+xAttr	PersonX gets PersonX's passport	mature
+oEffect	PersonX views the ___ differently	could change laws.
+xReact	PersonX reduces the ___ by a factor	nice
+xReact	PersonX gives PersonY information	good.
+oEffect	PersonX picks a fight	must fight or flight
+oReact	PersonX takes first place	unhappy
+oEffect	PersonX prevents ___ to others	doesn't worry as much
+oReact	PersonX is going to get married	loved
+xNeed	PersonX runs a race	stretch
+xReact	PersonX sprays paint	proud
+xNeed	PersonX watches ___ all the time	to turn on the tv
+xEffect	PersonX makes room	is appreciated
+xWant	PersonX asks tom	they want to go for a movie
+oReact	PersonX asks ___ to the prom	happy
+xNeed	PersonX does ___ one day	to take action
+oWant	PersonX acknowledges with thanks the ___	to shake PersonX's hand
+oReact	PersonX plies PersonY with questions	violated
+xWant	PersonX carries a torch for ___	defend the thing
+xAttr	PersonX sleeps through the night	passed out
+oWant	PersonX adopts the cat	purr
+xReact	PersonX suddenly felt ___	sad
+xIntent	PersonX loves PersonY to death	to be loved
+oWant	PersonX gives PersonX's candy	To ask how it tastes
+xWant	PersonX screams and ran	to call a friend/partner for support
+xIntent	PersonX learns how to fly	to be a pilot
+oWant	PersonX assists ___ in identifying	to understand the findings
+xNeed	PersonX teaches PersonY dog ___	decide which trick he want to teach
+xEffect	PersonX drives to PersonX's job	NONE
+xWant	PersonX travels ___ to reach	Say hi to his friends.
+xNeed	PersonX makes PersonX's living	to learn a skill
+xReact	PersonX allows PersonY to keep the dog	warm and fuzzy
+xIntent	PersonX walks to PersonX's desk	to get some work done
+xAttr	PersonX gets married in PersonY	romantic
+xIntent	PersonX up the ante	to increase the challenge
+xWant	PersonX decides to check it out	report events
+xAttr	PersonX climbs the mountain	adventurous
+oReact	PersonX rubs PersonY eyes	grateful
+oReact	PersonX orders PersonY back	sad
+xNeed	PersonX makes a loud noise	Stubs his toe.
+xReact	PersonX gets what PersonY needed	accomplished
+xNeed	PersonX eats ___ for a week	to make salads often
+oEffect	PersonX affords PersonY opportunity	get to obtain an experience
+oEffect	PersonX hits my head	suffers injury
+xReact	PersonX texts PersonY today	relieved
+oReact	PersonX visits PersonY's family	joy, uplifted
+oEffect	PersonX avoids eye contact	looks away
+xWant	PersonX wants anything	to have a drink
+xNeed	PersonX calls forth the ___	decide to call them forward
+xAttr	PersonX smiles upon PersonY	devoted
+xIntent	PersonX meets PersonY's sister	to go on a date
+oWant	PersonX keeps PersonY long	to avoid being rude
+xEffect	PersonX walks on the wild side	dies
+xIntent	PersonX opens the oven	to get the food out
+xNeed	PersonX moves to new york city	to find an apartment
+xReact	PersonX crosses over PersonY's chest	a bit rude
+xIntent	PersonX accepts the fact	to learn something new
+xReact	PersonX gives PersonY's detention	baffled
+xAttr	PersonX turns PersonX's ___ to look	curious
+xIntent	PersonX knocks ___ out of the park	he wanted his team to win
+xReact	PersonX keeps mum	silenced
+oEffect	PersonX goes to the beach with PersonX's family	get hair wind blown.
+xAttr	PersonX always refused	unhelpful
+xNeed	PersonX minds PersonY business	to get his permission
+xReact	PersonX is always good	humble
+xNeed	PersonX places the ___ on a footing	lift feet
+xReact	PersonX decides to go for a run	pumped up
+xReact	PersonX dances with PersonY's friends	energized
+xEffect	PersonX spends ___ on the grade	to spends year on the grade
+oEffect	PersonX scratches PersonY's head	shouts at x angrily
+xNeed	PersonX makes PersonY impression	Study the way they do certain things.
+xAttr	PersonX has a cell phone	talkative
+oWant	PersonX suits one 's ___	to be accepted
+xAttr	PersonX puts PersonY under ___	controlling
+xAttr	PersonX eats rice	healthy
+oEffect	PersonX lets PersonY sleep	Muscles recover
+xEffect	PersonX studies all night	All Nighter
+xReact	PersonX has to get a cast	broken
+xReact	PersonX avenges PersonX's brother 's ___	enraged and unforgiving
+xEffect	PersonX argues PersonY's case	completes the task
+xAttr	PersonX likes the idea	agreeable
+xIntent	PersonX takes part in activities	to have fun
+xAttr	PersonX asks ___ for help	nervous
+xIntent	PersonX eats tofu	to eat
+xNeed	PersonX gives PersonY a call	to have PersonY's number
+oEffect	PersonX gives PersonY medicine	Feels better
+xNeed	PersonX brings PersonY's dog	get leash
+xIntent	PersonX sets ___ on the soil	enjoy the sand touch
+xNeed	PersonX finally make	follow the recipe
+xEffect	PersonX proves PersonY wrong	confidence in intelligence increases
+oEffect	PersonX goes to the zoo with PersonX's family	see interesting things.
+oReact	PersonX takes ___ off from work	they are happy to spend some time with him
+xWant	PersonX loves swimming	find nearest swimming pool
+xNeed	PersonX eats at a fast food restaurant	drive to resteraunt
+oReact	PersonX yells for help	needed.
+oReact	PersonX gives PersonY the power	surprised
+xWant	PersonX follows closely the ___	to not make a mistake
+xNeed	PersonX puts the fire out	to grab the extinguisher
+oWant	PersonX pulls PersonY back	to be allowed to fight
+oReact	PersonX expresses ___ in terms	eager
+xIntent	PersonX gets some rest	rested
+xIntent	PersonX delights in ___	to be entertained
+xEffect	PersonX loses control of the car	sweaty from fear
+xWant	PersonX plays PersonX's video game	to use the bathroom
+xNeed	PersonX accidentally tripped	to be clumsy.
+oEffect	PersonX espouses PersonY's cause	PersonY's cause is supported
+xNeed	PersonX is working on PersonX's laptop	to sit down
+oReact	PersonX undoes PersonY's belt	aroused
+oEffect	PersonX gives ___ a refund	takes the money
+xAttr	PersonX takes a family trip	available
+xNeed	PersonX cuts the ribbon	to know about the project that is about to started
+xWant	PersonX is due the next day	To think about what they do next
+oWant	PersonX puts ___ on PersonY's face	wipe face
+xAttr	PersonX affords anything	rich
+xEffect	PersonX goes skiing	goes home
+oWant	PersonX blesses PersonY soul	salvation
+xNeed	PersonX moves ___ out of the way	push item
+xIntent	PersonX lets PersonX's dog out	their dog to go to the bathroom
+xWant	PersonX puts ___ aside	to eat something else
+xAttr	PersonX eats potato chips	unhealthy
+xAttr	PersonX gets married in PersonY	in love
+xAttr	PersonX wins first place	athletic
+xAttr	PersonX spends all morning	attentive
+xReact	PersonX flies high	free
+xAttr	PersonX loves PersonX's wife	enamored
+oWant	PersonX protests too much	stay away from PersonX
+xNeed	PersonX gets very scared	to witness something frightning
+xEffect	PersonX takes shots	gets success or failure
+xAttr	PersonX puts ___ in a bag	organized
+oReact	PersonX stands in front of PersonY	annoyed.
+oEffect	PersonX later found out	TO POSSITIVE
+xAttr	PersonX smokes like a chimney	nervous
+xNeed	PersonX puts ___ back together	to follow instructions
+xIntent	PersonX makes a nice dinner	eat a delicious meal.
+oWant	PersonX builds PersonY's nest	check out the nest
+xAttr	PersonX wants a child	sad
+xIntent	PersonX attains PersonX's majority	more power
+oWant	PersonX hits ___ in the face	ask why person x hit them
+oReact	PersonX kicks PersonY's legs	sad
+xNeed	PersonX is not feeling well	to use the bathroom and not wash his hands.
+xWant	PersonX toots PersonX's own horn	to revel in what will hopefully be admiration from others
+xReact	PersonX writes PersonX's letter	grateful.
+xIntent	PersonX rubs the fear of god into ___	to correct , make fearful
+xReact	PersonX likes PersonX's work	proud
+oReact	PersonX turns PersonY's ___ around	thankful for the help
+xNeed	PersonX rushes to the store	to drive their
+xWant	PersonX gets bored	look for activity to do
+xNeed	PersonX climbs a mountain	to have warm clothes
+xReact	PersonX takes a ski trip	excited
+xAttr	PersonX calls the man	concerned for others.
+xEffect	PersonX puts the eggs	Forgets about the eggs
+oWant	PersonX meets girls	to know if PersonX has ulterior motives
+oWant	PersonX accepts into college	to celebrate with their family/friend
+xEffect	PersonX gets PersonX's way	Person X watches his movie
+xReact	PersonX gets tackled	in pain
+oWant	PersonX follows PersonY closely	call cops
+oReact	PersonX establishes ___ in areas	comfortable
+xWant	PersonX gets mail	to open bills
+oEffect	PersonX keeps PersonY safe	stays safe
+xIntent	PersonX keeps looking	to know what's going on
+xReact	PersonX puts on PersonX's dancing shoes	excited and eager
+oReact	PersonX looks at PersonY's wife	awkward
+xIntent	PersonX visits PersonX's father	to make father happy
+oWant	PersonX attends a concert	watch band
+xIntent	PersonX gives PersonY's hand ___	to kiss
+xNeed	PersonX makes ___ to school	find personY
+xReact	PersonX sits in PersonY's chair	good, that he can finally sit down
+oWant	PersonX sees a man about a horse	to let Person X tide the horse.
+oEffect	PersonX gets PersonY order	PersonY returns the order he recieved
+xIntent	PersonX stays far away	to be cautious
+xNeed	PersonX pays PersonY rent	a car
+xIntent	PersonX goes straight to bed	to not feel so very tired.
+xAttr	PersonX sends a message	collaborative
+xWant	PersonX cleanses PersonY from all unrighteousness	PersonY to pray
+xAttr	PersonX can n't afford to fix it	poor
+xAttr	PersonX is in art class	creative
+xIntent	PersonX invests the money	to accomulate money
+xReact	PersonX owes money	cheap
+xEffect	PersonX crashes into a tree	Person x is hit by an airbag.
+xNeed	PersonX asks PersonX's crush	to have doubt
+xWant	PersonX is selling cookies	clean up
+xReact	PersonX shoots the boots	bored
+xWant	PersonX adopts a dog	to get the dog adjusted to a new home
+xNeed	PersonX eats PersonX's own dog food	to have nothing else to eat
+xAttr	PersonX brings PersonY's ___ back	helpful
+xIntent	PersonX goes swimming with friends	to lose weight
+xEffect	PersonX goes to get married	lied to
+xNeed	PersonX is driving PersonY nuts	to be pestering her
+oEffect	PersonX confiscates PersonY's property	lose the property
+oEffect	PersonX leaves PersonY's ___ behind	weapons become missing
+xReact	PersonX makes PersonY image	content
+oWant	PersonX keeps PersonY's mouth shut	to stay quiet
+xAttr	PersonX does n't want to go	frightened
+xAttr	PersonX considers the ___ seriously	thoughtful
+oReact	PersonX kisses arse	satisfied, because person x is nice
+xWant	PersonX marries another man	to go on a honeymoon
+oReact	PersonX asks PersonY's neighbor	not sure.
+xNeed	PersonX gives PersonY idea	to talk to Person Y.
+xIntent	PersonX imagines another ___	to discover more variety
+xEffect	PersonX builds PersonX's houses	GET NEW HOUSE
+xEffect	PersonX brings ___ inside	PersonX gets out of the rain
+xIntent	PersonX plays violin	to play for enjoyment
+oEffect	PersonX goes play in the traffic	kills person X
+oEffect	PersonX forgets PersonY's list	Loses trust from clients
+xNeed	PersonX hides PersonY's ___ under a bushel	to pick up something
+xAttr	PersonX studies day and night	studious
+xNeed	PersonX lends PersonY money	to have extra money
+xEffect	PersonX starts a fight	to fight in the next time
+oWant	PersonX makes a film	to watch it
+oWant	PersonX turns a deaf ear	to get angry at PersonX
+xAttr	PersonX moves to colorado	travelled
+oWant	PersonX provides PersonY means	to have needs met
+oReact	PersonX takes ___ lying down	relieved to tell something
+xNeed	PersonX packs a bag	to open the closet
+oEffect	PersonX cooks ___ on the stove	helps X cook
+xIntent	PersonX takes a tour	to learn about the place
+oReact	PersonX likes the food	glad
+xReact	PersonX waits to get home	patient
+xWant	PersonX takes PersonY to disney world	to explore disney world
+oWant	PersonX plays basketball with PersonX's friends after school	to rest
+oReact	PersonX calls ___ on PersonX's cell phone	knowledgeable
+oWant	PersonX puts a lid on it	to give them a look
+xAttr	PersonX gives ___ a raise	caring
+oWant	PersonX gives PersonY a shove	to shove back
+xReact	PersonX takes ___ for ice cream	sociable
+xNeed	PersonX makes PersonY inference	to gather information
+xEffect	PersonX sounds PersonY alarm	Has ringing in hears
+oWant	PersonX changes PersonX's ___ for better	to observe PersonX
+oWant	PersonX calls the company	answer phone
+xWant	PersonX needs someone	get to know that person
+xEffect	PersonX gives PersonY a hand	is pushed away
+xNeed	PersonX takes PersonY to disney world	to take an airplane
+oReact	PersonX sets the bar	envious.
+xAttr	PersonX watches the storm	Adventurous
+xAttr	PersonX becomes a success	popular
+oEffect	PersonX monitors and control ___	they get more done
+xReact	PersonX is on vacation in florida	elated
+xAttr	PersonX wins the talent show	artistic
+xAttr	PersonX finds the house	excited
+oEffect	PersonX takes PersonY into custody	gets stabbed
+xReact	PersonX wants a baby	lonely
+xReact	PersonX persuades the ___ to take	important
+xIntent	PersonX leaves a message	to get their thoughts out
+oWant	PersonX includes this book 's ___	to give feedback to PersonX
+oWant	PersonX raises the ___ to PersonX's lips	return the favor
+xEffect	PersonX decides to go on vacation	goes on a trip
+xWant	PersonX handles with kid gloves	to move something
+xEffect	PersonX rejects every ___	they are known for it
+oWant	PersonX does ___ in PersonX's power to make	to stay under control
+xReact	PersonX never liked ___	grumpy
+xEffect	PersonX opens PersonX's gifts	they enjoy what they got
+xWant	PersonX keeps the pot boiling	to cook food
+oEffect	PersonX takes PersonY case	talks to Person X
+xEffect	PersonX eats PersonX's own dog food	gets nervous
+oEffect	PersonX buys a gift card	Thanks PersonX
+xIntent	PersonX pours cold water on ___	in control
+xReact	PersonX gets a reply	relieved
+xWant	PersonX sets ___ on soil	to palnt seeds
+oWant	PersonX plays very well	to attend x's performances
+xEffect	PersonX enters the ___ on the side	is no longer outside the _____
+xNeed	PersonX begins to speak	to think about what they are going to say

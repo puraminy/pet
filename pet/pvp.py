@@ -620,6 +620,18 @@ class RecordPVP(PVP):
 class AtomicPVP(PVP):
     is_multi_token = True
     VERBALIZER = {
+         "xAttr":["seen", "is"],
+         "xIntent":["intends", "wants"],
+         "xNeed":["providing", "need", "necessary"],
+         "xReact":["feel","show", "react"], 
+         "xEffect":["resulted", "affected", "consequently"],
+         "xWant":["decided", "will", "after"],
+         "oReact":["react", "feel", "show"],
+         "oEffect":["consequently", "effect"],
+         "oWant":["want", "decide"],
+    }
+
+    VERBALIZER_MT1 = {
          "xAttr":[". PersonX is ", ". PersonX is seen as "],
          "xIntent":[" because PersonX wanted ", " because PersonX intends "],
          "xNeed":[". Before this, PersonX needed to ", " providing that PersonX "],
@@ -630,7 +642,6 @@ class AtomicPVP(PVP):
          "oEffect":[". As a result, others ", " and consequently, others "],
          "oWant":[". After, PersonY decided "],
     }
-
     def get_parts(self, example: InputExample) -> FilledPattern:
         # switch text_a and text_b to get the correct order
         if not hasattr(self,"max_label_tokens"): 
@@ -639,7 +650,7 @@ class AtomicPVP(PVP):
         text_a = example.text_a
         text_b = example.text_b.rstrip(string.punctuation)
         if self.pattern_id == 0:
-           return [self.shortenable(text_a), self.mask * self.max_label_tokens, self.shortenable(text_b)], []
+           return [self.shortenable(text_a), ', then the person ', self.mask * self.max_label_tokens, self.shortenable(text_b)], []
         if self.pattern_id == 1:
            return [self.shortenable(text_a), '.'], [self.mask * self.max_label_tokens, self.shortenable(text_b)]
 

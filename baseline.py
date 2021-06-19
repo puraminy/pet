@@ -4,15 +4,26 @@ import tensorflow as tf
 import tensorflow_hub as hub
 import logging
 from pathlib import Path
+import os
 
 logging.basicConfig(level=logging.INFO)
 
 import tensorflow_hub as hub
 import tokenization
 
-def prepare_data(train_path, test_path):
-    train = pd.read_table(train_path)
-    test = pd.read_table(test_path)
+ckp = 1
+ckp_dir = ""
+class CorrectCkpCallback(tf.keras.callbacks.Callback):
+    def on_epoch_end(self, epoch, logs=None):
+        #correct checkpoint number calculated from the base checkpoint number
+        _from = epoch + 1 
+        _to = ckp + epoch
+        os.rename(f'{ckp_dir}/{_from:02d}__best_model.h5',f"{ckp_dir}/{_to:02d}_best_model.h5")
+
+
+def prepare_data(train_file, test_file):
+    train = pd.read_table(train_file)
+    test = pd.read_table(test_file)
 
     train["Review"] = (
         train["input_text"].map(str) + " " + train["target_text"]
@@ -89,13 +100,13 @@ import click
     help=""
 )
 @click.option(
-    "--train_path",
+    "--train_file",
     default="data/atomic/atomic_train_nn_1k_per_prefix.tsv",
     type=str,
     help=""
 )
 @click.option(
-    "--test_path",
+    "--test_file",
     default="data/atomic/atomic_validation_nn_100_per_prefix.tsv",
     type=str,
     help=""
@@ -105,6 +116,12 @@ import click
     "-t",
     is_flag=True,
     help=""
+)
+@click.option(
+    "--epochs",
+    default=1,
+    type=int,
+    help="number of epochs"
 )
 @click.option(
     "--do_eval",
@@ -118,9 +135,37 @@ import click
     type=str,
     help=""
 )
-def train_eval(model_path, train_path, test_path, do_train, do_eval, output_dir):
+@click.option(
+    "--overwrite_output_dir",
+    "-o",
+    is_flag=True,
+    help=""
+)
+@click.option(
+    "--auto_output_dir",
+    "-",
+    is_flag=True,
+    help=""
+)
+@click.option(
+    "--do_train_eval",
+    "-",
+    is_flag=True,
+    help=""
+)
+def train_eval(model_path, train_file, test_file, do_train, epochs, do_eval, output_dir, overwrite_output_dir, auto_output_dir, do_train_eval):
+    
+    global ckp, ckp_dir
+    if do_train_eval:
+        do_train = do_eval = True
+
     if not (do_train or do_eval):
         print("Please specify you want to train or eval with --do_train or --do_eval flags")
+        return
+
+
+    if Path(output_dir).is_file() and not overwrite_output_dir and not auto_output_dir:
+        print(f"Output dir '{output_dir}' already exists, use --overwrite_output_dir if you want to overwrite it")
         return
 
     bert_layer = hub.KerasLayer(model_path, trainable=True)
@@ -129,7 +174,7 @@ def train_eval(model_path, train_path, test_path, do_train, do_eval, output_dir)
     tokenizer = tokenization.FullTokenizer(vocab_file, do_lower_case)
 
     max_len = 150
-    train, test = prepare_data(train_path, test_path)
+    train, test = prepare_data(train_file, test_file)
     train_input = bert_encode(train.Review.values, tokenizer, max_len=max_len)
     test_input = bert_encode(test.Review.values, tokenizer, max_len=max_len)
     # train_labels = tf.keras.utils.to_categorical(train.prefix.values, num_classes=9)
@@ -138,14 +183,37 @@ def train_eval(model_path, train_path, test_path, do_train, do_eval, output_dir)
         labels, num_classes=9
     )
 
-    model = build_model(bert_layer, max_len=max_len)
+    if auto_output_dir:
+        lt = len(train)
+        lv = len(test)
+        lv = "k".join(str(lv).rsplit("000", 1))
+        lt = "k".join(str(lt).rsplit("000", 1))
+        output_dir=f"output_bert_{lt}_{lv}"
+        print("output dir:", output_dir)
 
-    model.summary()
-    
+
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    ckp_dir = os.path.join(output_dir, "checkpoints") 
+    Path(ckp_dir).mkdir(parents=True, exist_ok=True)
+    ckp_file = os.path.join(ckp_dir, f"{ckp:02d}_best_model.h5")
+    print("Checking if ", ckp_file, " exists...")
+    last_ckp = ""
+    while Path(ckp_file).is_file():
+        print(ckp_file, " was found...")
+        ckp += 1
+        last_ckp = ckp_file
+        ckp_file = os.path.join(ckp_dir, f"{ckp:02d}_best_model.h5")
+        
+    model = build_model(bert_layer, max_len=max_len)
+    if last_ckp:
+        print("Louding wheigts from ", last_ckp)
+        model.load_weights(last_ckp)
+        
     if do_train:
+        #model.summary()
         print("=========== Training ... ")
         checkpoint = tf.keras.callbacks.ModelCheckpoint(
-            filepath=f"{output_dir}/checkpoints/best_model.h5",
+            filepath=f"{ckp_dir}/" + "{epoch:02d}__best_model.h5",
             monitor="val_accuracy", save_best_only=True, verbose=1
         )
         earlystopping = tf.keras.callbacks.EarlyStopping(
@@ -156,21 +224,26 @@ def train_eval(model_path, train_path, test_path, do_train, do_eval, output_dir)
             train_input,
             train_labels,
             validation_split=0.2,
-            epochs=1,
-            callbacks=[checkpoint, earlystopping],
+            epochs=epochs,
+            callbacks=[checkpoint, earlystopping, CorrectCkpCallback()],
             batch_size=16,
             verbose=1,
         )
 
     if do_eval:
         print("=========== Evaluating ... ")
-        model.load_weights("output_bert/checkpoints/best_model.h5")
-        y_prob = model.predict(test_input)
-        pred_ids = y_prob.argmax(axis=-1)
-        preds = uniques[pred_ids]
-        with open(f"{output_dir}/bert_predictions", "w") as f:
-            for pred in preds:
-                print(pred, file=f)
+        for i in range(1, ckp): 
+            model_fname = f"{ckp_dir}/{i:02d}_best_model.h5"
+            print("Evaluating ", model_fname)
+            model.load_weights(model_fname)
+            y_prob = model.predict(test_input)
+            pred_ids = y_prob.argmax(axis=-1)
+            preds = uniques[pred_ids]
+            pred_fname = f"{output_dir}/bert_{i:02d}_predictions"
+            if not Path(pred_fname).is_file():
+                with open(pred_fname, "w") as f:
+                    for pred in preds:
+                        print(pred, file=f)
 
         target_fname = f"{output_dir}/bert_targets"
         input_fname = f"{output_dir}/bert_inputs"
@@ -178,7 +251,7 @@ def train_eval(model_path, train_path, test_path, do_train, do_eval, output_dir)
             with open(input_fname, "w") as inp_file:
                 with open(target_fname, "w") as target_file:
                     for index, row in test.iterrows():
-                        print(row["input_text"] + "--" + row["target_text"], file=inp_file)
+                        print(str(row["input_text"]) + "--" + str(row["target_text"]), file=inp_file)
                         print(row["prefix"], file=target_file)
 
 
