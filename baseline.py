@@ -18,7 +18,11 @@ class CorrectCkpCallback(tf.keras.callbacks.Callback):
         #correct checkpoint number calculated from the base checkpoint number
         _from = epoch + 1 
         _to = ckp + epoch
-        os.rename(f'{ckp_dir}/{_from:02d}__best_model.h5',f"{ckp_dir}/{_to:02d}_best_model.h5")
+        _from = f'{ckp_dir}/{_from:02d}__best_model.h5'
+        if Path(_from).is_file(): 
+            os.rename(_from ,f"{ckp_dir}/{_to:02d}_best_model.h5")
+        else:
+            print(_from, " was not found!!")
 
 
 def prepare_data(train_file, test_file):
@@ -188,7 +192,9 @@ def train_eval(model_path, train_file, test_file, do_train, epochs, do_eval, out
         lv = len(test)
         lv = "k".join(str(lv).rsplit("000", 1))
         lt = "k".join(str(lt).rsplit("000", 1))
-        output_dir=f"output_bert_{lt}_{lv}"
+        model_name = str(Path(model_path).parent.name) + "_" + str(Path(model_path).name)
+        train_name = Path(train_file).stem
+        output_dir=f"output_{model_name}/{train_name}"
         print("output dir:", output_dir)
 
 
@@ -232,7 +238,7 @@ def train_eval(model_path, train_file, test_file, do_train, epochs, do_eval, out
 
     if do_eval:
         print("=========== Evaluating ... ")
-        for i in range(1, ckp): 
+        for i in range(1, ckp + epochs): 
             model_fname = f"{ckp_dir}/{i:02d}_best_model.h5"
             print("Evaluating ", model_fname)
             model.load_weights(model_fname)
@@ -245,8 +251,8 @@ def train_eval(model_path, train_file, test_file, do_train, epochs, do_eval, out
                     for pred in preds:
                         print(pred, file=f)
 
-        target_fname = f"{output_dir}/bert_targets"
-        input_fname = f"{output_dir}/bert_inputs"
+        target_fname = f"{output_dir}/dev_targets"
+        input_fname = f"{output_dir}/dev_inputs"
         if not Path(target_fname).is_file():
             with open(input_fname, "w") as inp_file:
                 with open(target_fname, "w") as target_file:

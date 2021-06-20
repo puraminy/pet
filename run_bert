@@ -1,6 +1,6 @@
 #!usr/bin/sh
 train_eval=""
-model="/drive2/pretrained/bert/uncased_L-12_H-768_A-12/2/"
+model="/drive2/pretrained/bert/l12"
 #model="/drive2/pretrained/bert/mnli/"
 if [ -z "$1" ]; then
    train_eval="do_train_eval"
@@ -8,12 +8,14 @@ fi
 if [ -z "$2" ]; then
    train_size=5
 fi
+train_data="data/atomic/atomic_train_nn_${train_size}k_per_prefix_prefix_neq_xIntent_other.tsv"  
+test_data="data/atomic/atomic_validation_nn_1k_per_prefix_prefix_neq_xIntent_other.tsv" 
 python baseline.py \
-  --epochs=5 \
+  --epochs=3 \
   --do_eval \
   --model_path=$model \
-  --train_file="data/atomic/atomic_train_nn_${train_size}k_per_prefix.tsv" \
-  --test_file="data/atomic/atomic_validation_nn_1k_per_prefix.tsv" \
+  --train_file=$train_data \
+  --test_file=$test_data \
   --auto_output_dir \
   --$train_eval \
 #--output_dir="output_bert_45k_9k" \

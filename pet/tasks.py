@@ -13,7 +13,7 @@
 """
 This file contains the logic for loading training and test data for all tasks.
 """
-
+from pathlib import Path
 import csv
 import json
 import os
@@ -25,6 +25,7 @@ from typing import List, Dict, Callable
 import log
 from pet import task_helpers
 from pet.utils import InputExample
+from pet import wrapper as wrp
 
 logger = log.get_logger('root')
 
@@ -764,29 +765,64 @@ class RecordProcessor(DataProcessor):
 
 import pandas as pd
 class AtomicProcessor(DataProcessor):
-    """Processor for the BoolQ data set."""
 
+    def __init__(self, labels: str = None):
+        if labels is None:
+          self.labels = ["xWant", "oWant", "xAttr", "xNeed", "xIntent", "xEffect", "xReact", "oReact", "oEffect"]
+        else:
+          self.labels = labels 
+        print("==============================")
+        print(labels)
+        print("==============================")
+
+    """Processor for the BoolQ data set."""
     def get_train_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "atomic_train_nn_5k_per_prefix.tsv"), "train")
+        train_fname = "atomic_train_nn_15k_per_prefix.tsv"
+        if len(self.labels) == 2:
+            label1 = self.labels[0]
+            label2 = self.labels[1]
+            train_fname = f"atomic_train_nn_5k_per_prefix_{label1}_{label2}.tsv"
+        return self._create_examples(os.path.join(data_dir, train_fname), "train", self.labels)
 
     def get_dev_examples(self, data_dir, for_train=False):
-        return self._create_examples(os.path.join(data_dir, "atomic_validation_nn_1k_per_prefix.tsv"), "dev")
+        dev_fname ="atomic_validation_nn_1k_per_prefix.tsv"
+        if len(self.labels) == 2:
+            label1 = self.labels[0]
+            label2 = self.labels[1]
+            dev_fname = f"atomic_validation_nn_1k_per_prefix_{label1}_{label2}.tsv"
+        dev_fname = os.path.join(data_dir, dev_fname)
+        df = pd.read_table(dev_fname)
+        temp_dir = os.path.join(data_dir, "temp")
+        Path(temp_dir).mkdir(parents=True, exist_ok=True)
+        target_fname = f"{temp_dir}/pet_last_dev_targets"
+        input_fname = f"{temp_dir}/pet_last_dev_inputs"
+        print("Writing references... ")
+        with open(input_fname, "w") as inp_file:
+            with open(target_fname, "w") as target_file:
+                for index, row in df.iterrows():
+                    print(str(row["input_text"]) + "--" + str(row["target_text"]), file=inp_file)
+                    print(row["prefix"], file=target_file)
+        return self._create_examples(dev_fname, "dev", self.labels)
 
     def get_test_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "atomic_test.tsv"), "test")
+        return self._create_examples(os.path.join(data_dir, "atomic_test.tsv"), "test", self.labels)
 
     def get_unlabeled_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, "atomic_unlabled_1k.tsv"), "unlabeled")
+        return self._create_examples(os.path.join(data_dir, "atomic_unlabled_1k.tsv"), "unlabeled", self.labels)
     def get_labels(self):
-        return ["xWant", "oWant", "xAttr", "xNeed", "xIntent", "xEffect", "xReact", "oReact", "oEffect"]
+        return self.labels
 
     @staticmethod
-    def _create_examples(path: str, set_type: str) -> List[InputExample]:
+    def _create_examples(path: str, set_type: str, labels) -> List[InputExample]:
         examples = []
 
         df = pd.read_table(path)
         for idx, row in df.iterrows():
-            label = str(row['prefix'])
+            prefix = str(row['prefix'])
+            if prefix in labels:
+                label = prefix
+            else:
+                label = "other"
             guid = "%s-%s" % (set_type, idx)
             text_a = str(row['input_text'])
             text_b = str(row['target_text'])
@@ -798,7 +834,7 @@ class AtomicProcessor(DataProcessor):
 
 
 PROCESSORS = {
-    "atomic": AtomicProcessor,
+    "atomic": lambda: AtomicProcessor(None),
     "mnli": MnliProcessor,
     "mnli-mm": MnliMismatchedProcessor,
     "agnews": AgnewsProcessor,
@@ -819,6 +855,11 @@ PROCESSORS = {
     "ax-g": AxGProcessor,
     "ax-b": AxBProcessor,
 }  # type: Dict[str,Callable[[],DataProcessor]]
+ 
+atomic_labels = ["xWant", "oWant", "xAttr", "xNeed", "xIntent", "xEffect", "xReact", "oReact", "oEffect"]
+
+for label in atomic_labels:
+    PROCESSORS["atomic_" + label.lower()] = lambda label=label: AtomicProcessor([label, "other"])
 
 TASK_HELPERS = {
     "wsc": task_helpers.WscTaskHelper,

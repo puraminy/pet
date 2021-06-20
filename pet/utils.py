@@ -239,9 +239,10 @@ def save_predictions(path: str, wrapper, results: Dict):
             idx = idx.tolist() if isinstance(idx, np.ndarray) else int(idx)
             predictions_with_idx.append({'idx': idx, 'label': prediction})
 
-    with open(path, 'w', encoding='utf8') as fh:
+    with open(path, 'w', encoding='utf8') as fh, open(path.replace("predictions.jsonl","dev_predictions"), 'w', encoding='utf8') as ft:
         for line in predictions_with_idx:
             fh.write(json.dumps(line) + '\n')
+            ft.write(line['label'] + '\n')
 
 
 def softmax(x, temperature=1.0, axis=None):

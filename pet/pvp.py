@@ -618,20 +618,58 @@ class RecordPVP(PVP):
         return []
 
 class AtomicPVP(PVP):
-    is_multi_token = True
-    VERBALIZER = {
+    labels = ["xWant", "oWant", "xAttr", "xNeed", "xIntent", "xEffect", "xReact", "oReact", "oEffect"]
+    VERBALIZER = {}
+    VERBALIZER["atomic"] = {
          "xAttr":["seen", "is"],
-         "xIntent":["intends", "wants"],
+         "xIntent":["intends", "because", "due", "wants"],
          "xNeed":["providing", "need", "necessary"],
-         "xReact":["feel","show", "react"], 
-         "xEffect":["resulted", "affected", "consequently"],
+         "xReact":["X","feel", "react"], 
+         "xEffect":["X", "resulted", "affected", "consequently"],
          "xWant":["decided", "will", "after"],
-         "oReact":["react", "feel", "show"],
-         "oEffect":["consequently", "effect"],
-         "oWant":["want", "decide"],
+         "oReact":["Y", "others", "feel", "react"],
+         "oEffect":["Y", "others", "consequently", "effect"],
+         "oWant":["want", "decide", "Y", "others"],
     }
 
-    VERBALIZER_MT1 = {
+    VERBALIZER["atomic_xattr"] = {
+         "xAttr":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+
+    VERBALIZER["atomic_xintent"] = {
+         "xIntent":["because", "since"],
+         "other":["then", "therefore"],
+    }
+    VERBALIZER["atomic_xneed"] = {
+         "xNeed":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+    VERBALIZER["atomic_xwant"] = {
+         "xWant":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+    VERBALIZER["atomic_xreact"] = {
+         "xReact":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+    VERBALIZER["atomic_xeffect"] = {
+         "xEffect":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+    VERBALIZER["atomic_oreact"] = {
+         "xReact":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+    VERBALIZER["atomic_oeffect"] = {
+         "oEffect":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+    VERBALIZER["atomic_owant"] = {
+         "xWant":["seen", "is"],
+         "other":["want", "react", "feel", "need"],
+    }
+    VERBALIZER["atomic_multimask"] = {
          "xAttr":[". PersonX is ", ". PersonX is seen as "],
          "xIntent":[" because PersonX wanted ", " because PersonX intends "],
          "xNeed":[". Before this, PersonX needed to ", " providing that PersonX "],
@@ -643,19 +681,21 @@ class AtomicPVP(PVP):
          "oWant":[". After, PersonY decided "],
     }
     def get_parts(self, example: InputExample) -> FilledPattern:
-        # switch text_a and text_b to get the correct order
+        task = self.wrapper.config.task_name
+        vb = self.VERBALIZER[task]
         if not hasattr(self,"max_label_tokens"): 
-            self.max_label_tokens = max(len(get_verbalization_ids(l[0],self.wrapper.tokenizer, False)) for l in self.VERBALIZER.values())
+            self.max_label_tokens = max(len(get_verbalization_ids(l[0],self.wrapper.tokenizer, False)) for l in vb.values())
 
         text_a = example.text_a
         text_b = example.text_b.rstrip(string.punctuation)
+        if task in ["atomic_xintent"]:
+           return [self.shortenable(text_a), self.mask * self.max_label_tokens, ' the person ', self.shortenable(text_b)], []
         if self.pattern_id == 0:
-           return [self.shortenable(text_a), ', then the person ', self.mask * self.max_label_tokens, self.shortenable(text_b)], []
-        if self.pattern_id == 1:
            return [self.shortenable(text_a), '.'], [self.mask * self.max_label_tokens, self.shortenable(text_b)]
 
     def verbalize(self, label) -> List[str]:
-        return AtomicPVP.VERBALIZER[label]
+        vb = self.VERBALIZER[self.wrapper.config.task_name]
+        return vb[label]
 
 PVPS = {
     'atomic':AtomicPVP,
@@ -678,3 +718,10 @@ PVPS = {
     'ax-b': RtePVP,
     'ax-g': RtePVP,
 }
+
+
+atomic_labels = ["xWant", "oWant", "xAttr", "xNeed", "xIntent", "xEffect", "xReact", "oReact", "oEffect"]
+
+for label in atomic_labels:
+    PVPS["atomic_" + label.lower()] = AtomicPVP 
+
